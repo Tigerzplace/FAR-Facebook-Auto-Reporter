@@ -38,3 +38,12 @@ In this case, users provide their short reporting links and click “Start Repor
 
 ### Use Case 2: Persistent Reporting
 In this case, the software allows the user to interact with the browser during reporting. Users can pause or stop the reporting process, add new links to the queue, and modify settings. This mode is recommended if users want to report multiple links at once.
+
+
+# Tutorials
+
+[Complete FAR v2 blog article](http://www.tigerzplace.com/2020/10/facebook-auto-reporter-v2-multiple-accounts-reporting-tool.html)
+
+Playlist: [Facebook Report Methods using FAR](https://www.youtube.com/watch?v=kv9pv_bvOV0&list=PLAdZBvma7AWmxfpvl6XsWhiyeBrJKsueN)
+
+[Testing Facebook Auto Reporter v2 | FAR2 by Tigerzplace] (https://youtu.be/biAsiEDXJvc)
