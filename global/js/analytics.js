@@ -1,1 +1,44 @@
-var _0x4dfa=["\x55\x41\x2D\x39\x31\x34\x34\x37\x32\x34\x39\x2D\x32","\x5F\x73\x65\x74\x41\x63\x63\x6F\x75\x6E\x74","\x70\x75\x73\x68","\x5F\x74\x72\x61\x63\x6B\x50\x61\x67\x65\x76\x69\x65\x77","\x73\x63\x72\x69\x70\x74","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x74\x79\x70\x65","\x74\x65\x78\x74\x2F\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74","\x61\x73\x79\x6E\x63","\x73\x72\x63","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x73\x73\x6C\x2E\x67\x6F\x6F\x67\x6C\x65\x2D\x61\x6E\x61\x6C\x79\x74\x69\x63\x73\x2E\x63\x6F\x6D\x2F\x67\x61\x2E\x6A\x73","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x54\x61\x67\x4E\x61\x6D\x65","\x69\x6E\x73\x65\x72\x74\x42\x65\x66\x6F\x72\x65","\x70\x61\x72\x65\x6E\x74\x4E\x6F\x64\x65","\x5F\x74\x72\x61\x63\x6B\x45\x76\x65\x6E\x74","\x69\x64","\x74\x61\x72\x67\x65\x74","\x63\x6C\x69\x63\x6B\x65\x64","\x44\x4F\x4D\x43\x6F\x6E\x74\x65\x6E\x74\x4C\x6F\x61\x64\x65\x64","\x62\x75\x74\x74\x6F\x6E","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72\x41\x6C\x6C","\x6C\x65\x6E\x67\x74\x68","\x63\x6C\x69\x63\x6B","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72"];var _AnalyticsCode=_0x4dfa[0];var _gaq=_gaq|| [];_gaq[_0x4dfa[2]]([_0x4dfa[1],_AnalyticsCode]);_gaq[_0x4dfa[2]]([_0x4dfa[3]]);(function(){var _0xea8ex3=document[_0x4dfa[5]](_0x4dfa[4]);_0xea8ex3[_0x4dfa[6]]= _0x4dfa[7];_0xea8ex3[_0x4dfa[8]]= true;_0xea8ex3[_0x4dfa[9]]= _0x4dfa[10];var _0xea8ex4=document[_0x4dfa[11]](_0x4dfa[4])[0];_0xea8ex4[_0x4dfa[13]][_0x4dfa[12]](_0xea8ex3,_0xea8ex4)})();function trackButtonClick(_0xea8ex6){_gaq[_0x4dfa[2]]([_0x4dfa[14],_0xea8ex6[_0x4dfa[16]][_0x4dfa[15]],_0x4dfa[17]])}document[_0x4dfa[23]](_0x4dfa[18],function(){var _0xea8ex7=document[_0x4dfa[20]](_0x4dfa[19]);for(var _0xea8ex8=0;_0xea8ex8< _0xea8ex7[_0x4dfa[21]];_0xea8ex8++){_0xea8ex7[_0xea8ex8][_0x4dfa[23]](_0x4dfa[22],trackButtonClick)}})
+// Copyright (c) 2012 The Chromium Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+/**
+ * Add your Analytics tracking ID here.
+ */
+var _AnalyticsCode = 'UA-91447249-2';
+/**
+ * Below is a modified version of the Google Analytics asynchronous tracking
+ * code snippet.  It has been modified to pull the HTTPS version of ga.js
+ * instead of the default HTTP version.  It is recommended that you use this
+ * snippet instead of the standard tracking snippet provided when setting up
+ * a Google Analytics account.
+ */
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', _AnalyticsCode]);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script');
+  ga.type = 'text/javascript';
+  ga.async = true;
+  ga.src = 'https://ssl.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(ga, s);
+})();
+/**
+ * Track a click on a button using the asynchronous tracking API.
+ *
+ * See http://code.google.com/apis/analytics/docs/tracking/asyncTracking.html
+ * for information on how to use the asynchronous tracking API.
+ */
+function trackButtonClick(e) {
+  _gaq.push(['_trackEvent', e.target.id, 'clicked']);
+}
+/**
+ * Now set up your event handlers for the popup's `button` elements once the
+ * popup's DOM has loaded.
+ */
+document.addEventListener('DOMContentLoaded', function () {
+  var buttons = document.querySelectorAll('button');
+  for (var i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('click', trackButtonClick);
+  }
+});
