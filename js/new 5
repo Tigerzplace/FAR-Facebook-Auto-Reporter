@@ -1,0 +1,10 @@
+chrome.tabs.update(tabId , { url: Account }, function () {
+
+	chrome.tabs.onUpdated.addListener(function listener (tabId, tabInfo) {
+	
+		
+		
+		
+		});
+	
+	});
