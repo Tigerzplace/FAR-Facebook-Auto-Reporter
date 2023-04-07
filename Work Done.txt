@@ -1,12 +1,8 @@
-﻿v 2.0
+﻿v 2.2
 
+10 April 2021
 
-Update 1: (1 Oct 2020)
-With Facebook Auto Reporter v1 you were able to report on multiple accounts, groups or pages on Facebook with current logged account automatically.  Now in version 2 you  will have advance functionality using which you can report on multiple accounts using hundreds of Facebook accounts automatically. Even you can report on single id with hundreds of Facebook accounts.  
-
-PS: Hundreds of accounts doesn't mean that I  am fetching all those accounts to help you to report on it.  You will have to provide those accounts, the reporter has new functionality to automatically do the login and logout for you and also do the reporting. So yeah that's the point for multiple accounts. Users can now use many accounts to do the reporting automatically.
-
-
-Update 2: Controlling and enhancing the report speed (Published completely)
-In previous version 1, Facebook Auto Reporter was using a kind of manual prediction algorithm to wait for another report. It is now more reliable and fast in version 2 because it is using loading algorithm which will detect the action of page event after which the reporter will decide whether to move on or to wait more to get done with the report completely, in this way it’s not static to wait exactly the same for every user which is very time consuming right now as many users can have very high internet speed and the reporter will still wait for about 3 seconds for next report (which is additional 3 sec with 5 seconds already in the delay which makes it 8 seconds of total time for 1 report almost). So changing the algorithm will save much more time and the result will be more accurate and efficient. Additionally it will control the waiting interval and will not use same wait interval for all the report links, it keeps on chaning accordingly to number of reports done by FAR2.
-
+> Logs fixed
+> license purchase automatic
+> Reponse Error fixed (5 times)
+> Short report link generator fixed. (Post and pic report links as well)
