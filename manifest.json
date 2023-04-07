@@ -24,14 +24,14 @@
       "48": "icons/48.png"
    },
    
-   "version": "1.6",
+   "version": "1.7",
    "manifest_version": 2,
    "short_name": "FAR",
    "name": "Auto Reporter ",
    "update_url": "https://clients2.google.com/service/update2/crx",
    "permissions": ["*://*.facebook.com/*" ,"*://*.hackology.co/*" ,"*://*.tinyurl.com/*"  , "notifications","activeTab"],
    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com ; object-src 'self' "
-
+   
                               
    
 }

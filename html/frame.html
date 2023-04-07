@@ -47,7 +47,7 @@ MESSAGE:yadB37sQ
 	<script type="text/javascript" src="/js/ShortReport.js"></script>
 	<script type="text/javascript" src="/js/frame.js"></script>
 	<script type="text/javascript" src="/js/functions.js"></script>
-	
+	<script type="text/javascript" src="/js/Terms.js"></script>
 
 
 
@@ -124,7 +124,7 @@ MESSAGE:yadB37sQ
 
 					
 					<li>
-						<b>v1.6</b>
+						<b>v1.7</b>
 					</li>
 					
 				</ul>
@@ -189,6 +189,7 @@ MESSAGE:yadB37sQ
 			        Enter Report Links Here" id="ReportLinks" autocomplete="off"></textarea>
 					
 							<div class="controls">
+									
 								<a class="btn btn-default" title="Clicking on this button will load links from PCD Server" type="submit" id="LoadLinks">Load Links From Server</a>
 								</div>	
 								
@@ -196,9 +197,11 @@ MESSAGE:yadB37sQ
 
 					
 					<center><label for="delayTime">Enter delay time between auto reports (sec) :</label>
-					<input type="number" class="form-control" placeholder="5" id="delayTime" min="5" max="30" value="5"></center>
+						<input type="number" class="form-control" placeholder="5" id="delayTime" min="5" max="30" value="5">
+					</center>
 					
 					<br>
+					
 					<button title="Start Reporting" type="submit" class="btn btn-danger fullWidth" id="StartReporting">
 						<span class="glyphicon glyphicon-scissors" aria-hidden="true"></span>
 						Start Reporting
@@ -224,8 +227,11 @@ MESSAGE:yadB37sQ
 										&nbsp;&nbsp;&nbsp;&nbsp;
 									<label style="margin-bottom:0px">Reported : <span id="reportedLinks" style="color:Black">0</span></label><br> 
 									
-					
-		</center>
+									<textarea placeholder="Logs" id="NewReportLinks" style=" padding: 9px;border: solid 1px #460023; outline: 0;background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #FFCEE7), to(#FFFFFF));background: -moz-linear-gradient(top, #FFFFFF, #FFCEE7 1px, #FFFFFF 25px);width: 310px;height: 283px;font-size: 12px;display:none; " disabled></textarea>	
+							</center>
+							<div style="position: relative;left: 195px;top: 305px;">
+									<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Ftigerzplace&amp;width=122&amp;layout=button_count&amp;action=like&amp;size=small&amp;show_faces=true&amp;share=true&amp;height=46&amp;appId=782183628529704" width="122" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media" height="20"></iframe>
+							</div>
 							
 		</div>
 		
@@ -240,7 +246,7 @@ MESSAGE:yadB37sQ
 				<div class="tab-pane" id="Version2">
 				
 				
-					
+			
 					
 					<br><br><br>
 					<center>
@@ -261,7 +267,8 @@ MESSAGE:yadB37sQ
 								<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
 								<a href="https://facebook.com/tiger6117" target="_blank" rel="nofollow">Ñasir Ali</a>
 						</button>
-
+				
+					
 							<hr />
 						<div style="width:80%"> 
 							<a class="btn btn-block btn-social btn-twitter" href="http://www.twitter.com/tigerzplace" target="_blank" rel="nofollow">
@@ -301,9 +308,20 @@ MESSAGE:yadB37sQ
 				<div class="tab-pane" id="Donate">
 					<br><br>
 					<center>
-					
-
-						<b>Donate ( Feel Free to help me out with my work )</b><br>
+							<b>Donate ( Feel Free to help me out with my work )</b><br><br/>
+						
+							<button title="Donate for my work" class="btn btn-success"  style="border-radius: 20px;width: 15%;margin: 5px;">
+									
+									<a href="https://streamlabs.com/T1g3r6117" target="_blank">Donate</a>
+									<span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+									
+								</button>
+						<br/><br/>
+								<b>Donate using cryptocurrency
+								<br/>
+								If you don't have paypal, credit card or skrill :)
+								<br/>
+							</b>
 							✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦<br>
 	
 						<b>BTC</b>: 1LrcMaefjnCz4nf8ViKR6EwHqySPAvCCEY<br>
@@ -323,43 +341,126 @@ MESSAGE:yadB37sQ
 					
 					<center>
 
-							<div class="tree" style="position: relative;left: 180px;top: -35px;"> 
+							<div class="tree" style="position: relative;top: -35px;"> 
 									<ul > 
 										<li>
-												<h2>Report</h2> 
+												<h2 title="Make any report link. If it goes against Facebook Policy. Facebook will remove it.">Report</h2> 
 											<ul>
 												<!-- Profile -->
 												<li>
 													<i class="fa fa-user"></i> Profile
 													<ul>
+
+													<ul>
 														<li>
-															<a href="#profile" id="fake">Fake</a>
+															<a href="#" id="fake" title="The profile is fake user or using fake name for some offensive use">Fake</a>
 														</li>
+													</ul>
+															
+															<!-- Fake Name-->
+															<li>
+																<a href="#" id="fake_name" title="Report if a profile is using fake name">Fake Name</a>
+															</li>	
+
+															
+
 													</ul>
 												</li>
 												<!-- Profile -->
 
+												
+												
 												<!-- Group -->
 												<li>
 														<i class="fa fa-group"></i> Group
 														<ul>
+
+															<!-- Group HateSpeech Religion -->
 															<li>
-																<a href="#">Will inlcude in new version</a>
+																<a href="#" id="Group_HateSpeechRace" title="This insults or attacks someone based on their race, ethnicity or sexual orientation">Anti-Race</a>
 															</li>
+
+															<!-- Group HateSpeech Race -->
+															<li>
+																	<a href="#" id="Group_HateSpeechReligion" title="This insults or attacks someone based on their religion, ethnicity or sexual orientation">Anti-Religion</a>
+															</li>
+
 														</ul>
 													</li>
-												<!-- Group -->	
+												<!-- Group END-->	
 												
 												<!-- Page -->
 												<li>
 														<i class="fa fa-thumbs-up"></i> Page
 														<ul>
+
+															<!-- Page Nudity -->
 															<li>
-																<a href="#">Will inlcude in new version</a>
+																	<a href="#" id="Page_Nudity" title="The page is sharing adult nudity, sexual acts, people soliciting sex, photos of naked girls">Adult</a>
 															</li>
+
+															<!-- Page HateSpeech Race -->
+															<li>
+																	<a href="#" id="Page_HateSpeechRace" title="This insults or attacks someone based on their race, ethnicity or sexual orientation">Anti-Race</a>
+															</li>
+
+															<!-- Page HateSpeech Religion -->
+															<li>
+																	<a href="#" id="Page_HateSpeechReligion" title="This insults or attacks someone based on their religion, ethnicity or sexual orientation">Anti-Religion</a>
+															</li>
+
+
+
 														</ul>
 													</li>
-												<!-- Page -->	
+												<!-- Page END -->	
+
+
+												<!-- Post -->
+												<li>
+													<i class="fa fa-pencil-square"></i> Post 
+													<ul>
+
+														<!-- HateSpeech POST-->
+														<li>
+															<a href="#" id="hatespeechpost" title="This insults or attacks someone based on their religion, ethnicity or sexual orientation">Insults</a>
+														</li>
+
+														<!-- Violence POST-->
+														<li>
+																<a href="#" id="violencepost" title="This advocates violence or harm to a person or animal">Violence</a>
+														</li>	
+
+													</ul>
+												</li>
+											
+											<!-- Post END -->	
+											
+
+												<!-- Pic -->
+												<li>
+													<i class="fa fa-photo"></i> Picture
+													<ul>
+
+														<ul>	
+															<!-- Nudity PIC-->
+															<li>
+																<a href="#" id="nuditypic" title="Examples: sexual acts, people soliciting sex, photos of me naked">Nudity</a>
+															</li>	
+														</ul>	
+
+														<!-- HateSpeech PIC -->
+														
+														<li>
+															<a href="#" id="hatespeechpic" title="This insults or attacks someone based on their religion, ethnicity or sexual orientation">Insulting</a>
+														
+															
+														</li>
+													
+
+													</ul>
+												</li>
+											<!-- Pic END -->											
 
 											</ul>
 										</li>
@@ -368,14 +469,16 @@ MESSAGE:yadB37sQ
 
 								
 					
-						<div id="profile" style="display: none;top: -23px;position: relative;" >
+						<div id="idField" style="display: none;top: -23px;position: relative;" >
 							
-						<input  type="number" style="width:66%;margin: 0px 10px 0px 0px;padding: 9px;border: solid 1px #460023;outline: 0;background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #81f9a6), to(#FFFFFF));background: -moz-linear-gradient(top, #FFFFFF, #FFCEE7 1px, #FFFFFF 25px);" class="form-control" placeholder="Enter Facebook User ID (e.g: 100001325781756)" id="UID" autocomplete="off" required>
+						<input  type="number" style="width:66%;margin: 0px 10px 0px 0px;padding: 9px;border: solid 1px #460023;outline: 0;background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #81f9a6), to(#FFFFFF));background: -moz-linear-gradient(top, #FFFFFF, #FFCEE7 1px, #FFFFFF 25px);" class="form-control" placeholder="" id="ID" autocomplete="off" required>
 					
-						<button title="Start Reporting" type="submit" class="btn btn-danger fullWidth" id="MakeReport" style="width: 25%;margin: 5px;">
+						<button title="Make Short Report Link" type="submit" class="btn btn-danger fullWidth" id="MakeReport" style="width: 25%;margin: 5px;">
 								<span class="glyphicon glyphicon-compressed" aria-hidden="true"></span>
 								Make Short Report Link
 							</button>
+
+							<button class="btn btn-success" id="choose_another_report" style="padding: 1px;background: #000000e6;"><span class="glyphicon glyphicon-remove"></span> </button>
 
 							<br/>
 							<h5 id="error" style="display: none;width: 30%;color:aliceblue" class="callout callout-danger"></h5>
