@@ -1,8 +1,9 @@
-﻿v 2.2
+﻿v 2.3
 
-10 April 2021
+31 May 2021
 
 > Logs fixed
-> license purchase automatic
 > Reponse Error fixed (5 times)
+> VPN related links, response error fixed.
+> Disabled account checking and skipping that account.
 > Short report link generator fixed. (Post and pic report links as well)
