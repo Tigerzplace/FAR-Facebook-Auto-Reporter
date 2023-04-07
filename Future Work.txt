@@ -1,0 +1,20 @@
+Future Work and Updates
+
+
+Providing feature which will enhance the ability of reporting multiple links or single link with multiple provided accounts. 
+
+Implementing auto short reporting link generator in the 
+updated versions.
+
+Controlling and saving the time more accurately as now in version 1 it takes a little more time than it should be but as a security measures I considered the delay time for right now.
+
+Detail:
+
+1 Facebook Auto Reporter (Version 2)
+With Facebook Auto Reporter you can report on multiple accounts, groups or pages on Facebook with current logged account automatically.  More versions will be introduced later for sure. The process is done in version 1. While in the new version which will publish in future will have advance functionality using which you can report on multiple accounts using hundreds of Facebook accounts automatically. Even you can report on single id with hundreds of Facebook accounts.
+
+2 Auto Short Reporting Link Generator
+In the current version of Facebook Auto Reporter there is not such option to generate short reporting link. User has to create short reporting link (which is also known as direct Facebook report link) manually. In the new updates of the extension I’ll try to implement auto short reporting link generator as well which will be able to generate/ create short reporting link direct just by giving the user link to the generator as an input.
+
+3 Controlling and enhancing the report speed
+In current version I used a kind of manual prediction algorithm to wait for another report. It can be more reliable and fast if I can use loading algorithm which will detect the action of page event after which the reporter will decide whether to move on or to wait more to get done with the report completely, in this way it’s not static to wait exactly the same for every user which is very time consuming right now as many users can have very high internet speed and the reporter will still wait for about 3 seconds for next report (which is additional 3 sec with 5 seconds already in the delay which makes it 8 seconds of total time for 1 report almost). So changing the algorithm will save much more time and the result will be more accurate and efficient.

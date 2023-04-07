@@ -1,0 +1,37 @@
+
+
+{
+   "author": "Ñasir Ali",
+  
+		"background": {
+						"scripts": ["js/background.js"]
+					  },
+   "browser_action": {
+      "default_icon": "icons/128.png",
+      "default_popup": "html/frame.html",
+      "default_title": "Facebook Auto Reporter"
+   },
+   "content_scripts": [ {
+      "js": ["js/content.js"],
+      "matches": [  "<all_urls>"  ],
+	  "run_at": "document_end"
+   } ],
+   "description": "Facebook Auto Reporter ",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png"
+   },
+   
+   "version": "1.1",
+   "manifest_version": 2,
+   "short_name": "FAR",
+   "name": "Facebook Auto Reporter ",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "permissions": ["<all_urls>","notifications","tabs"],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com ; object-src 'self' "
+
+                              
+   
+}
