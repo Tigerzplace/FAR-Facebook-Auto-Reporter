@@ -16,7 +16,7 @@
       "matches": [  "*://*.facebook.com/*"  ],
 	  "run_at": "document_end"
    } ],
-   "description": "Auto Reporter is a reporter which can be used to report on facebook (Accounts/Groups/Pages) automatically. ",
+   "description": "Auto Reporter is a reporter which can be used to report facebook (Accounts/Groups/Pages) automatically. ",
    "icons": {
       "128": "icons/128.png",
       "16": "icons/16.png",
@@ -24,12 +24,12 @@
       "48": "icons/48.png"
    },
    
-   "version": "1.7.1",
+   "version": "1.8",
    "manifest_version": 2,
    "short_name": "FAR",
    "name": "Auto Reporter ",
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "permissions": ["*://*.facebook.com/*" ,"*://*.hackology.co/*" ,"*://*.tinyurl.com/*"  , "notifications","activeTab"],
+   "permissions": ["*://*.facebook.com/*" ,"*://*.hackology.co/*" ,"*://*.tinyurl.com/*" , "*://*.bitly.com/*" , "notifications","activeTab"],
    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com ; object-src 'self' "
    
                               
