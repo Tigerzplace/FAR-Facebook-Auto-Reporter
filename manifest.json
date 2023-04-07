@@ -24,7 +24,7 @@
       "48": "icons/48.png"
    },
    
-   "version": "1.7",
+   "version": "1.7.1",
    "manifest_version": 2,
    "short_name": "FAR",
    "name": "Auto Reporter ",
