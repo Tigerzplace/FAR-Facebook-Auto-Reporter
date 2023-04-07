@@ -1,32 +1,97 @@
-﻿v2.4
-
-temporary blocked --> not done
-
-Login out without reporting and stucked
-
-اسلام عليكم ورحمة الله وبركاته 
-سب سے پہلے ٹائم کی سیٹنگ بہت ضروی ہے ٹائم کی ترتیب ایسی ہو نہ اتنی جلدی ہو کہ آئی ڈی بلاک ہوں نہ اتنی سلو ہو کہ وقت کا ضائع ہو ہے 25 لنک کے بعد 2 منٹ وقفہ ہو اور 50 لنک کے بعد دوسری آئی ڈی سے روپوٹ ہونا شروع ہو جائےنوٹ اگر کتنے لنک لگانے کے بعد دوسری آئی سے رپوٹ ہو یعنی کہ اپنی مرضی سے 50 سے کم یا 50 سے زیادہ کر سکیں تو بہت بہتر ہو جائے گا
-
- کسی بھی قسم کا اگر لنک میں مسلہ آ جائے تو 5 دفعہ کوشش کرنے کے بعد اگلا لنک رپوٹ ہونا شروع ہو جائے اس کے ساتھ اگر ایک بٹن بھی بن جائے جس کو دبانے سے رپوٹر اگلا لنک رپوٹ کرنے لگ جائے تو اس کا فائدہ یہ ہو گا کہ اگر کوئی لنک 5 بار کوشش کے باجود اگلے پہ نہیں جاتا تو مینولی طور پہ کر سکیں
-
-آئی ڈی لاگ آوٹ اور لاگ ان mbasic میں ہو کہ web میں اس کا بٹن بن جائے
-
-اکثر اوقات کچھ بروز مکمل آئی ڈی روپوٹ کرنے کی بجائے ایک دو آئی ڈی رپوٹ کرنے کے بعد رک جاتا ہے اس کو بھی بھی چیک کریں بھائی
+﻿﻿v2.5.1
 
 
+After stopping the reporter, bug need to be fixed which shows wrong number of output to users.
+
+> New dividing algorithm will be introduced. The reporter will divide the report links between accounts.
+
+It will then reporting in this manner:
+
+Account 1 visits links 0-9
+Account 2 visits links 0-9
+Account 3 visits links 0-9
+Account 1 visits links 10-19
+Account 2 visits links 10-19
+Account 3 visits links 10-19
+Account 1 visits links 20-29
+Account 2 visits links 20-29
+Account 3 visits links 20-29
 
 
-Peace be upon you and God's mercy and blessings
-The first time setting is very important. The time setting should be such that it should not be so fast that the ID is blocked, nor should it be so slow that time is wasted. Reporting will start
++Recommended
+Simple Step  ( 1 report = 4 Minutes)
+1. Report Target
+2. Wait 4 minute
+3. Report Target Again
 
-If there is any problem with the link, after 5 attempts, the next link will start reporting. In addition, if there is a button that the reporter can start reporting the next link by pressing it, then this is the advantage. If a link doesn't go to the next one after 5 attempts, they can do it manually
+because Facebook add  auto filter spam reporting
 
-The ID should be in logout and login mbasic to become its button in web
+If you not follow rules, you no get update report or message from support inbox
 
-Sometimes it stops after reporting a couple of IDs instead of reporting the full ID. Check it out too bro.
+issues
+1. Temporary block
+2. A limited number of reporting - couldn't complete
+
+3. Suggestion: Divide reporting links.
+4. Pause/ Stop button
 
 
-Unchecked runtime.lastError: The message port closed before a response was received.
-DevTools failed to load source map: Could not load content for chrome-extension://ainfbkbopmkecmcampgdfohjgbhibphl/global/css/bootstrap-theme.css.map: HTTP error: status code 404, net::ERR_UNKNOWN_URL_SCHEME
-DevTools failed to load source map: Could not load content for chrome-extension://ainfbkbopmkecmcampgdfohjgbhibphl/global/css/bootstrap.css.map: HTTP error: status code 404, net::ERR_UNKNOWN_URL_SCHEME
-DevTools failed to load source map: Could not load content for chrome-extension://ainfbkbopmkecmcampgdfohjgbhibphl/global/js/jquery.min.map: HTTP error: status code 404, net::ERR_UNKNOWN_URL_SCHEME
+
+can you update some auto reporter link
+Deni
+for the adult nudity category, it is moved to sexual exploitation, this is to fix reports that have technical errors because the group admin is a page or there is no admin
+Deni
+for this category of violence was moved to violence threat, reports of threats of violence experienced a technical error because almost all posts or photos or comments could be deleted, rather than hate speech
+Deni
+this is one proof that violence is a better choice than hate speech
+https://www.facebook.com/photo.php?fbid=678444215191&set=a.678443077471&type=3&app=fbl
+Deni
+Deni Indrawan
+please click the like icon on the post8
+
+
+
+
+const globel_url = [...]; // array of links to visit
+const loginAccounts = [...]; // array of accounts to use
+const ids_length = loginAccounts.length; // length of loginAccounts
+
+function visitLinks(globel_url, loginAccounts, ids_length, currentAccount, currentLink) {
+  if (currentLinkIndex >= url_len) {
+    return; // all links have been visited
+  }
+
+  const account = loginAccounts[currentAccount];
+  const linksPerAccount = Math.floor(globel_url.length / ids_length);
+  const startIndex = currentLink;
+  const endIndex = startIndex + linksPerAccount;
+  const linksToVisit = globel_url.slice(startIndex, endIndex);
+
+  // use the account to visit the linksToVisit
+
+  currentAccountIndex++;
+  if (currentAccountIndex >= ids_length) {
+    currentAccount = 0;
+    currentLinkIndex += linksPerAccount;
+  }
+
+  visitLinks(globel_url, loginAccounts, ids_length, currentAccount, currentLink); // visit the next set of links
+}
+
+visitLinks(globel_url, loginAccounts, ids_length, 0, 0);
+
+
+
+
+
+This code will visit the links in the following order:
+
+Account 1 visits links 0-9
+Account 2 visits links 0-9
+Account 3 visits links 0-9
+Account 1 visits links 10-19
+Account 2 visits links 10-19
+Account 3 visits links 10-19
+Account 1 visits links 20-29
+Account 2 visits links 20-29
+Account 3 visits links 20-29

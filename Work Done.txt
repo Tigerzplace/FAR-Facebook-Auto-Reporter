@@ -1,9 +1,6 @@
-﻿v 2.3
+﻿v2.5
 
-31 May 2021
+> Logout issue fixed.
+> issue related logout account without reporting is also fixed.
 
-> Logs fixed
-> Reponse Error fixed (5 times)
-> VPN related links, response error fixed.
-> Disabled account checking and skipping that account.
-> Short report link generator fixed. (Post and pic report links as well)
+

@@ -82,7 +82,85 @@ body { font-family: sans-serif; }
 
 
 
+#license button {
+  background-color: #32b348;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
 
+#license button:hover {
+  background-color: #28a745;
+}
+
+#license a {
+  text-decoration: none;
+}
+
+#license a:hover {
+  text-decoration: underline;
+}
+
+#license #purchase-license {
+  display: none;
+}
+
+
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+#profile-picture-container {
+  position: fixed;
+  bottom: 491px;
+  right: 0px;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+  z-index: 2;
+
+}
+
+#profile-picture {
+  width: 100%;
+  height: auto;
+}
+
+#profile-picture.show {
+  display: block;
+  animation: bounceIn 0.5s ease-out;
+}
+
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0);
+  }
+  60% {
+    transform: scale(1.2);
+  }
+  80% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 
 
 

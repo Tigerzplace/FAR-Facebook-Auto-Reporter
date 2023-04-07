@@ -1,1 +1,208 @@
-(function(_0x4898cb,_0x3f68ee){var _0x3576a2=_0x1879,_0x320588=_0x4898cb();while(!![]){try{var _0x43abf1=parseInt(_0x3576a2(0x151))/0x1+parseInt(_0x3576a2(0x15b))/0x2+parseInt(_0x3576a2(0x129))/0x3*(-parseInt(_0x3576a2(0x136))/0x4)+parseInt(_0x3576a2(0x12a))/0x5+parseInt(_0x3576a2(0x133))/0x6+-parseInt(_0x3576a2(0x150))/0x7+-parseInt(_0x3576a2(0x12e))/0x8;if(_0x43abf1===_0x3f68ee)break;else _0x320588['push'](_0x320588['shift']());}catch(_0x18d8a8){_0x320588['push'](_0x320588['shift']());}}}(_0x4b61,0xdabd6));function _0x1879(_0x39766d,_0x364e34){var _0x4b611f=_0x4b61();return _0x1879=function(_0x1879f9,_0x278d59){_0x1879f9=_0x1879f9-0x126;var _0x38ea86=_0x4b611f[_0x1879f9];return _0x38ea86;},_0x1879(_0x39766d,_0x364e34);}function setEventListener(){var _0x4255cf=_0x1879;document[_0x4255cf(0x140)](_0x4255cf(0x141))[_0x4255cf(0x12d)]('submit',function(_0x252dd7){var _0x59d148=_0x4255cf;_0x252dd7[_0x59d148(0x126)]();}),document['getElementById'](_0x4255cf(0x14d))[_0x4255cf(0x12d)]('click',function(_0x20e386){var _0x350108=_0x4255cf;v2=0x0;var _0x3b4289={};_0x3b4289[_0x350108(0x12f)]=_0x350108(0x15d),_0x3b4289[_0x350108(0x13f)]=document['getElementById'](_0x350108(0x137))['value'],_0x3b4289['url']=='Update_PCD'?document[_0x350108(0x140)](_0x350108(0x137))[_0x350108(0x159)]=_0x350108(0x14b):(wait=document['getElementById'](_0x350108(0x162))[_0x350108(0x159)],document[_0x350108(0x140)]('reportedLinks')[_0x350108(0x15f)]=0x0,wait>=0x5?Reporter(_0x3b4289[_0x350108(0x13f)]):toastr[_0x350108(0x15e)](_0x350108(0x13e)));}),document[_0x4255cf(0x140)](_0x4255cf(0x155))[_0x4255cf(0x12d)]('click',function(_0x51d7a7){wala();function _0x788e47(){var _0xfdc87e=_0x1879;if(tikDayBas==0x0)setTimeout(_0x788e47,0x2bc);else{if(tikDayBas==ogora){console[_0xfdc87e(0x163)]('startv2');var _0x3cdca6={};_0x3cdca6['name']='StartReporter2',_0x3cdca6[_0xfdc87e(0x13f)]=document[_0xfdc87e(0x140)](_0xfdc87e(0x14f))['value'],_0x3cdca6['loginDetails']=document['getElementById']('loginCredentials')[_0xfdc87e(0x159)],wait=document[_0xfdc87e(0x140)](_0xfdc87e(0x128))[_0xfdc87e(0x159)],document[_0xfdc87e(0x140)](_0xfdc87e(0x138))[_0xfdc87e(0x15f)]=0x0,v2=0x1,wait>=0x5?Reporter(_0x3cdca6[_0xfdc87e(0x13f)],_0x3cdca6[_0xfdc87e(0x142)]):toastr[_0xfdc87e(0x15e)](_0xfdc87e(0x13e));}else toastr['info'](nshta);}}_0x788e47();}),document['getElementById'](_0x4255cf(0x15a))[_0x4255cf(0x12d)](_0x4255cf(0x135),function(_0x20e564){var _0x298a7f=_0x4255cf;document[_0x298a7f(0x140)](_0x298a7f(0x153))[_0x298a7f(0x135)]();}),document[_0x4255cf(0x140)]('fileUpload')[_0x4255cf(0x12d)](_0x4255cf(0x15c),function(_0x367908){var _0xa06c6e=_0x4255cf,_0x12c474=document[_0xa06c6e(0x140)](_0xa06c6e(0x153)),_0x2bd696=/^([a-zA-Z0-9\s_\\.\-:])+(.csv|.txt)$/;if(_0x2bd696['test'](_0x12c474['value'][_0xa06c6e(0x156)]())){if(typeof FileReader!='undefined'){var _0x21cd6d=new FileReader();_0x21cd6d[_0xa06c6e(0x13b)]=function(_0x3cc3a9){var _0x1bb10d=_0xa06c6e;document[_0x1bb10d(0x140)](_0x1bb10d(0x152))[_0x1bb10d(0x15f)]=_0x3cc3a9['target'][_0x1bb10d(0x13a)];var _0x584788=document[_0x1bb10d(0x148)](_0x1bb10d(0x144));_0x584788[_0x1bb10d(0x158)][_0x1bb10d(0x132)](_0x1bb10d(0x134));},_0x21cd6d['readAsText'](_0x12c474[_0xa06c6e(0x12b)][0x0]);}else alert(_0xa06c6e(0x161));}else alert('Please\x20upload\x20a\x20valid\x20CSV\x20file.');}),document[_0x4255cf(0x140)](_0x4255cf(0x14f))[_0x4255cf(0x12d)]('focus',function(_0x124352){var _0x5e86ae=_0x4255cf;document[_0x5e86ae(0x140)](_0x5e86ae(0x15a))[_0x5e86ae(0x157)][_0x5e86ae(0x149)]='';}),document[_0x4255cf(0x140)](_0x4255cf(0x145))[_0x4255cf(0x12d)](_0x4255cf(0x135),function(_0x468701){var _0x5a87a4=_0x4255cf;window[_0x5a87a4(0x143)](),window[_0x5a87a4(0x160)](chrome[_0x5a87a4(0x154)][_0x5a87a4(0x12c)](_0x5a87a4(0x127)),_0x5a87a4(0x147),'width=785,height=588');}),document[_0x4255cf(0x140)](_0x4255cf(0x131))['addEventListener'](_0x4255cf(0x135),function(_0x4af484){var _0x108c3b=_0x4255cf;window[_0x108c3b(0x143)](),window[_0x108c3b(0x160)](chrome[_0x108c3b(0x154)]['getURL'](_0x108c3b(0x127)),_0x108c3b(0x147),'width=785,height=588');}),document[_0x4255cf(0x140)](_0x4255cf(0x139))[_0x4255cf(0x12d)]('click',function(_0x15d273){reset(),window['close']();}),document[_0x4255cf(0x140)](_0x4255cf(0x130))['addEventListener']('click',function(_0x274e44){loadUrls('0');}),document['getElementById']('LoadLinks2')[_0x4255cf(0x12d)](_0x4255cf(0x135),function(_0xac9130){loadUrls('1');}),document[_0x4255cf(0x140)](_0x4255cf(0x14c))[_0x4255cf(0x12d)]('click',function(_0x381c46){var _0x21b863=_0x4255cf;wala(),document[_0x21b863(0x140)](_0x21b863(0x14c))[_0x21b863(0x157)][_0x21b863(0x149)]='none',document[_0x21b863(0x140)](_0x21b863(0x146))['style'][_0x21b863(0x149)]=_0x21b863(0x13c),document[_0x21b863(0x140)](_0x21b863(0x14e))['style'][_0x21b863(0x149)]='block';}),document[_0x4255cf(0x140)](_0x4255cf(0x146))['addEventListener'](_0x4255cf(0x135),function(_0x28d3c8){var _0x5b498d=_0x4255cf;checkUpdates(manifestData[_0x5b498d(0x13d)]),document['getElementById'](_0x5b498d(0x14c))[_0x5b498d(0x157)][_0x5b498d(0x149)]='none',document[_0x5b498d(0x140)](_0x5b498d(0x146))[_0x5b498d(0x157)][_0x5b498d(0x149)]='none',document[_0x5b498d(0x140)](_0x5b498d(0x14e))[_0x5b498d(0x157)][_0x5b498d(0x149)]=_0x5b498d(0x14a);}),document[_0x4255cf(0x140)]('Stop')['addEventListener']('click',function(_0x310585){stopReporter(0x1);}),document[_0x4255cf(0x140)]('skipReport')[_0x4255cf(0x12d)](_0x4255cf(0x135),function(_0x206b30){});}function _0x4b61(){var _0xa491c7=['style','classList','value','loadIds','1679886iavaNc','change','StartReporter','warning','innerHTML','open','This\x20browser\x20does\x20not\x20support\x20HTML5.','delayTime','log','preventDefault','/html/frame.html','delayTime2','4996668WzdVmf','4654095KWWeYe','files','getURL','addEventListener','16218800hqiGTW','name','LoadLinks','PersistentMode1','toggle','8691138ccaDOI','is-flipped','click','4pCQUHb','ReportLinks','reportedLinks2','cancel','result','onload','none','version','DelayTime\x20cannot\x20be\x20less\x20than\x205','url','getElementById','FacebookAutoReporter','loginDetails','close','.card','PersistentMode','check_updates_button','Facebook\x20Auto\x20Reporter','querySelector','display','block','https://hackology.co/PCD/ReportLinks.txt','check_license_button','StartReporting','loader','reportLinks2','2330475NepJEr','1702504uQJIsI','loginCredentials','fileUpload','extension','StartReporting2','toLowerCase'];_0x4b61=function(){return _0xa491c7;};return _0x4b61();}
+
+
+function setEventListener() {
+
+    //prevent form submission
+    FAR.getElementById("FacebookAutoReporter").addEventListener("submit", function (e) {
+        e.preventDefault();
+    });
+
+    // Facebook auto reporter v1
+    FAR.getElementById("StartReporting").addEventListener("click", function (e) {
+        v2 = 0;
+        var postData = {};
+        postData.name = "StartReporter";
+        postData.url = FAR.getElementById("ReportLinks").value;
+
+        if (postData.url == "Update_PCD") {
+            FAR.getElementById("ReportLinks").value = "https://hackology.co/PCD/ReportLinks.txt";
+        } else {
+
+
+            wait = FAR.getElementById("delayTime").value;
+
+            FAR.getElementById('reportedLinks').innerHTML = 0;
+
+
+            //start the reporter
+            if (wait >= 5) {
+
+
+                Reporter(postData.url);
+
+            } else {
+
+                toastr.warning("DelayTime cannot be less than 5");
+            }
+        }
+
+    });
+
+
+    // Facebook auto reporter v2
+
+    ///////////////////////////////////////////////////////////////////////
+
+
+    FAR.getElementById("StartReporting2").addEventListener("click", async function (e) {
+
+        const ogora = await wala(1);
+        if ( ogora == maKwa.ogora) {
+
+            console.log("startv2");
+            var postData = {};
+            postData.name = "StartReporter2";
+            postData.url = FAR.getElementById("reportLinks2").value;
+            postData.loginDetails = FAR.getElementById("loginCredentials").value;
+
+            wait = FAR.getElementById("delayTime2").value;
+
+            FAR.getElementById('reportedLinks2').innerHTML = 0;
+            v2 = 1;
+
+            //start the reporter
+            if (wait >= 5) {
+
+                Reporter(postData.url, postData.loginDetails);
+
+            } else {
+
+                toastr.warning("DelayTime cannot be less than 5");
+            }
+
+        } else { toastr.warning(maKwa.nshta); }
+
+
+    }); //StartReporting2
+
+    //loadIDs
+    FAR.getElementById("loadIds").addEventListener("click", function (e) {
+        FAR.getElementById("fileUpload").click();
+
+    });
+
+
+
+
+    FAR.getElementById("fileUpload").addEventListener("change", function (e) {
+
+        var fileUpload = FAR.getElementById("fileUpload");
+        var regex = /^([a-zA-Z0-9\s_\\.\-:])+(.csv|.txt)$/;
+        if (regex.test(fileUpload.value.toLowerCase())) {
+            if (typeof (FileReader) != "undefined") {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    FAR.getElementById("loginCredentials").innerHTML = e.target.result;
+                    var card = FAR.querySelector('.card');
+                    card.classList.toggle('is-flipped');
+
+                }
+                reader.readAsText(fileUpload.files[0]);
+            } else {
+                alert("This browser does not support HTML5.");
+            }
+        } else {
+            alert("Please upload a valid CSV file.");
+        }
+
+    });
+
+    // checking reportLink2
+    FAR.getElementById("reportLinks2").addEventListener("focus", function (e) {
+        FAR.getElementById("loadIds").style.display = "";
+
+    });
+
+
+
+
+
+    //Persistent Mode Reporter
+    FAR.getElementById("PersistentMode").addEventListener("click", function (e) {
+
+        window.close();
+
+        window.open(
+            chrome.extension.getURL("/html/frame.html"),
+            "Facebook Auto Reporter",
+            "width=785,height=588"
+        );
+
+
+    });
+
+    FAR.getElementById("PersistentMode1").addEventListener("click", function (e) {
+
+        window.close();
+
+        window.open(
+            chrome.extension.getURL("/html/frame.html"),
+            "Facebook Auto Reporter",
+            "width=785,height=588"
+        );
+
+
+    });
+
+    //Cancell
+    FAR.getElementById("cancel").addEventListener("click", function (e) {
+        reset();
+        window.close();
+    });
+
+
+    // load links from PCD server 
+    FAR.getElementById("LoadLinks").addEventListener("click", function (e) {
+        loadUrls("0");
+    });
+
+    FAR.getElementById("LoadLinks2").addEventListener("click", function (e) {
+        loadUrls("1");
+    });
+
+
+    FAR.getElementById("check_updates_button").addEventListener("click", function (e) {
+        console.log("Checking Updates");
+        
+        checkUpdates(manifestData.version);
+        FAR.getElementById("check_license_button").style.display = "none";
+        FAR.getElementById("check_updates_button").style.display = "none";
+        FAR.getElementById("loader").style.display = "block";
+        
+       
+
+
+    }); //check Updates
+
+    //wala-
+    FAR.getElementById("check_license_button").addEventListener("click", function (e) {
+
+        console.log("Checking License!");
+        wala();
+        FAR.getElementById("check_license_button").style.display = "none";
+        FAR.getElementById("check_updates_button").style.display = "none";
+        FAR.getElementById("loader").style.display = "block";
+
+
+
+    });
+
+
+
+    //stop reporting
+    FAR.getElementById("Stop").addEventListener("click", function (e) {
+        stopReporter(1);
+    });
+
+    //skip current report
+    FAR.getElementById("skipReport").addEventListener("click", function (e) {
+
+        /* logs("Link "+ link  +": "+globel_url[rep]+" | Skipped");
+        newReportLinks(globel_url[rep]);
+        ++rep;
+        */
+
+    });
+
+
+} // setEventLisener

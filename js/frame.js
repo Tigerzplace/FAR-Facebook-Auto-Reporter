@@ -1,22 +1,973 @@
 /*
 	Facebook Auto Reporter v2
-Coded by Nasir Ali (fb.com/tiger6117)
-Video tutorials can be found @ : https://goo.gl/8Xedwf
-For more scripts and tools visit : https://www.tigerzplace.com
-Get more social sites tweaky stuff & updates @ : facebook.com/tigerzplace
-
+ coded by Nasir Ali (fb.com/tiger6117)
+video tutorials can be found @ : https://goo.gl/8Xedwf
+get more social sites tweaky stuff updates @ : facebook.com/tigerzplace
+for more scripts and tools visit : https://www.tigerzplace.com
 
 
 
 									Feel free to help me buy a cup of coffee ;) | Thanks ♥
-										✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦
+									✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦
 
-											paypal.me/tigerzplac3
-											http://bit.ly/Pay-To-Tigerzplace
-											BTC:15TnH9a35Dqn5pkugLfC88NjNxnQcnswZy
+									http://paypal.me/tigerzplac3
+									https://bit.ly/Buy-License-Tigerzplace
 
-										✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦
+									BTC: 15TnH9a35Dqn5pkugLfC88NjNxnQcnswZy
+									BCH : 15TnH9a35Dqn5pkugLfC88NjNxnQcnswZy
+									DASH: XpVNfgAnYvLU79k5xuKc4r24md936ckPHu
+									LTC:  LdzSCBnWruhrPKbnHjpmDYDUXf2qSs9o8v
+									Doge: DSPnR2xhMaciEwgVbWd94HwBiv9fJSwPQa
+									ETH: 0x62f8a40187a6e33aa2c1d6025e6377cf06e89380
+									USDT (TRC20): TJtuLVZBwHfZVNavHJg73hUFidefVRmLeC
+									BNB (BEP2): bnb136ns6lfw4zs5hg4n85vdthaad7hq5m4gtkgf23
+									MEMO FOR (BNB): 101769802
 
+									✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦
 
 */
-var _0x1d1038=_0x21d3;(function(_0xb68d43,_0x421517){var _0x4b6862=_0x21d3,_0xbbb4c5=_0xb68d43();while(!![]){try{var _0x72d71d=-parseInt(_0x4b6862(0xd8))/0x1+-parseInt(_0x4b6862(0xcb))/0x2*(-parseInt(_0x4b6862(0xde))/0x3)+-parseInt(_0x4b6862(0xed))/0x4+-parseInt(_0x4b6862(0xf2))/0x5*(-parseInt(_0x4b6862(0x120))/0x6)+-parseInt(_0x4b6862(0xb2))/0x7+parseInt(_0x4b6862(0x12a))/0x8+-parseInt(_0x4b6862(0xb0))/0x9*(-parseInt(_0x4b6862(0x14c))/0xa);if(_0x72d71d===_0x421517)break;else _0xbbb4c5['push'](_0xbbb4c5['shift']());}catch(_0x26e689){_0xbbb4c5['push'](_0xbbb4c5['shift']());}}}(_0x4c32,0xdcbdd));var v2=0x0,rep=0x0,tryy=0x0,returnn=0x0,globel_url=0x0,url_len=0x0,ids_length=0x0;done=0x0,count=0x0,newlinks=0x0,blocked=0x0,loadlinks=0x0,PersistentWindow=0x0,loginAccounts=0x0,loggedCount=0x0;let excludedIDs,ex_len,port=chrome[_0x1d1038(0xf7)]['connect']();var orignal_wait=0x0,reportingAccount=0x0;let tabId,wait,link=0x0,global_url_len=0x0;var manifestData=chrome[_0x1d1038(0xf7)][_0x1d1038(0xf3)]();function stopReporter(_0x142af9){var _0x219d80=_0x1d1038;ResetAll()&&(_0x142af9?(document['getElementById'](_0x219d80(0xe0))[_0x219d80(0x106)]=_0x219d80(0x12b),document[_0x219d80(0xe7)](_0x219d80(0xe0))[_0x219d80(0x139)][_0x219d80(0x133)]='Red',alert(_0x219d80(0x104)),toastr['info'](_0x219d80(0x10d))):(toastr[_0x219d80(0x12e)]('close\x20FAR\x20and\x20refresh\x20page!!!\x20'),alert(_0x219d80(0x112))));}function logs(_0x546a34){var _0x6a9bce=_0x1d1038;v2?document[_0x6a9bce(0xe7)](_0x6a9bce(0xe3))['value']+=_0x546a34+'\x0a':document[_0x6a9bce(0xe7)]('ReportLinks')[_0x6a9bce(0x118)]+=_0x546a34+'\x0a';}function newReportLinks(_0x426a9a){var _0x16d207=_0x1d1038;v2?document[_0x16d207(0xe7)](_0x16d207(0xc8))[_0x16d207(0x118)]+=_0x426a9a+'\x0a':document[_0x16d207(0xe7)](_0x16d207(0x128))[_0x16d207(0x118)]+=_0x426a9a+'\x0a';}function Report(_0x2d3700){var _0x31cf0c=_0x1d1038;document['getElementById']('btn-before')[_0x31cf0c(0x139)][_0x31cf0c(0x10e)]=_0x31cf0c(0xbe),document[_0x31cf0c(0xe7)](_0x31cf0c(0x12c))[_0x31cf0c(0x139)][_0x31cf0c(0x10e)]='block',chrome[_0x31cf0c(0xff)][_0x31cf0c(0xdc)](tabId,{'url':_0x2d3700},function(){var _0xf5be35=_0x31cf0c;chrome['tabs'][_0xf5be35(0xdd)]['addListener'](function _0x3577a7(_0x317174,_0x2e4f31){var _0x14a10c=_0xf5be35;filter(_0x2e4f31[_0x14a10c(0x119)])?(toastr[_0x14a10c(0xd6)]('You\x20aren\x27t\x20allowed\x20xD'),logs(_0x14a10c(0xc2)+link+':\x20'+_0x2d3700+_0x14a10c(0x131)),chrome[_0x14a10c(0xff)][_0x14a10c(0xdd)][_0x14a10c(0xc7)](_0x3577a7),reportOnThis(globel_url[++rep])):_0x2e4f31[_0x14a10c(0xf4)]===_0x14a10c(0x145)&&(chrome[_0x14a10c(0xff)][_0x14a10c(0xdd)][_0x14a10c(0xc7)](_0x3577a7),chrome['tabs'][_0x14a10c(0x138)](_0x317174,{'type':_0x14a10c(0x102)},function(_0x1b4cfd){var _0x157a8c=_0x14a10c;link=rep+0x1;if(_0x1b4cfd){if(_0x1b4cfd['farewell']==_0x157a8c(0xca)||_0x1b4cfd[_0x157a8c(0xd0)]==_0x157a8c(0xf8)||_0x1b4cfd[_0x157a8c(0xd0)]==_0x157a8c(0xfe)){let _0x4f7924;if(_0x1b4cfd[_0x157a8c(0xd0)]==_0x157a8c(0xfe))_0x4f7924=_0x157a8c(0x149),console['log'](_0x4f7924);else{if(_0x1b4cfd[_0x157a8c(0xd0)]=='Submitted')_0x4f7924='check',console[_0x157a8c(0xf1)](_0x4f7924);else _0x1b4cfd[_0x157a8c(0xd0)]=='confirm'&&(_0x4f7924=_0x157a8c(0x122),console[_0x157a8c(0xf1)](_0x4f7924));}_0x408143(_0x4f7924);function _0x408143(_0x5b5f88){var _0xf13235=_0x157a8c;console['log'](_0xf13235(0x13c)+_0x5b5f88),setTimeout(function _0x287bd(){var _0x124cdd=_0xf13235;chrome[_0x124cdd(0xff)][_0x124cdd(0x138)](_0x317174,{'type':_0x5b5f88},function(_0x1d3ba0){var _0x2746ba=_0x124cdd;v2?document[_0x2746ba(0xe7)](_0x2746ba(0xe5))[_0x2746ba(0x139)]['color']=_0x2746ba(0x146):document['getElementById'](_0x2746ba(0xe9))[_0x2746ba(0x139)][_0x2746ba(0x133)]=_0x2746ba(0x146);if(_0x1d3ba0){if(_0x1d3ba0[_0x2746ba(0xd0)]==_0x2746ba(0xfc))chrome[_0x2746ba(0xff)]['onUpdated'][_0x2746ba(0x144)](function _0x7f43e7(_0x308b0f,_0x19b7ff){var _0x21051f=_0x2746ba;_0x19b7ff[_0x21051f(0xf4)]===_0x21051f(0x145)&&(chrome[_0x21051f(0xff)][_0x21051f(0xdd)][_0x21051f(0xc7)](_0x7f43e7),_0x408143(_0x21051f(0xfa)));});else{if(_0x1d3ba0[_0x2746ba(0xd0)]==_0x2746ba(0x149))chrome['tabs'][_0x2746ba(0xdd)][_0x2746ba(0x144)](function _0x1c73fb(_0x197147,_0xbccf51){var _0x29f2ea=_0x2746ba;_0xbccf51[_0x29f2ea(0xf4)]==='complete'&&(chrome['tabs'][_0x29f2ea(0xdd)][_0x29f2ea(0xc7)](_0x1c73fb),_0x408143(_0x29f2ea(0x149)));});else{if(_0x1d3ba0[_0x2746ba(0xd0)]=='Reported')done++,count++,v2?document[_0x2746ba(0xe7)](_0x2746ba(0xe5))[_0x2746ba(0x106)]=done:document[_0x2746ba(0xe7)](_0x2746ba(0xe9))['innerHTML']=done,chrome['browserAction'][_0x2746ba(0x124)]({'text':''+done}),setTimeout(function(){var _0x57c78d=_0x2746ba;done==0x1?(toastr[_0x57c78d(0xb6)](done+_0x57c78d(0xbf)),logs(_0x57c78d(0xc2)+link+':\x20'+_0x2d3700+'\x20|\x20Reported'),newReportLinks(_0x2d3700),reportOnThis(globel_url[++rep])):(toastr['success'](done+_0x57c78d(0x14d)),logs(_0x57c78d(0xc2)+link+':\x20'+_0x2d3700+_0x57c78d(0xef)),newReportLinks(_0x2d3700),reportOnThis(globel_url[++rep]));},0x3e8);else{if(_0x1d3ba0['farewell']=='Slow')toastr[_0x2746ba(0xd6)](_0x2746ba(0xd1)),toastr['warning'](_0x2746ba(0x115)),logs(_0x2746ba(0xc2)+link+':\x20'+_0x2d3700+_0x2746ba(0xf5)),reportOnThis(globel_url[++rep]);else _0x1d3ba0['farewell']==_0x2746ba(0x127)&&(toastr[_0x2746ba(0xd6)](_0x2746ba(0x135)),logs(_0x2746ba(0xc2)+link+':\x20'+_0x2d3700+_0x2746ba(0xf5)),reportOnThis(globel_url[++rep]));}}}}else tryy++,tryy>0x5?(tryy=0x0,toastr[_0x2746ba(0xd6)](_0x2746ba(0x129)),logs(_0x2746ba(0xc2)+link+':\x20'+_0x2d3700+_0x2746ba(0xd7)),reportOnThis(globel_url[++rep])):(console['log']('If\x20Response\x20Error'),toastr['error'](_0x2746ba(0xc4)),Report(_0x2d3700));});},0xbb8);}}else{if(_0x1b4cfd[_0x157a8c(0xd0)]=='Disabled')notValid=rep,notValid++,toastr[_0x157a8c(0x12e)](_0x157a8c(0xe6)+notValid+_0x157a8c(0x13b)),blocked++,logs(_0x157a8c(0xc2)+notValid+':\x20'+_0x2d3700+_0x157a8c(0xfd)),reportOnThis(globel_url[++rep]);else _0x1b4cfd['farewell']==_0x157a8c(0x13d)&&(toastr['error']('Wrong\x20Report\x20Link\x20!!!'),logs(_0x157a8c(0xc2)+link+':\x20'+_0x2d3700+_0x157a8c(0xb3)),reportOnThis(globel_url[++rep]));}}else tryy++,tryy>0x5?(tryy=0x0,toastr[_0x157a8c(0xd6)](_0x157a8c(0x129)),logs(_0x157a8c(0xc2)+link+':\x20'+_0x2d3700+_0x157a8c(0xd7)),reportOnThis(globel_url[++rep])):(console[_0x157a8c(0xf1)]('If\x20Response\x20Error'),toastr[_0x157a8c(0xd6)](_0x157a8c(0xc4)),Report(_0x2d3700));}));});});}function updateUrl(_0x52ccc3){var _0x488712=_0x1d1038;console[_0x488712(0xf1)](_0x488712(0xcf));if(wait<orignal_wait&&url_len>0x14){if(done<0x15)wait=0x5*0x3e8;else{if(done>0x15&&done<0x32)wait=0x7*0x3e8;else{if(done>=0x32&&done<=0x64)wait=0x8*0x3e8;else{if(done>0x64&&done<=0xb4)wait=0xc*0x3e8;else{if(done>0xb4&&done<=0xfa)wait=0xf*0x3e8;else done>0xfa&&done>0x12c&&(wait=0x14*0x3e8);}}}}}else wait=orignal_wait;chrome[_0x488712(0xfb)][_0x488712(0x134)](null,function(){var _0x256824=_0x488712;chrome[_0x256824(0xff)][_0x256824(0xcc)]({'active':!![],'url':_0x256824(0x11a)},function(_0x540a3c){var _0x176a79=_0x256824;tabId=_0x540a3c[0x0]['id'],console[_0x176a79(0xf1)]('tabid'+tabId),chrome[_0x176a79(0xc3)][_0x176a79(0xce)]({'color':_0x176a79(0x12f)}),v2?(document[_0x176a79(0xe7)](_0x176a79(0xe3))['value']=_0x176a79(0x13a),document[_0x176a79(0xe7)](_0x176a79(0xd2))['value']='\x09\x09\x09\x09Used\x20Account\x20Logs\x0a\x0a',checkLoginPage()):(document[_0x176a79(0xe7)](_0x176a79(0x136))['value']=_0x176a79(0x13a),Report(_0x52ccc3));});});}function _0x4c32(){var _0x594b8c=['\x20-\x20(Account)\x20is\x20Blocked','sendType:\x20','Not\x20Valid','6117&key=','State\x20not\x20ready.','\x20Account(s)\x20Reported\x20Successfully\x20','loadIds','&update=','Estimated\x20time\x20for\x20reporting:\x20\x20','addListener','complete','red','reportLinks=','Done','Again','&data=','Reporting\x20Links\x20Loaded','40ctfzBK','\x20Reports\x20are\x20Done','warning','Content-type','\x20is\x20not\x20valid\x20!!!','7725420gREhKQ','\x09\x09\x09\x09\x09\x09\x20Logs\x0a\x0a','12453812eDvshr','\x20|\x20Wrong\x20Link','TotalLinks2','onreadystatechange','success','20\x20sec\x20is\x20remaining','open','\x20Link:\x20','10\x20sec\x20is\x20remaining','readyState','length','\x20account\x20used\x20for\x20reporting.\x0a','none','\x20Report\x20is\x20Done','close','Waiting...\x20','Link\x20','browserAction','Response\x20Error:\x20Trying\x20Again!','setRequestHeader','https://hackology.co/PCD/ReportLinks.txt','removeListener','NewReportLinks2','No\x20No\x20No','Submitted','74XqBYic','query','Completed\x20','setBadgeBackgroundColor','updateURL','farewell','Report\x20wasn\x27t\x20Successful','loginCredentials','40\x20sec\x20is\x20remaining','Please\x20Provide\x20Login\x20Accounts','Please\x20wait\x20...\x20!!!','error','\x20|\x20Response\x20error','1439554bbbNpS','green','Server\x20File\x20Updatation\x20Failed!','version','update','onUpdated','57543pGREfZ','split','status2','#634ef0','Black','reportLinks2','Sorry\x20no\x20Links\x20were\x20found\x20:)','reportedLinks2','Link:\x20','getElementById','Next\x20report\x20after\x20','reportedLinks','Couldn\x27t\x20Fetch\x20IDs\x20(EX)','50\x20sec\x20is\x20remaining','\x20min','5684660gOjaTb','TotalLinks','\x20|\x20Reported','Wrong\x20Host\x20Detected\x20!!!','log','445ttDPih','getManifest','status','\x20|\x20Not\x20Done','url_len:','runtime','confirm','responseText','check','windows','confirmed','\x20|\x20Blocked','submitAgain','tabs','.card','black','submit','term-done','Want\x20to\x20stop\x20reporting?','onload','innerHTML','Reporter\x20will\x20start\x20after\x20a\x20minute','touch.facebook.com','++rep:','application/x-www-form-urlencoded','https://hackology.co/PCD/Excluded_IDs.txt','Server\x20file\x20is\x20Update!!!','Reporting\x20will\x20stop\x20soon.\x20','display','\x20seconds.','farVersion','Links\x20Not\x20Found','Auto\x20Reporting\x20is\x20Completed','Terminating\x20Reporter\x20....','term','Your\x20Internet\x20Speed\x20might\x20be\x20Slow','is-flipped','loggedCount<ids_length','value','url','*://*.facebook.com/*','Ask\x20admin\x20to\x20update\x20server\x20links','send','https://hackology.co/PCD/update.php','Links\x20couldn\x27t\x20be\x20loaded','contact\x20me:\x20fb.com/tigerzplace','75462trPHng','\x09\x09\x09\x09Used\x20Account\x20logs\x0a\x0a','yes','Contact\x20PCD\x20(Page)\x20on\x20Facebook','setBadgeText','Forbidden..!!!','Please\x20Enter\x20Report\x20Links','Error','NewReportLinks','Trying\x20next\x20link','2251376CNmkKm','Stopped','btn-after','Forbidden\x20Access..!!!','info','#bb1511','Wait','\x20|\x20Can\x27t\x20Report\x20!','Server\x20file\x20Error','color','getLastFocused','Error\x20:\x20Trying\x20next\x20link.','ReportLinks','innerText','sendMessage','style','\x09\x09\x09\x09\x09\x09logs\x0a\x0a'];_0x4c32=function(){return _0x594b8c;};return _0x4c32();}function reportOnThis(_0x209d7e){var _0x5bd405=_0x1d1038;console[_0x5bd405(0xf1)](_0x5bd405(0x109)+rep),console[_0x5bd405(0xf1)](_0x5bd405(0xf6)+url_len);if(rep<=url_len-0x1){if(is_valid_url(_0x209d7e)){if(count==0x14)count=0x0,chrome[_0x5bd405(0xc3)]['setBadgeBackgroundColor']({'color':_0x5bd405(0x101)}),chrome[_0x5bd405(0xc3)]['setBadgeText']({'text':_0x5bd405(0x130)}),v2?(document[_0x5bd405(0xe7)]('status2')['innerHTML']=_0x5bd405(0xc1),document['getElementById'](_0x5bd405(0xe0))['style'][_0x5bd405(0x133)]='Black'):(document['getElementById'](_0x5bd405(0xf4))[_0x5bd405(0x106)]=_0x5bd405(0xc1),document['getElementById'](_0x5bd405(0xf4))[_0x5bd405(0x139)]['color']=_0x5bd405(0xe2)),toastr['info'](_0x5bd405(0x107)),setTimeout(function(){var _0x54998f=_0x5bd405;toastr[_0x54998f(0x12e)](_0x54998f(0xd5));},0x3e8),setTimeout(function(){var _0x2e6552=_0x5bd405;toastr['info'](_0x2e6552(0xd5));},0xfa0),setTimeout(function(){toastr['info']('Please\x20wait\x20...\x20!!!');},0x1f40),setTimeout(function(){var _0x558660=_0x5bd405;toastr[_0x558660(0x12e)](_0x558660(0xeb));},0x2710),setTimeout(function(){var _0xa87389=_0x5bd405;toastr['info'](_0xa87389(0xd5));},0x2ee0),setTimeout(function(){var _0x5172c9=_0x5bd405;toastr[_0x5172c9(0x12e)]('Please\x20wait\x20...\x20!!!');},0x36b0),setTimeout(function(){var _0x4e1657=_0x5bd405;toastr['info'](_0x4e1657(0xd5));},0x4650),setTimeout(function(){var _0x1c00ec=_0x5bd405;toastr[_0x1c00ec(0x12e)](_0x1c00ec(0xd3));},0x4e20),setTimeout(function(){var _0xb3a2f6=_0x5bd405;toastr[_0xb3a2f6(0x12e)](_0xb3a2f6(0xd5));},0x55f0),setTimeout(function(){var _0x26c418=_0x5bd405;toastr[_0x26c418(0x12e)](_0x26c418(0xd5));},0x5dc0),setTimeout(function(){var _0x5ac89f=_0x5bd405;toastr[_0x5ac89f(0x12e)](_0x5ac89f(0xd5));},0x6d60),setTimeout(function(){var _0x3e5792=_0x5bd405;toastr[_0x3e5792(0x12e)]('30\x20sec\x20is\x20remaining');},0x7530),setTimeout(function(){var _0x2ae5a5=_0x5bd405;toastr[_0x2ae5a5(0x12e)]('Please\x20wait\x20...\x20!!!');},0x7d00),setTimeout(function(){var _0x11d6d0=_0x5bd405;toastr[_0x11d6d0(0x12e)](_0x11d6d0(0xd5));},0x84d0),setTimeout(function(){var _0x28e7ac=_0x5bd405;toastr[_0x28e7ac(0x12e)](_0x28e7ac(0xd5));},0x9470),setTimeout(function(){var _0x3b18e9=_0x5bd405;toastr[_0x3b18e9(0x12e)](_0x3b18e9(0xb7));},0x9c40),setTimeout(function(){var _0x3c14fe=_0x5bd405;toastr['info'](_0x3c14fe(0xd5));},0xa410),setTimeout(function(){var _0x5bba2d=_0x5bd405;toastr[_0x5bba2d(0x12e)](_0x5bba2d(0xd5));},0xabe0),setTimeout(function(){var _0x514f15=_0x5bd405;toastr[_0x514f15(0x12e)](_0x514f15(0xd5));},0xbb80),setTimeout(function(){var _0x3b7da6=_0x5bd405;toastr['info'](_0x3b7da6(0xba));},0xc350),setTimeout(function(){var _0x210ac4=_0x5bd405;toastr[_0x210ac4(0x12e)](_0x210ac4(0xd5));},0xcb20),setTimeout(function(){var _0xa9b58e=_0x5bd405;toastr[_0xa9b58e(0x12e)](_0xa9b58e(0xd5));},0xd2f0),setTimeout(function(){var _0x55d8f5=_0x5bd405;toastr[_0x55d8f5(0x12e)](_0x55d8f5(0xd5));},0xe290),setTimeout(function(){var _0x3e5deb=_0x5bd405;v2?(document[_0x3e5deb(0xe7)](_0x3e5deb(0xe0))[_0x3e5deb(0x106)]='On',document['getElementById'](_0x3e5deb(0xe0))['style'][_0x3e5deb(0x133)]=_0x3e5deb(0xd9)):(document['getElementById']('status')[_0x3e5deb(0x106)]='On',document['getElementById'](_0x3e5deb(0xf4))[_0x3e5deb(0x139)][_0x3e5deb(0x133)]=_0x3e5deb(0xd9)),toastr[_0x3e5deb(0xb6)]('Reporter\x20is\x20started\x20again\x20!!!'),setTimeout(function(){var _0xbd3030=_0x3e5deb;chrome[_0xbd3030(0xc3)]['setBadgeText']({'text':''+done}),chrome['browserAction'][_0xbd3030(0xce)]({'color':_0xbd3030(0x12f)}),Report(_0x209d7e);},0x3e8);},0xea60);else{if(link==0x0&&reportingAccount==0x0&&loggedCount==0x0&&v2==0x1)console[_0x5bd405(0xf1)]('link\x20==\x200\x20&&\x20reportingAccount\x20==\x200\x20&&\x20loggedCount==0'),setTimeout(function(){var _0x3ebf94=_0x5bd405;toastr[_0x3ebf94(0x12e)](_0x3ebf94(0x143)+estimate_time*loginAccounts['length']/0x3c+_0x3ebf94(0xec));},0x1388),updateUrl(_0x209d7e);else{if(v2==0x0&&rep==0x0)setTimeout(function(){var _0x435fe3=_0x5bd405;toastr[_0x435fe3(0x12e)](_0x435fe3(0x143)+estimate_time/0x3c+'\x20min');},0x7d0),updateUrl(_0x209d7e);else{link++;if(wait<orignal_wait&&url_len>0x14){if(done<0x15)wait=0x2*0x3e8;else{if(done>0x15&&done<0x32)wait=0x5*0x3e8;else{if(done>=0x32&&done<=0x64)wait=0x8*0x3e8;else{if(done>0x64&&done<=0xb4)wait=0xc*0x3e8;else{if(done>0xb4&&done<=0xfa)wait=0xf*0x3e8;else done>0xfa&&done>0x12c&&(wait=0x14*0x3e8);}}}}}else wait=orignal_wait-0x3e8;console['log'](wait+'\x20seconds'),setTimeout(function(){var _0x1f8720=_0x5bd405;toastr[_0x1f8720(0x12e)](_0x1f8720(0xe8)+wait/0x3e8+_0x1f8720(0x10f));},0x3e8),setTimeout(function(){Report(_0x209d7e);},wait);}}}}else rep==0x0&&(v2?(document[_0x5bd405(0xe7)]('reportLinks2')[_0x5bd405(0x118)]=_0x5bd405(0xb1),loggedCount==0x0&&logCheck==0x0&&(document['getElementById']('loginCredentials')[_0x5bd405(0x118)]=_0x5bd405(0x121))):document[_0x5bd405(0xe7)]('ReportLinks')[_0x5bd405(0x118)]=_0x5bd405(0x13a)),notValid=rep,notValid++,rep<=url_len-0x1&&(toastr[_0x5bd405(0x14e)](_0x5bd405(0xb9)+notValid+_0x5bd405(0xaf)),url_len++),done!=0x0?reportOnThis(globel_url[++rep]):updateUrl(globel_url[++rep]);}else rep>url_len-0x1&&(setTimeout(function(){var _0x45cfeb=_0x5bd405;v2&&loggedCount>=ids_length-0x1?(document[_0x45cfeb(0xe7)](_0x45cfeb(0xe0))[_0x45cfeb(0x106)]='Completed\x20',document[_0x45cfeb(0xe7)](_0x45cfeb(0xe0))[_0x45cfeb(0x139)][_0x45cfeb(0x133)]=_0x45cfeb(0xd9)):(document['getElementById'](_0x45cfeb(0xf4))[_0x45cfeb(0x106)]=_0x45cfeb(0xcd),document[_0x45cfeb(0xe7)]('status')[_0x45cfeb(0x139)]['color']='green');if(loadlinks==0x1){if(url_len<=0x5&&blocked>=0x3)toastr[_0x45cfeb(0x12e)](_0x45cfeb(0x11b));else blocked>=0x5&&updateServer();}toastr[_0x45cfeb(0xb6)](done+_0x45cfeb(0x140));if(loggedCount<ids_length-0x1){console['log'](_0x45cfeb(0x117)),console['log'](loggedCount+':'+ids_length),rep=0x0,link=0x0,done=0x0,count=0x0,url_len=global_url_len;(loggedCount%0x2==0x0||loggedCount==0x0)&&chrome[_0x45cfeb(0xff)][_0x45cfeb(0x138)](tabId,{'type':_0x45cfeb(0x114)},function(_0x5ea113){var _0x57b2b5=_0x45cfeb;_0x5ea113&&(_0x5ea113[_0x57b2b5(0xd0)]==_0x57b2b5(0x103)&&console[_0x57b2b5(0xf1)]('terms\x20accepted'));});loggedCount++;if(loggedCount==-0x1)reportingAccount++;else reportingAccount==0x0&&reportingAccount++;;console['log'](loggedCount+'\x20account\x20used\x20for\x20reporting'),document[_0x45cfeb(0xe7)](_0x45cfeb(0xe3))[_0x45cfeb(0x118)]='\x09\x09\x09\x09\x09\x09\x20Logs\x0a\x0a',document[_0x45cfeb(0xe7)](_0x45cfeb(0xd2))[_0x45cfeb(0x118)]+=reportingAccount+_0x45cfeb(0xbd),checkLoginPage();}else document[_0x45cfeb(0xe7)](_0x45cfeb(0xd2))[_0x45cfeb(0x118)]+=reportingAccount+_0x45cfeb(0xbd),chrome[_0x45cfeb(0xc3)]['setBadgeBackgroundColor']({'color':'green'}),chrome[_0x45cfeb(0xc3)][_0x45cfeb(0x124)]({'text':_0x45cfeb(0x148)}),stopReporter();},0xbb8),setTimeout(function(){chrome['browserAction']['setBadgeText']({'text':''});},0x1388));}function ResetAll(){return rep=0x0,link=0x0,globel_url=0x0,url_len=0x0,done=0x0,count=0x0,loadlinks=0x0,blocked=0x0,newlinks='',excludedIDs='',ex_len=0x0,loginAccounts=0x0,ids_length=0x0,v2=0x0,loggedCount=0x0,orignal_wait=0x0,reportingAccount=0x0,logCheck=0x0,global_url_len=0x0,!![];}function startFbAutoReporter(_0x1f84f5,_0x31af97){ex=loadExcludeIDs(),setTimeout(function(){var _0x33bf39=_0x21d3;globel_url=_0x1f84f5,url_len=_0x31af97,global_url_len=_0x31af97,wait*=0x3e8,orignal_wait=wait+0x3e8,toastr[_0x33bf39(0x12e)]('Setting\x20Up\x20the\x20Reporter'),estimate_time=0x0;if(url_len<0x14)estimate_time=0x0,estimate_time=estimate_time+0x5*url_len;else{if(url_len>0x15&&url_len<0x32)estimate_time=0x64,estimate_time=estimate_time+0x5*(url_len-0x14);else{if(url_len>=0x32&&url_len<=0x64)estimate_time=0xfa,estimate_time=estimate_time+0x8*(url_len-0x32);else{if(url_len>0x64&&url_len<=0xb4)estimate_time=0x226,estimate_time=estimate_time+0xc*(url_len-0x64);else{if(url_len>0xb4&&url_len<=0xfa)estimate_time=0x5e6,estimate_time=estimate_time+0xf*(url_len-0xb4);else url_len>0xfa&&url_len>0x12c&&(estimate_time=0xa00,estimate_time=estimate_time+0x14*(url_len-0xfa));}}}}var _0x1e238c=url_len/0xa;estimate_time=_0x1e238c*0x3c,v2?(document[_0x33bf39(0xe7)](_0x33bf39(0xb4))[_0x33bf39(0x106)]=url_len,document[_0x33bf39(0xe7)](_0x33bf39(0xb4))['style'][_0x33bf39(0x133)]=_0x33bf39(0xe1),document[_0x33bf39(0xe7)](_0x33bf39(0xe0))[_0x33bf39(0x106)]='On',document[_0x33bf39(0xe7)](_0x33bf39(0xe0))['style'][_0x33bf39(0x133)]=_0x33bf39(0xd9)):(document['getElementById'](_0x33bf39(0xee))[_0x33bf39(0x106)]=url_len,document[_0x33bf39(0xe7)]('TotalLinks')[_0x33bf39(0x139)][_0x33bf39(0x133)]=_0x33bf39(0xe1),document[_0x33bf39(0xe7)](_0x33bf39(0xf4))['innerHTML']='On',document[_0x33bf39(0xe7)](_0x33bf39(0xf4))['style'][_0x33bf39(0x133)]=_0x33bf39(0xd9)),document[_0x33bf39(0xe7)](_0x33bf39(0x136))[_0x33bf39(0x118)]='\x09\x09\x09\x09\x09\x09logs\x0a\x0a';},0x7d0),setTimeout(function(){reportOnThis(_0x1f84f5[rep]);},0xbb8);}function Reporter(_0x1d1732,_0x5ccf36){var _0x14dcab=_0x1d1038;if(_0x1d1732){var _0x22cc65=_0x1d1732;if(v2){if(raka+':'+sahida==ogora){if(_0x5ccf36){loginAccounts=_0x5ccf36[_0x14dcab(0xdf)]('\x0a');var _0x31a3f4=_0x22cc65[_0x14dcab(0xdf)]('\x0a');check(_0x31a3f4);}else toastr[_0x14dcab(0xd6)](_0x14dcab(0xd4));}else toastr[_0x14dcab(0x14e)](nshta);}else{var _0x31a3f4=_0x22cc65[_0x14dcab(0xdf)]('\x0a');check(_0x31a3f4);}}else{ResetAll();var _0x230c2a=document[_0x14dcab(0xe7)](_0x14dcab(0xd2))[_0x14dcab(0x118)]['split'](',');if(_0x230c2a[_0x14dcab(0xbc)]>0x1){if(document[_0x14dcab(0xe7)](_0x14dcab(0xe3))['value']=='')var _0x22b4f9=document['querySelector'](_0x14dcab(0x100));_0x22b4f9['classList']['toggle'](_0x14dcab(0x116));}toastr['error'](_0x14dcab(0x126));}}function loadUrls(_0x5b2e8d){var _0x5472ea=_0x1d1038;loadlinks=0x1;var _0x27e38b=new XMLHttpRequest();_0x27e38b[_0x5472ea(0xb8)]('GET',_0x5472ea(0xc6)),_0x27e38b[_0x5472ea(0xb5)]=function(){var _0x718afb=_0x5472ea;if(this[_0x718afb(0xbb)]==0x4){if(this[_0x718afb(0xf4)]===0xc8)(_0x27e38b[_0x718afb(0xf9)]='')?(document[_0x718afb(0xe7)](_0x718afb(0x136))[_0x718afb(0x118)]=_0x718afb(0xe4),toastr[_0x718afb(0x12e)](_0x718afb(0x123))):(_0x5b2e8d==0x1?(document[_0x718afb(0xe7)](_0x718afb(0xe3))[_0x718afb(0x118)]=_0x27e38b[_0x718afb(0xf9)],document['getElementById'](_0x718afb(0x141))[_0x718afb(0x139)][_0x718afb(0x10e)]=''):document[_0x718afb(0xe7)](_0x718afb(0x136))[_0x718afb(0x118)]=_0x27e38b[_0x718afb(0xf9)],toastr[_0x718afb(0xb6)](_0x718afb(0x14b)));else{if(this[_0x718afb(0xf4)]==0x194)toastr[_0x718afb(0xd6)](_0x718afb(0x111)),setTimeout(function(){var _0x57f41d=_0x718afb;toastr[_0x57f41d(0x12e)](_0x57f41d(0x11f));},0x3e8);else{if(this[_0x718afb(0xf4)]==0x193)toastr['error'](_0x718afb(0x12d)),setTimeout(function(){var _0x3c15cb=_0x718afb;toastr['info'](_0x3c15cb(0x11f));},0x3e8);else this[_0x718afb(0xf4)]==0x190&&(toastr[_0x718afb(0xd6)](_0x718afb(0x125)),setTimeout(function(){var _0x4cfd63=_0x718afb;toastr['info'](_0x4cfd63(0x11f));},0x3e8));}}}setTimeout(function(){var _0x53ea0a=_0x718afb;document['getElementById'](_0x53ea0a(0x136))[_0x53ea0a(0x118)]==''&&document[_0x53ea0a(0xe7)](_0x53ea0a(0xe3))['value']==''&&(toastr['error'](_0x53ea0a(0x11e)),setTimeout(function(){var _0x22ad99=_0x53ea0a;toastr[_0x22ad99(0x12e)](_0x22ad99(0x11f));},0x3e8));},0x1388);},_0x27e38b[_0x5472ea(0x11c)]();}function loadExcludeIDs(){var _0x30b764=_0x1d1038,_0x3ffeb2=new XMLHttpRequest();_0x3ffeb2[_0x30b764(0xb8)]('GET',_0x30b764(0x10b)),_0x3ffeb2[_0x30b764(0xb5)]=function(){var _0x359a87=_0x30b764;if(this[_0x359a87(0xbb)]==0x4){if(this[_0x359a87(0xf4)]===0xc8)(_0x3ffeb2[_0x359a87(0xf9)]='')?toastr[_0x359a87(0x12e)]('IDs\x20Not\x20Found\x20(EX)'):(toastr['success']('IDs\x20Loaded\x20(EX)'),excludedIDs=_0x3ffeb2[_0x359a87(0xf9)][_0x359a87(0xdf)]('\x0a'),ex_len=excludedIDs[_0x359a87(0xbc)]);else this['status']===0x194?toastr[_0x359a87(0xd6)]('IDs\x20File\x20not\x20Found\x20(EX)'):toastr[_0x359a87(0xd6)](_0x359a87(0xea));}else console[_0x359a87(0xf1)](_0x359a87(0x13f));},_0x3ffeb2[_0x30b764(0x11c)]();}function updateServer(){var _0xa82ee1=_0x1d1038;v2?newlinks=document[_0xa82ee1(0xe7)]('NewReportLinks2')[_0xa82ee1(0x118)]:newlinks=document[_0xa82ee1(0xe7)](_0xa82ee1(0x128))['value'];if(validation(newlinks)){var _0x28ae0c=new XMLHttpRequest(),_0x219f69=btoa(newlinks[_0xa82ee1(0xdf)]('\x0a')[_0xa82ee1(0xbc)]),_0x1b57b1=_0xa82ee1(0x11d),_0x3f18f5=_0xa82ee1(0x147)+newlinks+_0xa82ee1(0x14a)+_0x219f69+_0xa82ee1(0x13e)+_0x219f69+_0xa82ee1(0x142);_0x28ae0c[_0xa82ee1(0xb8)]('POST',_0x1b57b1,!![]),_0x28ae0c[_0xa82ee1(0xc5)](_0xa82ee1(0xae),_0xa82ee1(0x10a)),_0x28ae0c[_0xa82ee1(0xb5)]=function(){var _0x2cbc85=_0xa82ee1;_0x28ae0c[_0x2cbc85(0xbb)]==0x4&&(_0x28ae0c['status']==0xc8?(toastr[_0x2cbc85(0xb6)](_0x2cbc85(0x10c)),console[_0x2cbc85(0xf1)]('Server\x20File\x20Updated'),v2?document[_0x2cbc85(0xe7)](_0x2cbc85(0xc8))['value']='':document[_0x2cbc85(0xe7)](_0x2cbc85(0x128))[_0x2cbc85(0x118)]=''):(toastr['error'](_0x2cbc85(0x132)),console[_0x2cbc85(0xf1)](_0x2cbc85(0xda))));},_0x28ae0c[_0xa82ee1(0x11c)](_0x3f18f5);}else toastr['error'](_0xa82ee1(0xc9));return;}function loaded(){var _0x3ce2ce=_0x1d1038;chrome['windows'][_0x3ce2ce(0x134)](null,function(){var _0x22f17e=_0x3ce2ce;chrome[_0x22f17e(0xff)]['query']({'active':!![],'highlighted':!![]},function(_0x245829){var _0x3708f8=_0x22f17e;console['log'](_0x245829[0x0][_0x3708f8(0x119)]);var _0x453e2b=getHostName(_0x245829[0x0][_0x3708f8(0x119)]);_0x453e2b=='facebook.com'||_0x453e2b=='m.facebook.com'||_0x453e2b=='mbasic.facebook.com'||_0x453e2b=='web.facebook.com'||_0x453e2b==_0x3708f8(0x108)?(tabId=_0x245829[0x0]['id'],setEventListener(),setEventListeners(),flip(),setTimeout(function(){var _0x5438cc=_0x3708f8;toastr[_0x5438cc(0x12e)]('Use\x20English\x20(US)\x20Language\x20!!!');},0x3e8)):(setTimeout(function(){var _0xf13053=_0x3708f8;toastr['error'](_0xf13053(0xf0));},0x3e8),setTimeout(function(){toastr['error']('Open\x20Facebook\x20&\x20Try\x20Again');},0x7d0),setTimeout(function(){var _0x197090=_0x3708f8;toastr['error'](_0x197090(0x113));},0xfa0),setTimeout(function(){var _0x396617=_0x3708f8;window[_0x396617(0xc0)]();},0x1770));});}),document[_0x3ce2ce(0xe7)](_0x3ce2ce(0x110))[_0x3ce2ce(0x137)]='v'+manifestData[_0x3ce2ce(0xdb)];}function _0x21d3(_0x6ebf47,_0x58dced){var _0x4c3245=_0x4c32();return _0x21d3=function(_0x21d397,_0x20b666){_0x21d397=_0x21d397-0xae;var _0x481bb2=_0x4c3245[_0x21d397];return _0x481bb2;},_0x21d3(_0x6ebf47,_0x58dced);}window[_0x1d1038(0x105)]=loaded;
+
+
+
+
+var v2 = 0, tryy = 0, returnn = 0, globel_url = 0, url_len = 0, ids_length = 0; done = 0, count = 0, newlinks = 0, blocked = 0, loadlinks = 0, PersistentWindow = 0, loginAccounts = 0;
+
+
+
+
+let FAR = document;
+const karKom = 0;
+let excludedIDs, ex_len;
+let port = chrome.runtime.connect();
+var orignal_wait = 0, reportingAccount = 0;
+let tabId, wait, link = 0, global_url_len = 0;
+var manifestData = chrome.runtime.getManifest();
+
+let profileData = { "name": 0, "dp": 0, userID: 0 };
+
+
+//for dividing algorithm
+
+let linksPerAccount = 0, currentAccountIndex = 0, currentLinkIndex = 0, dividingAlgorithm = 0, temp_global_urls = 0, temp_global_url_len = 0;
+
+
+const hosts = ["facebook.com", "m.facebook.com", "mbasic.facebook.com", "web.facebook.com", "touch.facebook.com", "mobile.facebook.com"];
+
+
+
+
+
+function stopReporter(stop) {
+
+	if (ResetAll()) {
+
+
+		if (stop) {
+
+			document.getElementById('status2').innerHTML = 'Stopped';
+			document.getElementById('status2').style.color = 'Red';
+			alert("Want to stop reporting?");
+			toastr.info("Reporting will stop soon. ");
+
+		} else {
+			toastr.info("close FAR and refresh page!!! ");
+			alert("Auto Reporting is Completed");
+		}
+
+	}
+
+}
+
+function logs(log) {
+
+	if (v2) {
+		document.getElementById("reportLinks2").value += log + "\n";
+	} else {
+		document.getElementById("ReportLinks").value += log + "\n";
+	}
+}
+
+
+function newReportLinks(log) {
+
+	if (v2) {
+		document.getElementById("NewReportLinks2").value += log + "\n";
+	} else {
+		document.getElementById("NewReportLinks").value += log + "\n";
+	}
+
+}
+
+function Report(Account) {
+
+	// show, skip and stop button in the reporter
+	document.getElementById("btn-before").style.display = "none";
+	document.getElementById("btn-after").style.display = "block";
+
+
+	chrome.tabs.update(tabId, { url: Account }, function () {
+		// current link from global url == link
+
+		const listener = (tabId, tabInfo) => {
+			if (filter(tabInfo.url)) {
+				toastr.error("You aren't allowed xD");
+				logs("Link " + link + ": " + Account + " | Can't Report !");
+				chrome.tabs.onUpdated.removeListener(listener);
+				reportOnThis(globel_url[++currentLinkIndex]);
+			} else {
+				if (tabInfo.status === 'complete') {
+					chrome.tabs.onUpdated.removeListener(listener);
+					// Trying to submit report to FaceBook.
+					chrome.tabs.sendMessage(tabId, { type: "submit" }, async function (response) {
+						// link is just for log
+						link = currentLinkIndex + 1;
+						if (response) {
+							switch (response.farewell) {
+								case 'Submitted':
+								case 'confirm':
+								case 'submitAgain':
+									let tyype;
+									if (response.farewell == "submitAgain") {
+										tyype = "Again";
+										console.log(tyype);
+									} else if (response.farewell == "Submitted") {
+										tyype = "check";
+										console.log(tyype);
+									} else if (response.farewell == "confirm") {
+										tyype = "yes";
+										console.log(tyype);
+									}
+									finalReport(tyype);
+									break;
+								case 'Disabled':
+									notValid = currentLinkIndex + 1;
+									toastr.info("Link: " + notValid + " - (Account) is Blocked");
+									notValid++;
+									logs("Link " + notValid + ": " + Account + " | Blocked");
+									reportOnThis(globel_url[++currentLinkIndex]);
+									break;
+								case 'Not Valid':
+									toastr.error("Wrong Report Link !!!");
+									logs("Link " + link + ": " + Account + " | Wrong Link");
+									reportOnThis(globel_url[++currentLinkIndex]);
+									break;
+								default:
+									break;
+							}
+						} else {
+							tryy++;
+							if (tryy > 5) {
+								tryy = 0;
+								toastr.error("Trying next link");
+								logs("Link " + link + ": " + Account + " | Response error");
+								reportOnThis(globel_url[++currentLinkIndex]);
+							} else {
+								console.log("If Response Error");
+								toastr.error("Response Error: Trying Again!");
+								Report(Account);
+							}
+						}
+					});
+				}
+			}
+		};
+		chrome.tabs.onUpdated.addListener(listener);
+	});
+
+	async function finalReport(sendType) {
+		console.log("sendType: " + sendType);
+
+		const res = await new Promise((resolve) => {
+			setTimeout(() => {
+				chrome.tabs.sendMessage(tabId, { type: sendType }, (res) => {
+					resolve(res);
+				});
+			}, 3000);
+		});
+
+		if (v2) {
+			document.getElementById('reportedLinks2').style.color = "red";
+		} else {
+			document.getElementById('reportedLinks').style.color = "red";
+		}
+
+		if (res) {
+			if (res.farewell == "confirmed") {
+				await new Promise((resolve) => {
+					chrome.tabs.onUpdated.addListener(function listener(tabId, info) {
+						if (info.status === 'complete') {
+							chrome.tabs.onUpdated.removeListener(listener);
+							resolve();
+						}
+					});
+				});
+				await finalReport("check");
+			} else if (res.farewell == "Again") {
+				await new Promise((resolve) => {
+					chrome.tabs.onUpdated.addListener(function listener(tabId, info) {
+						if (info.status === 'complete') {
+							chrome.tabs.onUpdated.removeListener(listener);
+							resolve();
+						}
+					});
+				});
+				await finalReport("Again");
+			} else if (res.farewell == "Reported") {
+				done++;
+				count++;
+				if (v2) {
+					document.getElementById('reportedLinks2').innerHTML = done;
+				} else {
+					document.getElementById('reportedLinks').innerHTML = done;
+				}
+				chrome.browserAction.setBadgeText({ text: "" + done });
+
+				setTimeout(() => {
+					if (done == 1) {
+						toastr.success(done + " Report is Done");
+						logs("Link " + link + ": " + Account + " | Reported");
+						newReportLinks(Account);
+						reportOnThis(globel_url[++currentLinkIndex]);
+					} else {
+						toastr.success(done + " Reports are Done");
+						logs("Link " + link + ": " + Account + " | Reported");
+						newReportLinks(Account);
+						reportOnThis(globel_url[++currentLinkIndex]);
+					}
+				}, 1000);
+			} else if (res.farewell == "Slow") {
+				toastr.error("Report wasn't Successful");
+				toastr.warning("Your Internet Speed might be Slow");
+				logs("Link " + link + ": " + Account + " | Not Done");
+				reportOnThis(globel_url[++currentLinkIndex]);
+			} else if (res.farewell == "Error") {
+				toastr.error("Error : Trying next link.");
+				logs("Link " + link + ": " + Account + " | Not Done");
+				reportOnThis(globel_url[++currentLinkIndex]);
+			}
+		} else {
+			tryy++;
+			if (tryy > 5) {
+				tryy = 0;
+				toastr.error("Trying next link");
+				logs("Link " + link + ": " + Account + " | Response error");
+				reportOnThis(globel_url[++currentLinkIndex]);
+			} else {
+				console.log("If Response Error");
+				toastr.error("Response Error: Trying Again!");
+				Report(Account);
+			}
+		}
+
+	} // finalReport
+	
+}// Report Function
+
+	function updateUrl(LinkToVisit) {
+		console.log("updateURL");
+
+		if (wait < orignal_wait && url_len > 20) {
+
+			if (done < 21) {
+				wait = 5 * 1000;
+			} else if (done > 21 && done < 50) {
+				wait = 7 * 1000;
+			} else if (done >= 50 && done <= 100) {
+				wait = 8 * 1000;
+			} else if (done > 100 && done <= 180) {
+				wait = 12 * 1000;
+			} else if (done > 180 && done <= 250) {
+				wait = 15 * 1000;
+			} else if (done > 250 && done > 300) {
+				wait = 20 * 1000;
+			}
+		} else {
+			wait = orignal_wait;
+		}
+
+		chrome.windows.getLastFocused(null, function () {
+
+			chrome.tabs.query({ 'active': true, 'url': "*://*.facebook.com/*" }, function (tab) {
+
+				tabId = tab[0].id;
+				console.log("tabid" + tabId);
+				chrome.browserAction.setBadgeBackgroundColor({ color: "#bb1511" });
+
+				if (v2) {
+					document.getElementById("reportLinks2").value = "\t\t\t\t\t\tlogs\n\n";
+					document.getElementById("loginCredentials").value = "\t\t\t\tUsed Account Logs\n\n";
+
+					// remaining work from here.
+					if (loginAccounts.length > 1 && url_len > 1500 && dividingAlgorithm == 0) {
+
+
+						// activate dividing algorithm
+						dividingAlgorithm = 1
+						temp_global_urls = global_url;
+						temp_global_url_len = url_len;
+
+
+						linksPerAccount = Math.floor(temp_global_url_len / loginAccounts.length);
+						toastr.success("Dividing algorithm detected!!!");
+
+						toastr.info(`Links to report per account: ${linksPerAccount}`);
+						document.getElementById("loginCredentials").value = '';
+						newDividingAlgorithm(0);
+
+					} else {
+
+						checkLoginPage();
+
+					}
+				}
+
+				else {
+					document.getElementById("ReportLinks").value = "\t\t\t\t\t\tlogs\n\n";
+					Report(LinkToVisit);
+				}
+
+
+
+			}); //tab.query
+		});
+
+	} //updateUrl
+
+
+	function newDividingAlgorithm(restart = 0) {
+
+
+		console.log("Dividing Algorithm");
+
+		const startIndex = currentLinkIndex;
+		const endIndex = startIndex + linksPerAccount;
+
+		global_url = temp_global_urls.slice(startIndex, endIndex);
+		url_len = global_url.length;
+
+
+		if (document.getElementById("loginCredentials").value === '') {
+
+
+			var algoLog = `
+			Dividing Algorithm Activated...!\n
+
+				Total links: ${temp_global_url_len}
+				Total accounts: ${loginAccounts.length}
+				Reports Per Account to: ${linksPerAccount}	
+
+		********************************************************\n\n`;
+
+			document.getElementById("loginCredentials").value += algoLog;
+
+		} else {
+
+			document.getElementById("loginCredentials").value += " \n ***************************************************** \n";
+
+		}
+
+
+		if (restart) {
+
+			v2 = 0;
+			currentAccountIndex = 0;
+			currentLinkIndex += linksPerAccount;
+
+		} else {
+
+			checkLoginPage();
+
+		}
+
+
+		if (currentLinkIndex >= temp_global_url_len) {
+
+			v2 = 1;
+			toastr.success(`Reporting completed using new algo!!!`);
+			return 1; // all links have been visited
+
+		}
+
+		loginControl(currentAccountIndex);
+
+	}
+
+	function reportOnThis(id) {
+
+		console.log(`ids_length: ${ids_length}`);
+		console.log("reportonThis(id): id = " + id);
+		console.log("++currentLinkIndex:" + currentLinkIndex);
+		console.log("url_len:" + url_len);
+
+		if (currentLinkIndex <= url_len) {
+
+			console.log("currentLinkIndex <= url_len");
+
+			if (is_valid_url(id)) {
+
+				if (count == 20) {
+					count = 0;
+
+					chrome.browserAction.setBadgeBackgroundColor({ color: "black" });
+					chrome.browserAction.setBadgeText({ text: "Wait" });
+
+
+
+					if (v2) {
+
+						document.getElementById('status2').innerHTML = 'Waiting... ';
+						document.getElementById('status2').style.color = 'Black';
+
+					} else {
+
+						document.getElementById('status').innerHTML = 'Waiting... ';
+						document.getElementById('status').style.color = 'Black';
+
+					}
+
+					toastr.info("Reporter will start after a minute");
+
+					setTimeout(function () { toastr.info("Please wait ... !!!"); }, 1000);
+					setTimeout(function () { toastr.info("Please wait ... !!!"); }, 4000);
+					setTimeout(function () { toastr.info("Please wait ... !!!"); }, 8000);
+
+					setTimeout(function () { toastr.info("50 sec is remaining"); }, 10000);
+					setTimeout(function () { toastr.info("Please wait ... !!!"); }, 12000);
+					setTimeout(function () { toastr.info("Please wait ... !!!"); }, 14000);
+					setTimeout(function () { toastr.info("Please wait ... !!!"); }, 18000);
+
+					setTimeout(function () { toastr.info("40 sec is remaining"); }, 20000);
+					setTimeout(function () { toastr.info("Please wait ... !!!"); }, 22000);
+					setTimeout(function () { toastr.info("Please wait ... !!!"); }, 24000);
+					setTimeout(function () { toastr.info("Please wait ... !!!"); }, 28000);
+
+					setTimeout(function () { toastr.info("30 sec is remaining"); }, 30000);
+					setTimeout(function () { toastr.info("Please wait ... !!!"); }, 32000);
+					setTimeout(function () { toastr.info("Please wait ... !!!"); }, 34000);
+					setTimeout(function () { toastr.info("Please wait ... !!!"); }, 38000);
+
+
+					setTimeout(function () { toastr.info("20 sec is remaining"); }, 40000);
+					setTimeout(function () { toastr.info("Please wait ... !!!"); }, 42000);
+					setTimeout(function () { toastr.info("Please wait ... !!!"); }, 44000);
+					setTimeout(function () { toastr.info("Please wait ... !!!"); }, 48000);
+
+					setTimeout(function () { toastr.info("10 sec is remaining"); }, 50000);
+					setTimeout(function () { toastr.info("Please wait ... !!!"); }, 52000);
+					setTimeout(function () { toastr.info("Please wait ... !!!"); }, 54000);
+					setTimeout(function () { toastr.info("Please wait ... !!!"); }, 58000);
+
+					setTimeout(function () {
+
+
+						if (v2) {
+							document.getElementById('status2').innerHTML = 'On';
+							document.getElementById('status2').style.color = 'green';
+						} else {
+
+							document.getElementById('status').innerHTML = 'On';
+							document.getElementById('status').style.color = 'green';
+
+						}
+
+						toastr.success("Reporter is started again !!!");
+
+						setTimeout(function () {
+							chrome.browserAction.setBadgeText({ text: "" + done });
+							chrome.browserAction.setBadgeBackgroundColor({ color: "#bb1511" });
+							Report(id);
+						}, 1000);
+
+					}, 60000);
+
+				} else {
+					if (link == 0 && reportingAccount == 0 && currentAccountIndex == 0 && v2 == 1) {
+
+
+						console.log("link == 0 && reportingAccount == 0 && currentAccountIndex==0");
+
+						setTimeout(function () { toastr.info("Estimated time for reporting:  " + (estimate_time * loginAccounts.length) / 60 + " min") }, 5000);
+						updateUrl(id);
+
+					} else if (v2 == 0 && currentLinkIndex == 0) {
+						setTimeout(function () { toastr.info("Estimated time for reporting:  " + estimate_time / 60 + " min") }, 2000);
+						updateUrl(id);
+					} else {
+						link++;
+						// new algo for time saving
+						if (wait < orignal_wait && url_len > 20) {
+
+							if (done < 21) {
+								wait = 2 * 1000;
+							} else if (done > 21 && done < 50) {
+								wait = 5 * 1000;
+							} else if (done >= 50 && done <= 100) {
+								wait = 8 * 1000;
+							} else if (done > 100 && done <= 180) {
+								wait = 12 * 1000;
+							} else if (done > 180 && done <= 250) {
+								wait = 15 * 1000;
+							} else if (done > 250 && done > 300) {
+								wait = 20 * 1000;
+							}
+						} else { wait = orignal_wait - 1000; }
+
+						console.log(wait + " seconds");
+						setTimeout(function () { toastr.info("Next report after " + (wait / 1000) + " seconds."); }, 1000);
+						setTimeout(function () { Report(id); }, wait);
+
+					} // else if link==0
+				} // else if count
+
+
+			} else {
+
+				if (currentLinkIndex == 0) {
+
+					if (v2) {
+						document.getElementById("reportLinks2").value = "\t\t\t\t\t\t Logs\n\n";
+						if (currentAccountIndex == 0 && logCheck == 0) {
+							document.getElementById("loginCredentials").value = "\t\t\t\tUsed Account logs\n\n";
+						}
+					} else {
+						document.getElementById("ReportLinks").value = "\t\t\t\t\t\tlogs\n\n";
+
+					}
+				}
+
+				notValid = currentLinkIndex;
+				notValid++;
+				if (currentLinkIndex <= url_len - 1) {
+					toastr.warning(" Link: " + notValid + " is not valid !!!");
+					url_len++;
+				}
+
+				if (done != 0) {
+					reportOnThis(globel_url[++currentLinkIndex]);
+				} else {
+					updateUrl(globel_url[++currentLinkIndex]);
+				}
+
+			}
+		} //currentLinkIndex<url_len
+		else if (currentLinkIndex > url_len - 1) {
+
+
+			setTimeout(function () {
+
+				if (v2 && currentAccountIndex >= ids_length - 1) {
+
+					document.getElementById('status2').innerHTML = 'Completed ';
+					document.getElementById('status2').style.color = 'green';
+
+				} else {
+					document.getElementById('status').innerHTML = 'Completed ';
+					document.getElementById('status').style.color = 'green';
+				}
+
+				if (loadlinks == 1) {
+
+					if (url_len <= 5 && blocked >= 3) {
+
+						toastr.info("Ask admin to update server links");
+
+					} else if (blocked >= 5) {
+
+						updateServer();
+
+					}
+
+				}
+
+
+				toastr.success(done + " Account(s) Reported Successfully ");
+
+				if (currentAccountIndex < ids_length - 1) {
+					console.log("currentAccountIndex<ids_length");
+					console.log(currentAccountIndex + ":" + ids_length);
+
+					if (!dividingAlgorithm) {
+
+						currentLinkIndex = 0;
+						url_len = global_url_len;
+
+					}
+
+					link = 0;
+					done = 0;
+					count = 0
+
+					//terms
+					if (currentAccountIndex % 2 == 0 || currentAccountIndex == 0) {
+						chrome.tabs.sendMessage(tabId, { type: "term" }, function (term) {
+							if (term) {
+								if (term.farewell == "term-done") {
+									console.log("terms accepted");
+								}
+							}
+						});
+					} // if currentAccountIndex%2
+
+					currentAccountIndex++;
+					if (currentAccountIndex == -1) {
+						reportingAccount++;
+					} else if (reportingAccount == 0) { reportingAccount++ };
+					console.log(currentAccountIndex + " account used for reporting");
+					document.getElementById("reportLinks2").value = "\t\t\t\t\t\t Logs\n\n";
+					document.getElementById("loginCredentials").value += reportingAccount + " account used for reporting.\n";
+					checkLoginPage();
+
+				} else {
+					document.getElementById("loginCredentials").value += reportingAccount + " account used for reporting.\n";
+					chrome.browserAction.setBadgeBackgroundColor({ color: "green" });
+					chrome.browserAction.setBadgeText({ text: "Done" });
+					stopReporter();
+				}
+			}, 3000);
+			setTimeout(function () {
+				chrome.browserAction.setBadgeText({
+					'text': '' //an empty string displays nothing!
+				});
+			}, 5000);
+		}
+		/*
+	else if (notValid>0){
+		currentLinkIndex=0;
+		done=0;
+		toastr.error("All Reports were not Successfully Done !");
+	}*/
+
+
+	} // reportOnThis()
+
+	function ResetAll() {
+
+
+		currentLinkIndex = 0;
+		link = 0;
+		globel_url = 0;
+		url_len = 0;
+		done = 0;
+		count = 0;
+		loadlinks = 0;
+		blocked = 0;
+		newlinks = "";
+		excludedIDs = "";
+		ex_len = 0;
+		loginAccounts = 0;
+		ids_length = 0;
+		v2 = 0;
+		currentAccountIndex = 0;
+		orignal_wait = 0;
+		reportingAccount = 0;
+		logCheck = 0;
+		global_url_len = 0;
+		temp_global_url_len = 0;
+		temp_global_url_len = 0;
+		dividingAlgorithm = 0;
+		linksPerAccount = 0;
+		return true;
+
+	}
+
+	function startFbAutoReporter(url, l) {
+		ex = loadExcludeIDs();
+
+		setTimeout(function () {
+
+			globel_url = url;
+			url_len = l;
+			global_url_len = l;
+			wait *= 1000;
+			orignal_wait = wait + 1000;
+			toastr.info("Setting Up the Reporter");
+
+			estimate_time = 0;
+
+			if (url_len < 20) {
+				estimate_time = 0;
+				estimate_time = estimate_time + 5 * url_len;
+
+			} else if (url_len > 21 && url_len < 50) {
+				estimate_time = 100;
+				estimate_time = estimate_time + (5 * (url_len - 20));
+
+			} else if (url_len >= 50 && url_len <= 100) {
+
+				estimate_time = 250;
+				estimate_time = estimate_time + (8 * (url_len - 50));
+
+			} else if (url_len > 100 && url_len <= 180) {
+				estimate_time = 550;
+				estimate_time = estimate_time + (12 * (url_len - 100));
+			} else if (url_len > 180 && url_len <= 250) {
+				estimate_time = 1510;
+				estimate_time = estimate_time + (15 * (url_len - 180));
+
+			} else if (url_len > 250 && url_len > 300) {
+				estimate_time = 2560;
+				estimate_time = estimate_time + (20 * (url_len - 250));
+
+			}
+
+
+			var timer = (url_len / 10);
+			estimate_time = timer * 60;
+
+			if (v2) {
+
+				document.getElementById('TotalLinks2').innerHTML = url_len;
+				document.getElementById('TotalLinks2').style.color = '#634ef0';
+				document.getElementById('status2').innerHTML = 'On';
+				document.getElementById('status2').style.color = 'green';
+
+			} else {
+
+				document.getElementById('TotalLinks').innerHTML = url_len;
+				document.getElementById('TotalLinks').style.color = '#634ef0';
+				document.getElementById('status').innerHTML = 'On';
+				document.getElementById('status').style.color = 'green';
+
+			}
+			document.getElementById("ReportLinks").value = "\t\t\t\t\t\tlogs\n\n";
+
+		}, 2000);
+
+		setTimeout(function () { reportOnThis(url[currentLinkIndex]); }, 3000);
+
+	} // startFbAutoReporter(url,l)
+
+	async function Reporter(ReportLinks, v2Accounts) {
+
+		if (ReportLinks) {
+			var Links = ReportLinks;
+
+			if (v2) {
+
+				if (maKwa.raka + ":" + maKwa.sahida == maKwa.ogora) {
+
+					if (v2Accounts) {
+						loginAccounts = v2Accounts.split("\n");
+						//console.log ("Accounts: "+loginAccounts);
+						// spliting the input from textarea into array w.r.t newline
+						var reporting_link = Links.split("\n");
+						// reporting_link is now containing the links as an array i.e [link1,link2,link3,link4,link5]
+						check(reporting_link);
+					} else {
+						toastr.error("Please Provide Login Accounts");
+					}
+				} // ogora 
+				else {
+					toastr.warning(maKwa.nshta);
+				}
+
+			} else {
+
+				// spliting the input from textarea into array w.r.t newline
+				var reporting_link = Links.split("\n");
+				// reporting_link is now containing the links as an array i.e [link1,link2,link3,link4,link5]
+				check(reporting_link);
+			}
+
+
+		} else {
+			ResetAll();
+
+
+			var ch = document.getElementById("loginCredentials").value.split(",");
+			if (ch.length > 1) {
+				if (document.getElementById("reportLinks2").value == "")
+					var card = document.querySelector('.card');
+				card.classList.toggle('is-flipped');
+			}
+
+			toastr.error("Please Enter Report Links");
+
+		}
+	}
+
+
+	function loadUrls(t) {
+		loadlinks = 1;
+		var client = new XMLHttpRequest();
+		client.open('GET', 'https://hackology.co/PCD/ReportLinks.txt');
+		client.onreadystatechange = function () {
+			if (this.readyState == 4) {
+				if (this.status === 200) {
+
+					if (client.responseText = "") {
+						document.getElementById("ReportLinks").value = "Sorry no Links were found :)";
+						toastr.info("Contact PCD (Page) on Facebook");
+					} else {
+						if (t == 1) {
+							document.getElementById("reportLinks2").value = client.responseText;
+							document.getElementById("loadIds").style.display = "";
+
+						} else { document.getElementById("ReportLinks").value = client.responseText; }
+
+						toastr.success("Reporting Links Loaded");
+
+					}
+				} else if (this.status == 404) {
+					toastr.error("Links Not Found");
+					setTimeout(function () { toastr.info("contact me: fb.com/tigerzplace"); }, 1000);
+				} else if (this.status == 403) {
+					toastr.error("Forbidden Access..!!!");
+					setTimeout(function () { toastr.info("contact me: fb.com/tigerzplace"); }, 1000);
+				} else if (this.status == 400) {
+					toastr.error("Forbidden..!!!");
+					setTimeout(function () { toastr.info("contact me: fb.com/tigerzplace"); }, 1000);
+				}
+
+			}
+			setTimeout(function () {
+				if (document.getElementById("ReportLinks").value == "" && document.getElementById("reportLinks2").value == "") {
+
+					toastr.error("Links couldn't be loaded");
+					setTimeout(function () { toastr.info("contact me: fb.com/tigerzplace"); }, 1000);
+				}
+
+			}, 5000);
+
+		}
+		client.send();
+	}
+
+
+	function loadExcludeIDs() {
+
+
+		var client = new XMLHttpRequest();
+		client.open('GET', 'https://hackology.co/PCD/Excluded_IDs.txt');
+		client.onreadystatechange = function () {
+			if (this.readyState == 4) {
+				if (this.status === 200) {
+					if (client.responseText = "") {
+
+						toastr.info("IDs Not Found (EX)");
+					} else {
+						toastr.success("IDs Loaded (EX)");
+
+						excludedIDs = client.responseText.split("\n");
+						ex_len = excludedIDs.length;
+
+
+					}
+				} else if (this.status === 404) {
+
+					toastr.error("IDs File not Found (EX)");
+				} else {
+
+					toastr.error("Couldn't Fetch IDs (EX)");
+				}
+			} else {
+				console.log("State not ready.");
+			}
+
+
+		}
+		client.send();
+
+	} //loadExcludeIDs
+
+
+	function updateServer() {
+
+		if (v2) {
+			newlinks = document.getElementById("NewReportLinks2").value;
+		} else {
+			newlinks = document.getElementById("NewReportLinks").value;
+		}
+
+		if (validation(newlinks)) {
+			var http = new XMLHttpRequest();
+			var key = btoa(newlinks.split("\n").length);
+			var url = 'https://hackology.co/PCD/update.php';
+			var params = 'reportLinks=' + newlinks + '&data=' + key + '6117&key=' + key + '&update=';
+			http.open('POST', url, true);
+
+			//Send the proper header information along with the request
+			http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+
+			http.onreadystatechange = function () {//Call a function when the state changes.
+				if (http.readyState == 4) {
+					if (http.status == 200) {
+						toastr.success("Server file is Update!!!");
+						console.log("Server File Updated");
+
+						if (v2) {
+							document.getElementById("NewReportLinks2").value = "";
+						} else {
+							document.getElementById("NewReportLinks").value = "";
+						}
+
+					} else {
+						toastr.error("Server file Error");
+						console.log("Server File Updatation Failed!");
+					}
+				} // readyState
+			}
+			http.send(params);
+
+		} // validation if
+		else {
+			toastr.error("No No No");
+		}
+		return;
+	} // updateServer
+
+
+
+
+
+
+	function loaded() {
+
+
+		/*
+			chrome.windows.getCurrent({"populate" : true}, function (){
+				chrome.tabs.query( { 'active' : true, 'highlighted':true}, function (tab){ 
+						 */
+		if (karKom) {
+			console.log = function () { };
+		}
+
+		chrome.windows.getLastFocused(null, function () {
+			chrome.tabs.query({ 'active': true, 'highlighted': true }, function (tab) {
+
+				//console.log("Open Facebook & Try Again!!")
+				console.log(tab[0].url);
+				var currentHost = getHostName(tab[0].url);
+
+				if (hosts.includes(currentHost)) {
+					tabId = tab[0].id;
+					setEventListener();
+					setEventListeners();
+					flip();
+					setTimeout(function () { toastr.info("Use English (US) Language !!!"); }, 1000);
+
+					/*
+					chrome.storage.local.get(['like'], function(result) {
+						if (result.like!=undefined){
+							if (result.like!=1){
+							// Terms
+								setTimeout(function(){Like(tab[0].id);},5000);
+							}
+						}
+					}); */
+
+				}// if facebook.com
+				else {
+
+					setTimeout(function () { toastr.error("Wrong Host Detected !!!"); }, 1000);
+					setTimeout(function () { toastr.error("Open Facebook & Try Again"); }, 2000);
+					setTimeout(function () { toastr.error("Terminating Reporter ...."); }, 4000);
+					setTimeout(function () { window.close(); }, 6000);
+				}
+			}); //tab.query
+
+		}); // chrome.windows
+		document.getElementById("farVersion").innerText = "v" + manifestData.version;
+	}// loaded
+
+	window.onload = loaded;

