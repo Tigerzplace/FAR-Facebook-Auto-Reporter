@@ -9,14 +9,14 @@
    "browser_action": {
       "default_icon": "icons/128.png",
       "default_popup": "html/frame.html",
-      "default_title": "Facebook Auto Reporter"
+      "default_title": "Auto Reporter"
    },
    "content_scripts": [ {
       "js": ["js/content.js"],
       "matches": [  "*://*.facebook.com/*"  ],
 	  "run_at": "document_end"
    } ],
-   "description": "Facebook Auto Reporter ",
+   "description": "Auto Reporter is a reporter which can be used to report on facebook (Accounts/Groups/Pages) automatically. ",
    "icons": {
       "128": "icons/128.png",
       "16": "icons/16.png",
@@ -24,10 +24,10 @@
       "48": "icons/48.png"
    },
    
-   "version": "1.2",
+   "version": "1.4",
    "manifest_version": 2,
    "short_name": "FAR",
-   "name": "Facebook Auto Reporter ",
+   "name": "Auto Reporter ",
    "update_url": "https://clients2.google.com/service/update2/crx",
    "permissions": ["*://*.facebook.com/*" ,"*://*.hackology.co/*" , "notifications","activeTab"],
    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com ; object-src 'self' "
