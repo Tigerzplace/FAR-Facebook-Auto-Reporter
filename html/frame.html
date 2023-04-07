@@ -39,6 +39,7 @@ for more scripts and tools visit : https://www.tigerzplace.com
 	<script type="text/javascript" src="/global/js/jquery.js"></script>
 	<script type="text/javascript" src="/global/js/bootstrap.js"></script>
 	<script type="text/javascript" src="/global/js/toastr.js"></script>
+	<script type="text/javascript" src="/js/eventListener.js"></script>
 	<script type="text/javascript" src="/js/ShortReport.js"></script>
 	<script type="text/javascript" src="/js/frame.js"></script>
 	
@@ -72,7 +73,7 @@ for more scripts and tools visit : https://www.tigerzplace.com
 					<span class="version" id="extensionVersion"></span> 
 					
 				</a>
-				<b style="margin-top: 10px;">v2.3</b>
+				<b style="margin-top: 10px;" id='farVersion'>v</b>
 				
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
@@ -299,11 +300,17 @@ for more scripts and tools visit : https://www.tigerzplace.com
 						
 					<div id = "controllers" style="margin-top:199px">
 
-					<div class="controls">
+					<div class="controls" id="btn-before">
 								<input type="file" id="fileUpload" style="display:none"/>
 								<a class="btn btn-default" style="display: none;" title="Clicking on this button will load your accounts from csv file" type="file" id="loadIds" >Load IDs</a>
 								<a class="btn btn-default" title="Clicking on this button will load links from PCD Server" type="submit" id="LoadLinks2">Load Links From Server</a>
 						</div>
+					
+					<div class="controls" id="btn-after" style="display: none;">
+							
+							<a class="btn btn-default" title="Clicking on this button will skip the current link for reportin" id="skipReport" >Skip this report</a>
+							<a class="btn btn-default" title="Clicking on this button will stop Reporting"  id="Stop">Stop Reporting</a>
+					</div>	
 						
 					<center style="margin-top:2px"><label for="delayTime">Enter delay time between auto reports (sec) :</label>
 						<input type="number" class="form-control" placeholder="5" id="delayTime2" min="5" max="30" value="5">
@@ -410,8 +417,7 @@ for more scripts and tools visit : https://www.tigerzplace.com
 				<div class="tab-pane" id="Donate">
 					<br>
 					<center>
-							<b>Donate<br/>Feel Free To Help Me With My Work </b><br><br/>
-						
+							
 							<button title="Donate for my work" class="btn btn-success"  style="border-radius: 20px;width: 15%;margin: 5px;">
 									
 									<a href="http://bit.ly/Pay-To-Tigerzplace" target="_blank">Donate</a>
@@ -427,11 +433,15 @@ for more scripts and tools visit : https://www.tigerzplace.com
 							✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦<br>
 	
 						<b>BTC</b>: 15TnH9a35Dqn5pkugLfC88NjNxnQcnswZy<br>
-						<b>	DASH</b>: XpVNfgAnYvLU79k5xuKc4r24md936ckPHu<br>
-						<b>ETH</b>: 0x56c9a1BC8E1BF2dD83ba512A3F9C22eff33beEF3<br>
-						<b>BNK </b>: 0x56c9a1BC8E1BF2dD83ba512A3F9C22eff33beEF3<br>
-						<b>LTC</b>:  Levu8eJ6j9fsJe5tX8esGecLzCjvEirEC2<br>
-						<b>BCH </b>: qqva7j6c353vkvcfky99ccxz5jjsd50mzv8dvyzyhu<br>
+						<b>BCH </b>: 15TnH9a35Dqn5pkugLfC88NjNxnQcnswZy<br>
+						<b>DASH</b>: XpVNfgAnYvLU79k5xuKc4r24md936ckPHu<br>
+						<b>LTC</b>:  LdzSCBnWruhrPKbnHjpmDYDUXf2qSs9o8v<br>
+						<b>Doge </b>: DSPnR2xhMaciEwgVbWd94HwBiv9fJSwPQa<br>
+						<b>ETH</b>: 0x62f8a40187a6e33aa2c1d6025e6377cf06e89380<br>
+						<b>USDT (TRC20)</b>: TJtuLVZBwHfZVNavHJg73hUFidefVRmLeC<br>
+						<b>BNB (BEP2)</b>: bnb136ns6lfw4zs5hg4n85vdthaad7hq5m4gtkgf23<br>
+							<b>MEMO (BNB): </b>: 101769802<br>
+						
 							✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦<br/>
 							Thanks ♥
 					</center>	
@@ -465,12 +475,10 @@ for more scripts and tools visit : https://www.tigerzplace.com
 						<div id="loader" style="display:none;"></div>
 							<div id="license-info"></div>
 							
-							
-
-							<br><br><br><br>
+							<br><br>
 					</div>	<!--check license div-->
 										
-					
+				
 					
 					<!--purchase license div-->
 					<div id="purchase-license" style="display:none">	
@@ -495,7 +503,6 @@ for more scripts and tools visit : https://www.tigerzplace.com
 					<!--purchase license div-->					
 				</center>
 
-						
 					</div>
 					<!-- license  end -->
 

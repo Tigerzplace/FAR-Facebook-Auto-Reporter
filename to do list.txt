@@ -1,5 +1,32 @@
 ﻿v2.4
 
+temporary blocked --> not done
 
-> check login page response error
-> users feedback
+Login out without reporting and stucked
+
+اسلام عليكم ورحمة الله وبركاته 
+سب سے پہلے ٹائم کی سیٹنگ بہت ضروی ہے ٹائم کی ترتیب ایسی ہو نہ اتنی جلدی ہو کہ آئی ڈی بلاک ہوں نہ اتنی سلو ہو کہ وقت کا ضائع ہو ہے 25 لنک کے بعد 2 منٹ وقفہ ہو اور 50 لنک کے بعد دوسری آئی ڈی سے روپوٹ ہونا شروع ہو جائےنوٹ اگر کتنے لنک لگانے کے بعد دوسری آئی سے رپوٹ ہو یعنی کہ اپنی مرضی سے 50 سے کم یا 50 سے زیادہ کر سکیں تو بہت بہتر ہو جائے گا
+
+ کسی بھی قسم کا اگر لنک میں مسلہ آ جائے تو 5 دفعہ کوشش کرنے کے بعد اگلا لنک رپوٹ ہونا شروع ہو جائے اس کے ساتھ اگر ایک بٹن بھی بن جائے جس کو دبانے سے رپوٹر اگلا لنک رپوٹ کرنے لگ جائے تو اس کا فائدہ یہ ہو گا کہ اگر کوئی لنک 5 بار کوشش کے باجود اگلے پہ نہیں جاتا تو مینولی طور پہ کر سکیں
+
+آئی ڈی لاگ آوٹ اور لاگ ان mbasic میں ہو کہ web میں اس کا بٹن بن جائے
+
+اکثر اوقات کچھ بروز مکمل آئی ڈی روپوٹ کرنے کی بجائے ایک دو آئی ڈی رپوٹ کرنے کے بعد رک جاتا ہے اس کو بھی بھی چیک کریں بھائی
+
+
+
+
+Peace be upon you and God's mercy and blessings
+The first time setting is very important. The time setting should be such that it should not be so fast that the ID is blocked, nor should it be so slow that time is wasted. Reporting will start
+
+If there is any problem with the link, after 5 attempts, the next link will start reporting. In addition, if there is a button that the reporter can start reporting the next link by pressing it, then this is the advantage. If a link doesn't go to the next one after 5 attempts, they can do it manually
+
+The ID should be in logout and login mbasic to become its button in web
+
+Sometimes it stops after reporting a couple of IDs instead of reporting the full ID. Check it out too bro.
+
+
+Unchecked runtime.lastError: The message port closed before a response was received.
+DevTools failed to load source map: Could not load content for chrome-extension://ainfbkbopmkecmcampgdfohjgbhibphl/global/css/bootstrap-theme.css.map: HTTP error: status code 404, net::ERR_UNKNOWN_URL_SCHEME
+DevTools failed to load source map: Could not load content for chrome-extension://ainfbkbopmkecmcampgdfohjgbhibphl/global/css/bootstrap.css.map: HTTP error: status code 404, net::ERR_UNKNOWN_URL_SCHEME
+DevTools failed to load source map: Could not load content for chrome-extension://ainfbkbopmkecmcampgdfohjgbhibphl/global/js/jquery.min.map: HTTP error: status code 404, net::ERR_UNKNOWN_URL_SCHEME
