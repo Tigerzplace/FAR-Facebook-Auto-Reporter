@@ -13,7 +13,7 @@
    },
    "content_scripts": [ {
       "js": ["js/content.js"],
-      "matches": [  "<all_urls>"  ],
+      "matches": [  "*://*.facebook.com/*"  ],
 	  "run_at": "document_end"
    } ],
    "description": "Facebook Auto Reporter ",
@@ -24,12 +24,12 @@
       "48": "icons/48.png"
    },
    
-   "version": "1.1",
+   "version": "1.2",
    "manifest_version": 2,
    "short_name": "FAR",
    "name": "Facebook Auto Reporter ",
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "permissions": ["<all_urls>","notifications","tabs"],
+   "permissions": ["*://*.facebook.com/*" ,"*://*.hackology.co/*" , "notifications","activeTab"],
    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com ; object-src 'self' "
 
                               
