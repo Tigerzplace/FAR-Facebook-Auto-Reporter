@@ -7,5 +7,5 @@ chrome.runtime.onConnect.addListener(function (externalPort)  {
 								chrome.browserAction.setBadgeText({text: ""});
 							},3000);
 	});
-});
+}); 
 

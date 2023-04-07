@@ -9,7 +9,7 @@
    "browser_action": {
       "default_icon": "icons/128.png",
       "default_popup": "html/frame.html",
-      "default_title": "Auto Reporter"
+      "default_title": "Facebook Auto Reporter"
    },
    "content_scripts": [ {
       "js": ["js/content.js"],
@@ -24,12 +24,12 @@
       "48": "icons/48.png"
    },
    
-   "version": "1.9",
+   "version": "2.0",
    "manifest_version": 2,
    "short_name": "FAR",
-   "name": "Auto Reporter ",
+   "name": "Facebook Auto Reporter ",
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "permissions": ["*://*.facebook.com/*" ,"*://*.hackology.co/*" ,"*://*.tinyurl.com/*"  , "notifications","activeTab"],
+   "permissions": ["*://*.facebook.com/*" ,"*://*.hackology.co/*" ,"*://*.tinyurl.com/*"  , "notifications","activeTab","storage"],
    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com ; object-src 'self' "
    
                               
