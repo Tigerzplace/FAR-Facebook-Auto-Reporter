@@ -607,19 +607,19 @@ for more scripts and tools visit : https://www.tigerzplace.com
 									<ul>
 										<!-- Profile -->
 										<li>
-											<i class="fa fa-user"></i> Profile
+											<i class="fa fa-user"></i> Account
 											<ul>
 
 												<ul>
 													<li>
-														<a href="#" id="fake"
+														<a href="#" id="account_fake" data-report-type="fake_account"
 															title="The profile is fake user or using fake name for some offensive use">Fake</a>
 													</li>
 												</ul>
 
 												<!-- Fake Name-->
 												<li>
-													<a href="#" id="fake_name"
+													<a href="#" id="account_fake_name"
 														title="Report if a profile is using fake name">Fake Name</a>
 												</li>
 
@@ -638,13 +638,13 @@ for more scripts and tools visit : https://www.tigerzplace.com
 
 												<!-- Group HateSpeech Religion -->
 												<li>
-													<a href="#" id="Group_HateSpeechRace"
+													<a href="#" id="group_hate_speech_race"
 														title="This insults or attacks someone based on their race, ethnicity or sexual orientation">Anti-Race</a>
 												</li>
 
 												<!-- Group HateSpeech Race -->
 												<li>
-													<a href="#" id="Group_HateSpeechReligion"
+													<a href="#" id="group_hate_speech_religion"
 														title="This insults or attacks someone based on their religion, ethnicity or sexual orientation">Anti-Religion</a>
 												</li>
 
@@ -657,22 +657,28 @@ for more scripts and tools visit : https://www.tigerzplace.com
 											<i class="fa fa-thumbs-up"></i> Page
 											<ul>
 
+												<!-- Fake Page  -->
+												<li>
+													<a href="#" id="page_fake"
+														title="This report includes telling Facebook that the page is fake, or doing scam using someone page's name">Fake</a>
+												</li>
+
 												<!-- Page Nudity -->
 												<li>
-													<a href="#" id="Page_Nudity"
+													<a href="#" id="page_nudity"
 														title="The page is sharing adult nudity, sexual acts, people soliciting sex, photos of naked girls">Adult</a>
 												</li>
 
-												<!-- Page HateSpeech Race -->
+												<!-- Page Violence  -->
 												<li>
-													<a href="#" id="Page_HateSpeechRace"
-														title="This insults or attacks someone based on their race, ethnicity or sexual orientation">Anti-Race</a>
+													<a href="#" id="page_violence"
+														title="This advocates violence or harm to a person or animal">Violence</a>
 												</li>
 
 												<!-- Page HateSpeech Religion -->
 												<li>
-													<a href="#" id="Page_HateSpeechReligion"
-														title="This insults or attacks someone based on their religion, ethnicity or sexual orientation">Anti-Religion</a>
+													<a href="#" id="page_hate_speech"
+														title="This insults or attacks someone based on their race, religion, ethnicity or sexual orientation">Hate Speech</a>
 												</li>
 
 
@@ -689,13 +695,13 @@ for more scripts and tools visit : https://www.tigerzplace.com
 
 												<!-- HateSpeech POST-->
 												<li>
-													<a href="#" id="hatespeechpost"
+													<a href="#" id="post_hate_speech"
 														title="This insults or attacks someone based on their religion, ethnicity or sexual orientation">Insults</a>
 												</li>
 
 												<!-- Violence POST-->
 												<li>
-													<a href="#" id="violencepost"
+													<a href="#" id="post_violence"
 														title="This advocates violence or harm to a person or animal">Violence</a>
 												</li>
 
@@ -713,7 +719,7 @@ for more scripts and tools visit : https://www.tigerzplace.com
 												<ul>
 													<!-- Nudity PIC-->
 													<li>
-														<a href="#" id="nuditypic"
+														<a href="#" id="picture_nudity"
 															title="Examples: sexual acts, people soliciting sex, photos of me naked">Nudity</a>
 													</li>
 												</ul>
@@ -721,7 +727,7 @@ for more scripts and tools visit : https://www.tigerzplace.com
 												<!-- HateSpeech PIC -->
 
 												<li>
-													<a href="#" id="hatespeechpic"
+													<a href="#" id="picture_hate_speech"
 														title="This insults or attacks someone based on their religion, ethnicity or sexual orientation">Insulting</a>
 
 
@@ -746,7 +752,7 @@ for more scripts and tools visit : https://www.tigerzplace.com
 								class="form-control" placeholder="" id="ID" autocomplete="off" required>
 
 							<button title="Make Short Report Link" type="submit" class="btn btn-danger fullWidth"
-								id="MakeReport" style="width: 25%;margin: 5px;">
+								id="make_reporting_link" style="width: 25%;margin: 5px;">
 								<span class="glyphicon glyphicon-compressed" aria-hidden="true"></span>
 								Make Short Report Link
 							</button>
@@ -756,11 +762,11 @@ for more scripts and tools visit : https://www.tigerzplace.com
 									class="glyphicon glyphicon-remove"></span> </button>
 
 							<br />
-							<h5 id="error" style="display: none;width: 30%;color:aliceblue"
+							<h5 id="error" style="display: none;width: 30%;color:aliceblue;padding: 10px 15px 10px 10px"
 								class="callout callout-danger"></h5>
 							<br />
 							<a href="#Home" title="Send to Reporter" data-toggle="tab" aria-expanded="true"
-								id="ShortReportLink" class="callout callout-success"
+								id="short_report_link" class="callout callout-success"
 								style="display: none;width: 30%;color: black;top: -14px;position: relative;"> </a>
 
 						</div>

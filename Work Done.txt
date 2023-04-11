@@ -4,3 +4,13 @@
 > issue related logout account without reporting is also fixed.
 
 
+v2.5.1
+
+> Trying next error fixed.
+> Fixed the issue of blcbtn and submit/ report button. (In newContent it was showing error).
+
+v2.5.1
+
+> Not completing report fixed.
+> All report links and complete report module is optimized. 
+> New report links for pages included, more links will be added soon.
