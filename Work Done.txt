@@ -9,8 +9,11 @@ v2.5.1
 > Trying next error fixed.
 > Fixed the issue of blcbtn and submit/ report button. (In newContent it was showing error).
 
-v2.5.1
+v2.5.2
 
 > Not completing report fixed.
+> Logout issue fixed, after reporting from one account.
 > All report links and complete report module is optimized. 
 > New report links for pages included, more links will be added soon.
+> Checking url (valid or not), is fixed and will not stop reporter without any notification.
+> Skipping account error fixed (will only show wrong login details after double checking the account)
