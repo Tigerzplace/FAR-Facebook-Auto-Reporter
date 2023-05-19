@@ -17,3 +17,10 @@ v2.5.2
 > New report links for pages included, more links will be added soon.
 > Checking url (valid or not), is fixed and will not stop reporter without any notification.
 > Skipping account error fixed (will only show wrong login details after double checking the account)
+
+
+v2.5.3
+
+> Short reporting links Generator optimized.
+> Security checks included, and some filter functions disabled temporary.
+> Fixed, fake report submitted issue along with the short report link for fake profile.
