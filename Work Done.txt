@@ -1,13 +1,32 @@
-﻿v2.5
+﻿
+v2.5.4
 
-> Logout issue fixed.
-> issue related logout account without reporting is also fixed.
+> New Features & Enhancements:
+-- Optimized Logging: We've revamped our logging functions for enhanced clarity and a better user interface. Enjoy a more intuitive and accessible UI presentation.
+-- Introduction of Batch System: The reporting mechanism now efficiently divides report links across multiple accounts, enhancing the reporting workflow. For instance:
+   - Account 1 reports on links 0-9, 10-19, 20-29
+   - Account 2 follows the same pattern, and so on.
 
+> Enhanced Reporting Features:
+-- Improved Log Formatting: We've reorganized the logs to make them more readable and user-friendly. This includes displaying total links, accounts, batch sizes, and estimated total batches more clearly.
+-- Streamlined Account Switching: Switching between accounts during reporting is now smoother and more efficient, reducing the time and effort required.
+-- Simplified Reporting Process: Our reporting functions have been refined for simplicity and effectiveness, allowing users to track the reporting progress with ease.
 
-v2.5.1
+> Efficiency Upgrades:
+-- Accurate Batch Calculations: The application now provides precise calculations of the total number of batches needed, giving a better insight into the reporting workload.
+-- Estimated Time for Reporting: Get an estimate of the total time required for reporting tasks, offering a clearer understanding of the duration needed for reporting across all links and accounts.
 
-> Trying next error fixed.
-> Fixed the issue of blcbtn and submit/ report button. (In newContent it was showing error).
+This update, version 2.5.4, focuses on making your reporting experience more streamlined, intuitive, and efficient. Enjoy the new improvements and features designed to enhance your workflow!
+
+------------------------------------------------
+
+v2.5.3
+
+> Short reporting links Generator optimized.
+> Security checks included, and some filter functions disabled temporary.
+> Fixed, fake report submitted issue along with the short report link for fake profile.
+
+------------------------------------------------
 
 v2.5.2
 
@@ -18,9 +37,17 @@ v2.5.2
 > Checking url (valid or not), is fixed and will not stop reporter without any notification.
 > Skipping account error fixed (will only show wrong login details after double checking the account)
 
+------------------------------------------------
 
-v2.5.3
+v2.5.1
 
-> Short reporting links Generator optimized.
-> Security checks included, and some filter functions disabled temporary.
-> Fixed, fake report submitted issue along with the short report link for fake profile.
+> Trying next error fixed.
+> Fixed the issue of blcbtn and submit/ report button. (In newContent it was showing error).
+
+------------------------------------------------
+
+v2.5
+
+> Logout issue fixed.
+> issue related logout account without reporting is also fixed.
+

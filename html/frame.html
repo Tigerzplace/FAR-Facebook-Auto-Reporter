@@ -210,7 +210,7 @@ for more scripts and tools visit : https://www.tigerzplace.com
 				<!-- home tab start -->
 
 				<div id="Version1" class="tab-pane">
-
+					<input type="hidden" id="debugLogs" value="">
 
 					<!--Facebook Auto Reporters -->
 					<div class="fat_container">
@@ -219,13 +219,13 @@ for more scripts and tools visit : https://www.tigerzplace.com
 							<form class="navbar-form navbar-left" id="FacebookAutoReporter">
 
 								<div class="form-group">
-
+								
 									<div class="wrapper">
 										<textarea type="textarea"
 											style="margin: 0px 10px 0px 0px;width: 398px;height: 200px;padding: 9px;border: solid 1px #460023;outline: 0;background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #81f9a6), to(#FFFFFF));background: -moz-linear-gradient(top, #FFFFFF, #FFCEE7 1px, #FFFFFF 25px);font-size: 12px;"
 											class="form-control" placeholder=" 
 					
-											  
+
 				
 						
 			        Enter Report Links Here" id="ReportLinks" autocomplete="off"></textarea>
@@ -240,18 +240,20 @@ for more scripts and tools visit : https://www.tigerzplace.com
 									</div>
 
 
-									<center><label for="delayTime">Enter delay time between auto reports (sec) :</label>
+									<center><label for="delayTime">Enter delay time between auto reports (sec):</label>
 										<input type="number" class="form-control" placeholder="5" id="delayTime" min="5"
 											max="30" value="5">
 									</center>
 
 									<br>
 
+
 									<button title="Start Reporting" type="submit" class="btn btn-danger fullWidth"
 										id="StartReporting">
 										<span class="glyphicon glyphicon-scissors" aria-hidden="true"></span>
 										Start Reporting
 									</button>
+
 
 									<button style="margin-top:2px"
 										title="PersistentMode allow you to report on multiple accounts while you can do your own work in the same browser without effecting the reports."
@@ -269,13 +271,13 @@ for more scripts and tools visit : https://www.tigerzplace.com
 							</form>
 							<center>
 
-								<label style="margin-bottom:0px; margin-top: 5px"> Status : <span id="status"
+								<label style="margin-bottom:0px; margin-top: 5px"> Status: <span id="status"
 										style="color:Black"> Off</span></label>
 								<br>
-								<label style="margin-bottom:0px">Total : <span id="TotalLinks" style="color:Black"> 0
+								<label style="margin-bottom:0px">Total: <span id="TotalLinks" style="color:Black"> 0
 									</span></label>
 								&nbsp;&nbsp;&nbsp;&nbsp;
-								<label style="margin-bottom:0px">Reported : <span id="reportedLinks"
+								<label style="margin-bottom:0px">Reported: <span id="reportedLinks"
 										style="color:Black">0</span></label><br>
 
 								<textarea placeholder="Logs" id="NewReportLinks"
@@ -319,10 +321,7 @@ for more scripts and tools visit : https://www.tigerzplace.com
 
 													<textarea type="textarea"
 														style="margin: 0px 10px 0px 0px;width: 398px;height: 200px;padding: 9px;border: solid 1px #460023;outline: 0;background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #81f9a6), to(#FFFFFF));background: -moz-linear-gradient(top, #FFFFFF, #FFCEE7 1px, #FFFFFF 25px);font-size: 12px;"
-														class="form-control" placeholder=" 
-														
-														
-																			Enter Report Links Here" id="reportLinks2" autocomplete="off"></textarea>
+														class="form-control" placeholder="Enter Report Links Here" id="reportLinks2" autocomplete="off"></textarea>
 
 												</div>
 
@@ -332,9 +331,7 @@ for more scripts and tools visit : https://www.tigerzplace.com
 
 													<textarea type="textarea"
 														style="margin: 0px 10px 0px 0px;width: 398px;height: 200px;padding: 9px;border: solid 1px #460023;outline: 0;background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #81f9a6), to(#FFFFFF));background: -moz-linear-gradient(top, #FFFFFF, #FFCEE7 1px, #FFFFFF 25px);font-size: 12px;"
-														class="form-control" placeholder=" 
-					
-			        Username,Password" id="loginCredentials" autocomplete="off"></textarea>
+														class="form-control" placeholder="Username,Password" id="loginCredentials" autocomplete="off"></textarea>
 
 												</div>
 											</div>
@@ -345,13 +342,13 @@ for more scripts and tools visit : https://www.tigerzplace.com
 									<div id="controllers" style="margin-top:199px">
 
 										<div class="controls" id="btn-before">
-											<input type="file" id="fileUpload" style="display:none" />
-											<a class="btn btn-default" style="display: none;"
-												title="Clicking on this button will load your accounts from csv file"
-												type="file" id="loadIds">Load IDs</a>
-											<a class="btn btn-default"
-												title="Clicking on this button will load links from PCD Server"
-												type="submit" id="LoadLinks2">Load Links From Server</a>
+											<input type="number" id="batchSize" class="btn btn-default" style="height:34px; width:130px;" placeholder="Batch Size" min="10" title="Set the number of links per batch for distribution among accounts. Each account will report on a separate batch sequentially." required>
+										
+										
+											<input type="file" id="fileUpload" style="display:none">
+											<a class="btn btn-default" style="" title="Clicking on this button will load your accounts from csv file" id="loadIds">Load IDs</a>
+											<a class="btn btn-default" title="Clicking on this button will load links from PCD Server" id="LoadLinks2">Load Links From Server</a>
+											
 										</div>
 
 										<div class="controls" id="btn-after" style="display: none;">
@@ -397,13 +394,13 @@ for more scripts and tools visit : https://www.tigerzplace.com
 							</form>
 							<center>
 
-								<label style="margin-bottom:0px; margin-top: 5px"> Status : <span id="status2"
+								<label style="margin-bottom:0px; margin-top: 5px"> Status: <span id="status2"
 										style="color:Black"> Off</span></label>
 								<br>
-								<label style="margin-bottom:0px">Total : <span id="TotalLinks2" style="color:Black"> 0
+								<label style="margin-bottom:0px">Total: <span id="TotalLinks2" style="color:Black"> 0
 									</span></label>
 								&nbsp;&nbsp;&nbsp;&nbsp;
-								<label style="margin-bottom:0px">Reported : <span id="reportedLinks2"
+								<label style="margin-bottom:0px">Reported: <span id="reportedLinks2"
 										style="color:Black">0</span></label><br>
 
 								<textarea placeholder="Logs" id="NewReportLinks2"
@@ -420,15 +417,10 @@ for more scripts and tools visit : https://www.tigerzplace.com
 						</div>
 
 					</div>
-
-
 					<!--------------------------------------->
-
-
 
 				</div>
 				<!-- Version 2 End -->
-
 
 
 				<!-- Contact -->
@@ -449,11 +441,6 @@ for more scripts and tools visit : https://www.tigerzplace.com
 								<span class="fa fa-twitter"></span>Twitter
 							</a>
 
-							<a class="btn btn-block btn-social btn-google" hre="https://plus.google.com/+tigerzplace"
-								target="_blank" rel="nofollow">
-								<span class="fa fa-google"></span> Google+
-							</a>
-
 							<a class="btn btn-block btn-social btn-pinterest" href="https://youtube.com/c/tigerzplace"
 								target="_blank" rel="nofollow">
 								<span class="fa fa-youtube"></span> Youtube
@@ -464,15 +451,22 @@ for more scripts and tools visit : https://www.tigerzplace.com
 								<span class="fa fa-pinterest"></span> Pinterest
 							</a>
 
+							
+							<a class="btn btn-block btn-social btn-instagram" href="https://instagram.com/tigerzplac3/"
+								target="_blank" rel="nofollow">
+								<span class="fa fa-instagram"></span> Instagram
+							</a>
+
 							<a class="btn btn-block btn-social btn-facebook" href="http://www.facebook.com/tigerzplace"
 								target="_blank" rel="nofollow">
 								<span class="fa fa-facebook"></span>Facebook
 							</a>
 
-							<a class="btn btn-block btn-social btn-instagram" href="https://instagram.com/tig3r6117/"
-								target="_blank" rel="nofollow">
-								<span class="fa fa-instagram"></span> Instagram
-							</a>
+							<a class="btn btn-block btn-social btn-facebook" hre="https://facebook.com/groups/tigerzplace"
+							target="_blank" rel="nofollow">
+							<span class="fa fa-facebook"></span> Facebook Group
+						</a>
+
 
 						</div>
 
@@ -490,7 +484,7 @@ for more scripts and tools visit : https://www.tigerzplace.com
 						<button title="Donate for my work" class="btn btn-success"
 							style="border-radius: 20px;width: 15%;margin: 5px;">
 
-							<a href="http://bit.ly/Pay-To-Tigerzplace" target="_blank">Donate</a>
+							<a href="https://paypal.me/tigerzplac3" target="_blank">Donate</a>
 							<span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
 
 						</button>
