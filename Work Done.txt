@@ -1,4 +1,13 @@
-﻿
+﻿------------------------------------------------
+
+
+v2.5.5
+
+-- Minor bugs fixed.
+-- Checking license from active source without delay.
+
+
+------------------------------------------------
 v2.5.4
 
 > New Features & Enhancements:

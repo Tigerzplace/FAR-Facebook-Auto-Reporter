@@ -23,14 +23,14 @@
       "48": "icons/48.png"
    },
    
-   "version": "2.5.4",
+   "version": "2.5.5",
    "manifest_version": 2,
    "short_name": "FAR",
    "name": "Facebook Auto Reporter ",
    "web_accessible_resources": [
       "newContent.js"
     ],  
-   "update_url": "https://clients2.google.com/service/update2/crx",
+
    "permissions": ["*://*.facebook.com/*" ,"*://*.hackology.co/*" ,"*://*.tinyurl.com/*"  , "notifications","activeTab","storage","downloads"],
    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com ; object-src 'self' "                           
    
